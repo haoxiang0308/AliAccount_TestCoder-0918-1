@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 应用基本信息 -->
+    <appSettings>
+        <appName>MyApplication</appName>
+        <version>1.0.0</version>
+        <environment>production</environment>
+    </appSettings>
+
+    <!-- 数据库配置 -->
+    <database>
+        <host>localhost</host>
+        <port>3306</port>
+        <name>myapp_db</name>
+        <username>db_user</username>
+        <password>secure_password</password>
+        <connectionTimeout>30</connectionTimeout>
+    </database>
+
+    <!-- 服务器配置 -->
+    <server>
+        <port>8080</port>
+        <host>0.0.0.0</host>
+        <maxThreads>100</maxThreads>
+        <enableSSL>false</enableSSL>
+    </server>
+
+    <!-- 日志配置 -->
+    <logging>
+        <level>INFO</level>
+        <file>/var/log/myapp.log</file>
+        <maxFileSize>10MB</maxFileSize>
+        <maxBackupFiles>5</maxBackupFiles>
+    </logging>
+
+    <!-- 缓存配置 -->
+    <cache>
+        <provider>redis</provider>
+        <host>localhost</host>
+        <port>6379</port>
+        <defaultExpiration>3600</defaultExpiration>
+    </cache>
+
+    <!-- 自定义应用参数 -->
+    <customParameters>
+        <maxUploadSize>50MB</maxUploadSize>
+        <allowedFileTypes>jpg,png,gif,pdf</allowedFileTypes>
+        <enableUserRegistration>true</enableUserRegistration>
+        <sessionTimeout>1800</sessionTimeout>
+    </customParameters>
+</configuration>
