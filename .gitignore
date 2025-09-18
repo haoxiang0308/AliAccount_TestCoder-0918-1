@@ -1,34 +1,15 @@
-#Compiled and build artifacts
-*.ts
-*.pyc
-__pycache__/
-dist/
-build/
+# Configuration files
+app_config_*.toml
 
-#Dependencies
-node_modules/
-.venv/
-venv/
-julia-*/
-zig-*/
-target/
-.gradle/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-#Environment
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-#System
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
