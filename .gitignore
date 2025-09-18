@@ -1,15 +1,32 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.pp
+*.o
+*.obj
 dist/
 build/
 
-#Dependencies
+# Dependencies
+.venv/
+venv/
 node_modules/
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
