@@ -1,3 +1,9 @@
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+build/
+
 # Dependencies
 node_modules/
 
@@ -13,12 +19,6 @@ node_modules/
 *.log
 *.tmp
 *.swp
-
-# Compiled and build artifacts
-dist/
-build/
-*.pyc
-__pycache__/
 
 # System files
 .DS_Store
