@@ -1,23 +1,43 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
+# Angular-specific ignores
+node_modules/
 dist/
 build/
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.a
+*.out
 
-#Environment
-.env
-.env.local
-
-#Editors
-.vscode/
-.idea/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+venv/
+.venv/
+target/
+.gradle/
+julia-*/
+zig*/
