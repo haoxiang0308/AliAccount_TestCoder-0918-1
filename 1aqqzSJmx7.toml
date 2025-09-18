@@ -1,0 +1,27 @@
+# Application Configuration
+
+[server]
+host = "localhost"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp"
+user = "admin"
+password = "secret123"
+
+[logging]
+level = "info"
+file = "/var/log/myapp.log"
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+max_connections = 100
+
+[api]
+base_url = "https://api.example.com"
+timeout = 30
+retries = 3
