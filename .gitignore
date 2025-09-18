@@ -1,9 +1,9 @@
-# Puppet-specific ignores
-*.pp
+# Temp files and backups
+Makefile_jLd4Hix9Up
 
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 *.o
 *.obj
 dist/
@@ -27,7 +27,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
