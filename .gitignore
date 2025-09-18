@@ -1,21 +1,6 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# System/Environment files
+.DS_Store
+Thumbs.db
 
-#Dependencies
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
-.env
-.env.local
-
-#Editors
-.vscode/
-.idea/
+# Config files that may contain sensitive information
+server_config_*.json
