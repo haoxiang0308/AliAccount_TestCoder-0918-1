@@ -1,24 +1,28 @@
-#Node.js/TypeScript/Angular
-node_modules/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 dist/
 build/
 
-#Environment
-.env
-.env.local
-.env.*
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-#Editors
-.vscode/
-.idea/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
