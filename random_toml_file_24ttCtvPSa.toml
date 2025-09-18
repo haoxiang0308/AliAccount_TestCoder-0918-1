@@ -1,0 +1,30 @@
+# Application Configuration
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "admin"
+password = "secret123"
+timeout = 30
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp.log"
+max_size = "10MB"
+backup_count = 5
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+enable_metrics = false
+
+[api]
+rate_limit = 1000
+rate_limit_window = 3600
+cors_origins = ["http://localhost:3000", "https://myapp.com"]
