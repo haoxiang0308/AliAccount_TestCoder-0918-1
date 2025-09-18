@@ -1,15 +1,36 @@
+# R project
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
 # Compiled and build artifacts
 *.pyc
 pycache/
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
