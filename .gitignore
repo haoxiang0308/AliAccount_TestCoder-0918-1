@@ -5,8 +5,8 @@ dist/
 build/
 
 # Dependencies
-venv/
 .venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -23,6 +23,9 @@ node_modules/
 .vscode/
 .idea/
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
