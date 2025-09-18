@@ -1,8 +1,11 @@
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 dist/
 build/
+
+# Dependencies
+node_modules/
 
 # Logs and temp files
 *.log
@@ -12,7 +15,7 @@ build/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
+.idea/

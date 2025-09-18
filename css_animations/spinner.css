@@ -1,0 +1,21 @@
+/* 文件名: spinner.css */
+
+/* 定义旋转动画关键帧 */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 定义旋转元素的样式和动画应用 */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3; /* 浅灰色边框 */
+  border-top: 5px solid #3498db; /* 蓝色顶部边框，形成视觉差 */
+  border-radius: 50%; /* 圆角，形成圆形 */
+  animation: spin 1s linear infinite; /* 应用'spin'动画，持续1秒，线性速度，无限循环 */
+}
