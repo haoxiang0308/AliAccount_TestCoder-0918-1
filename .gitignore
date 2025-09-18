@@ -1,28 +1,19 @@
-# Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
+# Compiled and build artifacts
+*.css
 
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-*.jmod
-*.jlink
-*.jpackage
+# Dependencies
+node_modules/
 
-# IDE
-.idea/
-*.iws
-*.iml
-*.ipr
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
-
-# Build artifacts
-target/
+.idea/
