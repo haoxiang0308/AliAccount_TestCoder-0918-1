@@ -1,0 +1,26 @@
+# Application Configuration
+
+[server]
+host = "localhost"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp"
+user = "dbuser"
+password = "dbpassword"
+
+[logging]
+level = "info"
+file = "/var/log/myapp.log"
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+max_connections = 100
+
+[security]
+secret_key = "supersecretkey"
+allowed_hosts = ["localhost", "127.0.0.1"]
