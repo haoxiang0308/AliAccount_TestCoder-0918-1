@@ -1,10 +1,17 @@
 # Compiled and build artifacts
+*.thrift.bin
+*.thrift.go
+*.thrift.py
+__pycache__/
+*.pyc
 *.o
 *.obj
 dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -21,5 +28,6 @@ node_modules/
 .vscode/
 .idea/
 
-# Go-specific
-*.go?*
+# System files
+.DS_Store
+Thumbs.db
