@@ -2,6 +2,12 @@
 *.pyc
 pycache/
 dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Environment
 .env
