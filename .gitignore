@@ -1,12 +1,9 @@
 # Compiled and build artifacts
 *.pyc
-__pycache__/
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
@@ -22,7 +19,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
