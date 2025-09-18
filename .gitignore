@@ -1,11 +1,15 @@
 # Compiled and build artifacts
+*.php
 *.pyc
-__pycache__/
+pycache/
 dist/
 build/
 
 # Dependencies
+vendor/
 node_modules/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -15,6 +19,8 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
