@@ -1,12 +1,12 @@
 # Compiled and build artifacts
-*.pb
-*.o
-*.obj
+*.pyc
+pycache/
+dist/
+build/
 
 # Dependencies
+vendor/
 node_modules/
-venv/
-.venv/
 
 # Logs and temp files
 *.log
@@ -21,8 +21,3 @@ venv/
 # Editors
 .vscode/
 .idea/
-
-# Proto files (if generated)
-proto/*.pb.go
-proto/*.pb.h
-proto/*.pb.cc
