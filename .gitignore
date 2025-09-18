@@ -1,12 +1,9 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
+*.jsx
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Environment
