@@ -1,0 +1,66 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+INCLUDES = -Iinclude
+
+# Directories
+SRCDIR = src
+INCDIR = include
+OBJDIR = obj
+BINDIR = bin
+
+# Target executable names
+MAIN_TARGET = $(BINDIR)/main
+TEST_TARGET = $(BINDIR)/test_runner
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
+
+# Test files
+TEST_SOURCES = $(wildcard $(SRCDIR)/test_*.cpp)
+TEST_OBJECTS = $(TEST_SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target - creates the main executable
+.PHONY: build
+build: $(MAIN_TARGET)
+
+$(MAIN_TARGET): $(OBJECTS) | $(BINDIR)
+	$(CXX) $(OBJECTS) -o $@
+
+# Test target - builds and runs tests
+.PHONY: test
+test: $(TEST_TARGET)
+	./$(TEST_TARGET)
+
+$(TEST_TARGET): $(TEST_OBJECTS) | $(BINDIR)
+	$(CXX) $(TEST_OBJECTS) -o $@
+
+# Create object files from source files
+$(OBJDIR)/%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+# Create directories if they don't exist
+$(OBJDIR) $(BINDIR):
+	mkdir -p $@
+
+# Clean target - removes generated files
+.PHONY: clean
+clean:
+	rm -rf $(OBJDIR) $(BINDIR)
+
+# Help target
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo "  all     - Build the main executable (default)"
+	@echo "  build   - Build the main executable"
+	@echo "  test    - Build and run tests"
+	@echo "  clean   - Remove generated files"
+	@echo "  help    - Display this help message"
