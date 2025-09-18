@@ -1,0 +1,22 @@
+# Конфигурация веб-приложения
+
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "myapp_user"
+password = "strong_password"
+
+[logging]
+level = "info"
+file = "/var/log/myapp/app.log"
+
+[features]
+enable_api = true
+enable_ui = true
+max_connections = 100
