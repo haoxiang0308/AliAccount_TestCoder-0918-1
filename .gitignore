@@ -1,16 +1,21 @@
-# Compiled and build artifacts
-*.asm
+#Compiled and build artifacts
+*.dart-tool/
+flutter_greeting_app/greeting_widget_42893.dart
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+#Dependencies
+.dart_tool/
+build/
+pubspec.lock
 
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
+
+#System
+.DS_Store
+Thumbs.db
