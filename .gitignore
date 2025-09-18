@@ -1,6 +1,6 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.o
+*.obj
 dist/
 build/
 
@@ -17,7 +17,22 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Python-specific ignores
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+
+# Node.js-specific ignores
+target/
+.gradle/
