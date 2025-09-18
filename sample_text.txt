@@ -1,0 +1,5 @@
+This is a sample text file for testing the word frequency counter.
+This file contains several words, and some words are repeated multiple times.
+The Perl script should correctly count how many times each word appears.
+Words, words, words! The more words we have, the better our test will be.
+Let's make sure we have enough words in this file to properly test our script.
