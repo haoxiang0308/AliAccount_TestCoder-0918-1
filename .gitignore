@@ -1,3 +1,7 @@
+# R plot outputs
+r_plots/*.png
+r_plots/*.pdf
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
