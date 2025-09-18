@@ -5,19 +5,25 @@ dist/
 build/
 
 # Dependencies
-node_modules/
-.venv/
-venv/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
 
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
