@@ -1,11 +1,21 @@
-# Compiled and build artifacts
-*.php
-*.sh
+#Compiled and build artifacts
+*.pyc
+dist/
+build/
 
-# Environment
+#Dependencies
+node_modules/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
+.idea/
