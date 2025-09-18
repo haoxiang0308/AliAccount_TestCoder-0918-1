@@ -1,10 +1,18 @@
 # Compiled and build artifacts
-*.jsx
+*.beam
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
-node_modules/
+deps/
+*.ez
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -15,11 +23,13 @@ node_modules/
 .vscode/
 .idea/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Erlang specific
+*.dump
+*.beam
+*.app
+*.app.src
+*.erl~
