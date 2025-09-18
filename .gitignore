@@ -1,24 +1,39 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.erl
+*.beam
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+deps/
+_build/
+rebar.lock
+rebar.config.lock
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
