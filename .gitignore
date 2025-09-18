@@ -1,11 +1,6 @@
 # Compiled and build artifacts
-*.thrift.bin
-*.thrift.go
-*.thrift.py
-__pycache__/
 *.pyc
-*.o
-*.obj
+__pycache__/
 dist/
 build/
 
@@ -22,12 +17,7 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
