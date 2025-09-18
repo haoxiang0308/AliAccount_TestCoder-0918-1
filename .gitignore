@@ -1,38 +1,29 @@
-#Build artifacts and compiled files
+# Docker
+*Dockerfile_flask_app
+
+# Compiled and build artifacts
 *.pyc
-dist/
-build/
+__pycache__/
 *.o
 *.obj
-*.dll
-*.so
-*.a
-*.exe
-*.out
+dist/
+build/
 
-#Dependencies and virtual environments
-node_modules/
-venv/
+# Dependencies
 .venv/
-.julia*/
-.zig*/
+venv/
+node_modules/
 
-#Environment and sensitive files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-#IDE and editor files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-#System and temp files
-.DS_Store
-Thumbs.db
-*.tmp
-*.log
-
-#Original rules preserved
-Jenkinsfile_*
