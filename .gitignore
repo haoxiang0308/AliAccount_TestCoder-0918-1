@@ -1,8 +1,7 @@
 # Compiled and build artifacts
+*.beam
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
 
