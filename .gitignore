@@ -1,12 +1,5 @@
-# Compiled and build artifacts
-*.Rhistory
-*.RData
-*.Rproj.user/
-.Rproj.user/
-
 # Dependencies
-renv/
-packrat/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -22,6 +15,5 @@ packrat/
 .vscode/
 .idea/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Original rules preserved
+*.log
