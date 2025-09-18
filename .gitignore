@@ -1,45 +1,22 @@
-# Build artifacts and temporary files
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 dist/
 build/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Compiled and binary files
-*.pyc
-*.class
+# Dependencies
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE and editor files
+# Editors
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
-
-# Original rules preserved
-Jenkinsfile_YyL2k2GRsh
-jenkinsfile_name.txt
