@@ -1,34 +1,18 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
-*.pyc
-__pycache__/
 dist/
 build/
-target/
-.gradle/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-julia-*/
-zig-cache/
-zig-out/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-Thumbs.db
-.DS_Store
 
 # Environment
 .env
@@ -38,3 +22,26 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Python specific
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+
+# Node.js specific
+node_modules/
+*.log
+
+# Java specific
+target/
+.gradle/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
