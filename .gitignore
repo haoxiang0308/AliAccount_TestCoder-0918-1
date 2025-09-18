@@ -1,10 +1,12 @@
 # Compiled and build artifacts
-*.o
-*.obj
+*.pyc
+__pycache__/
 dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -15,11 +17,8 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Go-specific
-*.go?*
