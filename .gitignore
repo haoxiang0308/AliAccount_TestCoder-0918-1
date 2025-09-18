@@ -1,13 +1,13 @@
 # Compiled and build artifacts
-*.o
-*.obj
-dist/
-build/
+*.class
+*.jar
+*.war
+*.ear
+target/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.gradle/
+build/
 
 # Logs and temp files
 *.log
@@ -22,10 +22,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
-
-# Original rules preserved
-*.log
