@@ -1,28 +1,21 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
+# Node.js / Angular project
+node_modules/
+
+# Build artifacts
 dist/
 build/
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Environment
+# Environment files
 .env
 .env.local
+.env.*
 
-#Editors
+# IDE files
 .vscode/
 .idea/
-
-#System
-.DS_Store
-Thumbs.db
-
-#Logs and temp files
-*.log
-*.tmp
 *.swp
 *.swo
+
+# Logs and temp files
+*.log
+*.tmp
