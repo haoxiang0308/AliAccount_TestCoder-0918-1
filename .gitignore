@@ -1,12 +1,13 @@
 # Compiled and build artifacts
-*.Rhistory
-*.RData
-*.Rproj.user/
-.Rproj.user/
+*.pyc
+__pycache__/
+dist/
+build/
 
 # Dependencies
-renv/
-packrat/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -22,6 +23,5 @@ packrat/
 .vscode/
 .idea/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Original rules preserved
+*.log
