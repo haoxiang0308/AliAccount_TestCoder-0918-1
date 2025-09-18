@@ -1,0 +1,22 @@
+# Конфигурация приложения
+
+[app]
+name = "MyWebApp"
+version = "1.0.0"
+debug = true
+
+[server]
+host = "0.0.0.0"
+port = 8080
+timeout = 30
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "db_user"
+password = "db_password"
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp.log"

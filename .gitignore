@@ -1,6 +1,18 @@
 # Compiled and build artifacts
-*.bas
-vba_project/
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -10,11 +22,6 @@ vba_project/
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # System files
 .DS_Store
