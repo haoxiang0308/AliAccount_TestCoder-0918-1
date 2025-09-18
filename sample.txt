@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains several words, and some words are repeated.
+This allows us to test the word counting script.
+Words, words, words!
