@@ -1,13 +1,5 @@
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-target/
-
-# Dependencies
-.gradle/
-build/
+*.asm
 
 # Logs and temp files
 *.log
@@ -22,3 +14,6 @@ build/
 # Editors
 .vscode/
 .idea/
+
+# Original rules preserved
+*.log
