@@ -1,5 +1,10 @@
 # Compiled and build artifacts
-*.ex
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
 .venv/
