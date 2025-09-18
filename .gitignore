@@ -1,28 +1,28 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-build/
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.jmod
+*.jlink
+*.jpackage
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
+# IDE
 .idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
+# Build artifacts
+target/
