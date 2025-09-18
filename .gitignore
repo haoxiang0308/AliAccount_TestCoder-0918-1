@@ -1,38 +1,15 @@
-#Build artifacts and compiled files
+#Compiled and build artifacts
 *.pyc
+__pycache__/
 dist/
 build/
-*.o
-*.obj
-*.dll
-*.so
-*.a
-*.exe
-*.out
 
-#Dependencies and virtual environments
+#Dependencies
 node_modules/
-venv/
-.venv/
-.julia*/
-.zig*/
 
-#Environment and sensitive files
+#Environment
 .env
 .env.local
-.env.*
 
-#IDE and editor files
+#Editors
 .vscode/
-.idea/
-*.swp
-*.swo
-
-#System and temp files
-.DS_Store
-Thumbs.db
-*.tmp
-*.log
-
-#Original rules preserved
-Jenkinsfile_*
