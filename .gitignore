@@ -6,25 +6,32 @@ node_modules/
 .env.local
 .env.*
 
-#IDE/Editor
+#Editors
 .vscode/
+.idea/
 
 #Logs and temp files
 *.log
 *.tmp
 *.swp
 
+#System files
+.DS_Store
+Thumbs.db
+
 #Compiled and build artifacts
 dist/
 build/
 *.pyc
 __pycache__/
+*.class
 *.o
 *.obj
-
-#OS-generated files
-.DS_Store
-Thumbs.db
+*.dll
+*.exe
+*.so
+*.a
+*.out
 
 #Compressed files
 *.zip
