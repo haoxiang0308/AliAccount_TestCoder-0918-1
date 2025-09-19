@@ -1,1 +1,12 @@
-(empty — output nothing)
+# GitHub Actions
+.github/workflows/*.yml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
