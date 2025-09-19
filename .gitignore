@@ -1,20 +1,6 @@
-# Compiled and build artifacts
-*.pl~
-
-# Environment
-.env
+#Data and environment files
+*.json
 .env.local
-.env.*
 
-# Editors
+#Editor files
 .vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
