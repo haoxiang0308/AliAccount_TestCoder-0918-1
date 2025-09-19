@@ -1,4 +1,14 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+terraform.tfstate.d/
+.terraform/
+
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
 dist/
@@ -23,5 +33,6 @@ node_modules/
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
