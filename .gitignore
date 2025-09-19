@@ -1,17 +1,17 @@
-# System/Environment files
-*.deb
-*.ps1
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
