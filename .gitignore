@@ -1,26 +1,20 @@
-# Docker
-Dockerfile_*
+# Compiled and build artifacts
+*.php
+*.sh
 
 # Environment
 .env
 .env.local
 .env.*
 
-# IDEs
+# Editors
 .vscode/
 
-# Python
-__pycache__/
-*.pyc
-.pytest_cache/
-.mypy_cache/
-
-# Node.js
-node_modules/
-
-# General
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# System/Environment files
 .DS_Store
 Thumbs.db
