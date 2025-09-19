@@ -1,1 +1,5 @@
-(empty — output nothing)
+#Environment
+.env
+
+#HTML report or artifact
+*.html
