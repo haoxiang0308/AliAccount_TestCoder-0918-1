@@ -1,8 +1,27 @@
-#Temporary and system files
-*~
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-#Disk check scripts with random names
-disk_check_*\.sh
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-#Original rules preserved
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
+.idea/
+
+#System/Environment files
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
 *.log
+*.tmp
+*.swp
