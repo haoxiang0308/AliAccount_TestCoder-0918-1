@@ -1,20 +1,10 @@
-# Compiled and build artifacts
-*.php
-*.sh
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
 
-# Environment
-.env
+#Environment
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System/Environment files
-.DS_Store
-Thumbs.db
