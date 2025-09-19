@@ -1,0 +1,5 @@
+/* Styles for a div with red background and white text */
+div {
+    background-color: red;
+    color: white;
+}
