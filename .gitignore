@@ -1,10 +1,43 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# System/Environment files
+*.xml
+*.json
+
+# Temp files
+"book_$(date
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
+.env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+
+# Compiled/Binary files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Dependency directories
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+node_modules/
+venv/
+.venv/
