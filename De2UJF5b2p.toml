@@ -1,0 +1,29 @@
+# Application Configuration File
+
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = false
+
+[server]
+host = "0.0.0.0"
+port = 8080
+ssl_enabled = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "dbuser"
+password = "dbpassword"
+pool_size = 10
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+file = "app.log"
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+max_upload_size = "10MB"
