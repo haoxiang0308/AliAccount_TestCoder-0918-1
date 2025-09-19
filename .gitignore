@@ -1,27 +1,26 @@
-#Data and model files
-*.npz
-*.png
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
-#Environment
-.env
-.env.local
-.env.*
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-#IDE
-.vscode/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Compiled and build artifacts
-__pycache__/
-*.pyc
-dist/
-build/
+# Environment
+.env
+.env.local
+.env.*
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# Editors
+.vscode/
+.idea/
