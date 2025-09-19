@@ -1,8 +1,5 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+*.pdf
 dist/
 build/
 
