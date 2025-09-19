@@ -1,14 +1,8 @@
 # Compiled and build artifacts
-*.class
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+mult_table
+*.nim.cfg
+*.nimble
+*.nimble-lock
 
 # Logs and temp files
 *.log
@@ -22,4 +16,6 @@ node_modules/
 
 # Editors
 .vscode/
-.idea/
+
+# Original rules preserved
+*.log
