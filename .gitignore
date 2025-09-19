@@ -1,23 +1,15 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+# Gradle
+.gradle/
 build/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Kotlin
+*.kt
+*.kts
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-
-# Editors
-.vscode/
+# IDE
 .idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
