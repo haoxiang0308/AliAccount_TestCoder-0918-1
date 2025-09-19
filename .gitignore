@@ -1,5 +1,18 @@
+# GraphQL Schema
+schema_*.graphql
+
 # Compiled and build artifacts
-*.m
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -14,6 +27,3 @@
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
