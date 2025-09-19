@@ -1,13 +1,37 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Compiled and build artifacts
+*.dart.js
+*.dart.js.map
+*.dart.deps
+*.dart.digests
+*.dart.info
+*.dart.manifest
+*.dart.metadata
+*.dart.sizes
+*.dart.stack_trace
+*.dart.symbolmap
+*.dart.tar.gz
+*.dart.zip
+greeting_widget_*.dart.js
+greeting_widget_*.dart.js.map
 
-#Dependencies
-node_modules/
+# Dependencies
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
+.idea/
