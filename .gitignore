@@ -1,29 +1,10 @@
-#Temporary files
-Makefile_dfa9cab47e
-
 #Compiled and build artifacts
 *.pyc
-__pycache__/
-*.o
-*.obj
+pycache/
 dist/
-build/
-
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
 
 #Environment
-.env
 .env.local
-.env.*
 
 #Editors
 .vscode/
-.idea/
