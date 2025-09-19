@@ -1,10 +1,8 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+# Generated files
+generated/
 
-# Environment
+# Environment files
 .env.local
 
-# Editors
+# IDE files
 .vscode/
