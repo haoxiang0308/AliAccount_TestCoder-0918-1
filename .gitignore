@@ -1,18 +1,27 @@
-# Dart project artifacts and dependencies
-.dart_tool/
-*.zip
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment files
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment
 .env
 .env.local
-.env.*
 
-# IDE and editor files
+#Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
+*.swp
+
+#System files
+.DS_Store
+Thumbs.db
