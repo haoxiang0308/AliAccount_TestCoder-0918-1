@@ -1,6 +1,3 @@
-#Database files
-*.db
-
 #Compiled and build artifacts
 *.pyc
 __pycache__/
@@ -19,3 +16,8 @@ node_modules/
 #Editors
 .vscode/
 .idea/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
