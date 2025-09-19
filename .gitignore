@@ -1,10 +1,22 @@
 # Compiled and build artifacts
-*.html
+*.mex
+*.mexw32
+*.mexw64
+*.mexa64
+*.mexglx
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.a
+*.out
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -14,6 +26,8 @@
 # Editors
 .vscode/
 .idea/
+*.DS_Store
+Thumbs.db
 
 # Original rules preserved
 *.log
