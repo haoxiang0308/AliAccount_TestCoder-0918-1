@@ -1,0 +1,6 @@
+This is a sample text file.
+This file is for testing the word frequency counter.
+The quick brown fox jumps over the lazy dog.
+The dog was really lazy, but the fox was quick.
+Testing, testing, one, two, three.
+How much wood would a woodchuck chuck if a woodchuck could chuck wood?
