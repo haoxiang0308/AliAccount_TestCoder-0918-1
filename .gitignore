@@ -1,5 +1,5 @@
 # Compiled and build artifacts
-*.m
+*.css
 
 # Logs and temp files
 *.log
@@ -15,5 +15,6 @@
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
