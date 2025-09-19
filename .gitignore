@@ -1,13 +1,18 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Compiled and build artifacts
+*.tsbuildinfo
 
-#Dependencies
-node_modules/
-
-#Environment
+# Environment
+.env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Dependencies
+node_modules/
