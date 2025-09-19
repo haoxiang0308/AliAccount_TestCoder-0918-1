@@ -1,1 +1,26 @@
-(empty — output nothing)
+# Docker
+Dockerfile_*
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDEs
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
