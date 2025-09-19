@@ -1,23 +1,35 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Compiled and build artifacts
+*.beam
+*.so
+*.dll
+*.exe
+*.o
+*.obj
+*.out
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# Dependencies
+deps/
+_build/
+*.ez
 
-#Environment
-.env
-.env.local
-
-#Editors
-.vscode/
-.idea/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swo
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
