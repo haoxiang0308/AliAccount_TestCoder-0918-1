@@ -1,5 +1,7 @@
+#MATLAB files
+*.m
+
 #Compiled and build artifacts
-*.ts
 *.pyc
 pycache/
 *.o
