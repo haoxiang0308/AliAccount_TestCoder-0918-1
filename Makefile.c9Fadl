@@ -1,0 +1,27 @@
+# Простой Makefile для компиляции программы на C
+
+# Компилятор
+CC = gcc
+
+# Флаги компиляции
+CFLAGS = -Wall -Wextra -std=c99
+
+# Имя исполняемого файла
+TARGET = main
+
+# Исходный файл
+SOURCE = main.c
+
+# Правило по умолчанию
+all: $(TARGET)
+
+# Правило для компиляции исходного файла в исполняемый
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE)
+
+# Правило для очистки
+clean:
+	rm -f $(TARGET)
+
+# Объявляем псевдоцели
+.PHONY: all clean
