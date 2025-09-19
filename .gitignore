@@ -1,10 +1,2 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-
-# Environment
-.env.local
-
-# Editors
-.vscode/
+# Temp files
+Makefile.dpXsyB
