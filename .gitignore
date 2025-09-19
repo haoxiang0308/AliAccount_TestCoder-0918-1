@@ -1,5 +1,5 @@
 # Compiled and build artifacts
-*.html
+*.m
 
 # Logs and temp files
 *.log
