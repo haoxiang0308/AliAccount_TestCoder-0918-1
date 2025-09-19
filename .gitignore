@@ -1,34 +1,23 @@
-# Python
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-htmlcov/
-.coverage.*
-.coveragerc
+__pycache__/
+dist/
+build/
 
-# Virtual environments
-venv/
+# Dependencies
 .venv/
-env/
-.env
+venv/
+node_modules/
 
-# IDEs and editors
+# Environment
+.env
+.env.local
+
+# Editors
 .vscode/
 .idea/
-
-# OS and system
-.DS_Store
-Thumbs.db
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Original rules preserved
-*.log
