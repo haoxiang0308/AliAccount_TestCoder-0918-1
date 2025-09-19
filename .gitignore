@@ -1,17 +1,32 @@
-# Temporary and system files
-*.r
-*.tmp
-*.log
+# Compiled and build artifacts
+dist/
+build/
+*.o
+*.obj
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+julia-*/
+zig*/
+target/
+.gradle/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Logs and temp files
+*.log
+*.tmp
 
-# IDE and editor files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# Original rules preserved
+*.log
