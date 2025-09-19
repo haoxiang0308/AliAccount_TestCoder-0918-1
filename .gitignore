@@ -1,5 +1,10 @@
-# Compiled and build artifacts
-*.sql
+# R project artifacts
+*.RData
+*.Rhistory
+*.Rproj.user/
+
+# Editors
+.vscode/
 
 # Logs and temp files
 *.log
@@ -10,10 +15,3 @@
 .env
 .env.local
 .env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Original rules preserved
-*.log
