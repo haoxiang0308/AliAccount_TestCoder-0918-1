@@ -1,6 +1,2 @@
-# Temp files and environment variables
-*.txt
-.env*
-
-# Editors
-.vscode/
+# Docker artifacts
+dockerfiles/Dockerfile_*
