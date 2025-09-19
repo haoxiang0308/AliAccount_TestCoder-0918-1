@@ -1,1 +1,3 @@
-(empty — output nothing)
+#Compiled and build artifacts
+*.ts
+angular-components/
