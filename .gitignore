@@ -1,26 +1,64 @@
 # Compiled and build artifacts
+mult_table
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 *.pyc
 __pycache__/
-*.o
-*.obj
-dist/
-build/
+*.class
 
-# Dependencies
+# Dependencies and package directories
 .venv/
 venv/
 node_modules/
+dist/
+build/
+target/
+.gradle/
 
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
+*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
