@@ -1,17 +1,8 @@
-# Temporary and system files
-*.ex
-*.tmp
+#Temporary and system files
+*~
+
+#Disk check scripts with random names
+disk_check_*\.sh
+
+#Original rules preserved
 *.log
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# IDE and editor files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
