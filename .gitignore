@@ -1,1 +1,23 @@
-(empty — output nothing)
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
