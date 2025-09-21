@@ -1,8 +1,2 @@
-#Temporary and system files
-*~
-
-#Disk check scripts with random names
-disk_check_*\.sh
-
-#Original rules preserved
-*.log
+# Compiled and build artifacts
+*.pl~
