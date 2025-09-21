@@ -1,0 +1,30 @@
+# Application Configuration
+
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = false
+
+[server]
+host = "0.0.0.0"
+port = 8080
+timeout = 30
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "db_user"
+password = "db_password"
+ssl_enabled = true
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp/app.log"
+max_size = "10MB"
+backup_count = 5
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+enable_metrics = false
