@@ -1,10 +1,1 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-
-# Environment
-.env.local
-
-# Editors
-.vscode/
+(empty — output nothing)
