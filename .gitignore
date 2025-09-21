@@ -1,9 +1,13 @@
-# System/Environment files
-*.xml
-*.json
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Temp files
-"book_$(date
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -13,31 +17,7 @@
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Compiled/Binary files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Dependency directories
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-node_modules/
-venv/
-.venv/
