@@ -5,6 +5,8 @@ dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
