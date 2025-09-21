@@ -1,20 +1,15 @@
 # Compiled and build artifacts
-*.dart.js
-*.dart.lib.js
-*.dart.metadata
-*.freezed.dart
-*.g.dart
+*.pyc
+__pycache__/
 *.o
 *.obj
 dist/
 build/
 
 # Dependencies
-.dart_tool/
-.packages
-.pub-cache/
-.pub/
-flutter_*
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -29,8 +24,3 @@ flutter_*
 # Editors
 .vscode/
 .idea/
-*.code-workspace
-
-# System files
-.DS_Store
-Thumbs.db
