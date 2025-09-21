@@ -9,6 +9,11 @@ build/
 venv/
 node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Environment
 .env
 .env.local
@@ -16,8 +21,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
