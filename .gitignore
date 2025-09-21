@@ -1,10 +1,10 @@
-#Compiled and build artifacts
+# Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
 
-#Environment
+# Environment
 .env.local
 
-#Editors
+# Editors
 .vscode/
