@@ -1,21 +1,16 @@
-# Solidity artifacts and dependencies
-*.solc
-*.abi
-*.bin
-build/
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+
+# Dependencies
+.venv/
+venv/
 node_modules/
 
-# Environment files
+# Environment
 .env
 .env.local
-.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
