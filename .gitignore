@@ -1,22 +1,54 @@
-# Temporary and log files
-*.tmp
-*.log
-*.swp
-*.swo
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
-# Environment files
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-# IDE and editor files
+# Editors
 .vscode/
 .idea/
-*.code-workspace
 
-# OS generated files
+# System/Environment files
 .DS_Store
 Thumbs.db
 
-# Scripts with dynamic names (likely temporary or generated)
-script_*.*
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
