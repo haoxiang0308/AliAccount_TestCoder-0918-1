@@ -1,17 +1,16 @@
-# Puppet manifests
-*.pp
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
 
-# Environment files
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment
 .env
 .env.local
-.env.*
 
-# Editor/IDE files
+#Editors
 .vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
