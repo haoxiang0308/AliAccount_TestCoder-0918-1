@@ -1,22 +1,13 @@
-# Temporary and log files
-*.tmp
-*.log
-*.swp
-*.swo
+#Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
-# Environment files
-.env
+#Dependencies
+node_modules/
+
+#Environment
 .env.local
-.env.*
 
-# IDE and editor files
+#Editors
 .vscode/
-.idea/
-*.code-workspace
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Scripts with dynamic names (likely temporary or generated)
-script_*.*
