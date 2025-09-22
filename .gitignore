@@ -1,10 +1,10 @@
 # Compiled and build artifacts
-*.ex
+*.pdf
+Rplots.pdf
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+renv/library/
+packrat/lib/
 
 # Logs and temp files
 *.log
@@ -19,3 +19,35 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
