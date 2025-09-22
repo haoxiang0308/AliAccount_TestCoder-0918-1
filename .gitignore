@@ -1,13 +1,5 @@
-#Compiled and build artifacts
-*.o
-*.obj
-dist/
-build/
-
-#Dependencies
-.venv/
-venv/
-node_modules/
+#Temporary and generated files
+Makefile_random123
 
 #Logs and temp files
 *.log
@@ -26,31 +18,3 @@ node_modules/
 #System files
 .DS_Store
 Thumbs.db
-
-#Compiled/Binary files
-*.pyc
-__pycache__/
-
-#Common compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
