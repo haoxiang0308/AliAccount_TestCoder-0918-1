@@ -1,17 +1,5 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Compressed files
+*.tar.gz
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Environment
-.env
-.env.local
-
-# Editors
-.vscode/
+# Julia artifacts
+julia-*/
