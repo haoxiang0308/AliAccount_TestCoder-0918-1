@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "data": {
+    "user": {
+      "id": 12345,
+      "name": "张三",
+      "email": "zhangsan@example.com",
+      "role": "developer",
+      "createdAt": "2023-01-15T08:30:00Z"
+    },
+    "posts": [
+      {
+        "id": 101,
+        "title": "如何学习Python",
+        "content": "Python是一门强大的编程语言...",
+        "tags": ["Python", "编程", "教程"],
+        "published": true
+      },
+      {
+        "id": 102,
+        "title": "Web开发最佳实践",
+        "content": "在现代Web开发中，我们需要考虑很多因素...",
+        "tags": ["Web", "开发", "最佳实践"],
+        "published": true
+      }
+    ],
+    "settings": {
+      "theme": "dark",
+      "language": "zh-CN",
+      "notifications": true
+    }
+  },
+  "message": "数据获取成功",
+  "timestamp": "2023-10-25T12:00:00Z"
+}
