@@ -1,4 +1,29 @@
-# Compiled and build artifacts
+#Compiled and build artifacts
+*.sql~*
+
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+
+#System
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Compiled and build artifacts (general)
 *.pyc
 __pycache__/
 *.class
@@ -8,39 +33,20 @@ __pycache__/
 *.dll
 *.exe
 *.a
+*.out
 dist/
 build/
 target/
 .gradle/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-julia-*/
-zig-*/
+#Cache
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors and IDEs
-.vscode/
-.idea/
-*.iml
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compressed files
+#Compressed files
 *.zip
 *.gz
 *.tar
