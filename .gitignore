@@ -1,10 +1,23 @@
-# Compiled and build artifacts
-*.fs
+#Dependencies
+node_modules/
 
-# Environment
+#Compiled and build artifacts
+dist/
+build/
+
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
+.idea/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#System/Environment files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "name": "angular-http-service",
+  "version": "1.0.0",
+  "description": "An Angular service for fetching data via HTTP",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "rxjs": "^7.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.0"
+  }
+}
