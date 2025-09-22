@@ -1,23 +1,17 @@
-#Dependencies
-node_modules/
+# Prolog compiled files
+*.plc
 
-#Compiled and build artifacts
-dist/
-build/
-
-#Environment
+# Environment files
 .env
 .env.local
+.env.*
 
-#Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
-*.swp
-
-#System/Environment files
-.DS_Store
-Thumbs.db
