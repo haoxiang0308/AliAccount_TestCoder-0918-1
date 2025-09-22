@@ -1,0 +1,8 @@
+2023-10-26 10:00:01 INFO Application started
+2023-10-26 10:05:23 ERROR Failed to connect to database
+2023-10-26 10:10:15 INFO User login successful
+2023-10-26 10:15:42 ERROR Invalid user input
+2023-10-26 10:20:01 WARNING Low disk space
+2023-10-26 10:25:33 ERROR Timeout occurred
+2023-10-26 10:30:10 INFO Data processed
+2023-10-26 10:35:59 ERROR Permission denied
