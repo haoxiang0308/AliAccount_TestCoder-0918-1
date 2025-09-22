@@ -1,17 +1,34 @@
-#Compiled and build artifacts
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+terraform.tfstate.d/
+terraform.tfstate.backup.d/
+
+# Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
+*.o
+*.obj
 dist/
 build/
 
-#Dependencies
+# Dependencies
 .venv/
 venv/
 node_modules/
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
+.idea/
