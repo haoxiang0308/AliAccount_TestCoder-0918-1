@@ -2,10 +2,9 @@
 *.pyc
 __pycache__/
 dist/
+build/
 
 #Dependencies
-.venv/
-venv/
 node_modules/
 
 #Environment
