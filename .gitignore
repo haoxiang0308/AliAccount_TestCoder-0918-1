@@ -1,27 +1,21 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
+# Solidity artifacts and dependencies
+*.solc
+*.abi
+*.bin
 build/
-
-#Dependencies
-.venv/
-venv/
 node_modules/
 
-#Environment
+# Environment files
 .env
 .env.local
+.env.*
 
-#Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
-*.swp
-
-#System files
-.DS_Store
-Thumbs.db
