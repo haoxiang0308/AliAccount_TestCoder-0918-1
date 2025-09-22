@@ -1,18 +1,25 @@
-# Temp files
-greeting_vniLhDKZlb.dart
+# Compiled and build artifacts
+*.rb
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Common ignores
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-.DS_Store
-Thumbs.db
 
 # Environment
 .env
 .env.local
 .env.*
 
-# IDE/Editor
+# Editors
 .vscode/
 .idea/
