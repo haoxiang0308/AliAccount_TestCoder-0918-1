@@ -1,23 +1,27 @@
-# OCaml build artifacts
-*.cmi
-*.cmx
-*.o
+# Docker
+Dockerfile.*
 
-# Executables
-is_even_check
+# Go
+go.mod
+go.sum
+
+# Compiled and build artifacts
+*.o
+*.obj
 
 # Dependencies
-*.opam
-.opam/
-dune/_build/
-_build/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
