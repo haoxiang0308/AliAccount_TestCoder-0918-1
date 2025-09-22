@@ -1,25 +1,27 @@
-# OCaml build artifacts
-*.cmi
-*.cmx
-*.o
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Executables
-factorial_calculator
+#Dependencies
+node_modules/
+.venv/
+venv/
 
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# System files
+#System files
 .DS_Store
 Thumbs.db
