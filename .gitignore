@@ -1,14 +1,12 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
+# Build artifacts and dependencies
 dist/
+node_modules/
 
-#Dependencies
-vendor/
-
-#Environment
-.env
+# Environment files
 .env.local
 
-#Editors
+# IDE and editor files
 .vscode/
+
+# Original rules preserved
+*.log
