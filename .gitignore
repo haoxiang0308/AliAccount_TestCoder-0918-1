@@ -1,20 +1,31 @@
-#Temporary and generated files
-Makefile_random123
+# Go project
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+*.out
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
+# Dependencies
+go.mod
+go.sum
 
-#Environment
+# Build artifacts
+dist/
+build/
+
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#System files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
