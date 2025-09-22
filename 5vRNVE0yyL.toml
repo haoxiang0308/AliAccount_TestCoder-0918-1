@@ -1,0 +1,28 @@
+# Application Configuration
+
+[server]
+host = "localhost"
+port = 8080
+debug = false
+
+[database]
+host = "db.example.com"
+port = 5432
+username = "app_user"
+password = "secure_password"
+database = "my_app_db"
+
+[logging]
+level = "info"
+file = "/var/log/myapp.log"
+
+[features]
+enable_api = true
+enable_ui = true
+max_connections = 100
+
+[cache]
+type = "redis"
+host = "cache.example.com"
+port = 6379
+ttl = 3600
