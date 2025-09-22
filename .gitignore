@@ -1,59 +1,27 @@
 # Compiled and build artifacts
-*.pl~*
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.pyc
+__pycache__/
+dist/
+build/
 
 # Dependencies
 .venv/
 venv/
 node_modules/
 
-# Cache and build directories
-__pycache__/
-*.pyc
-pycache/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
