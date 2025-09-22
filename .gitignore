@@ -1,16 +1,25 @@
-# Temporary and system files
-*.tmp
-*.swp
-*.swo
+# Compiled and build artifacts
+*.solc
+*.sol.js
+*.sol.map
 
-# Environment files
+# Dependencies
+node_modules/
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE and editor files
+# Editors
 .vscode/
-.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
 .DS_Store
 Thumbs.db
 
@@ -37,30 +46,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Log files
-*.log
-
-# Build artifacts and dependencies
-dist/
-build/
-target/
-.gradle/
-
-# Python artifacts
-__pycache__/
-*.pyc
-.pytest_cache/
-.mypy_cache/
-
-# Node.js dependencies
-node_modules/
-
-# Virtual environments
-.venv/
-venv/
-julia-*/
-zig/*/
-
-# Original rules preserved
-D7oSABTuuO.m
