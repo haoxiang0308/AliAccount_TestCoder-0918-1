@@ -1,26 +1,14 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+#Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
+#Common ignores
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+.DS_Store
+Thumbs.db
