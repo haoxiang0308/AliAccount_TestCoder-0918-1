@@ -1,5 +1,10 @@
 # Compiled and build artifacts
-*.fs
+*.pp
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -8,3 +13,4 @@
 
 # Editors
 .vscode/
+.idea/
