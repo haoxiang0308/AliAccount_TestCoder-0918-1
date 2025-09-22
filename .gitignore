@@ -1,26 +1,21 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
+# Node.js / Angular project artifacts
 node_modules/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Editors
-.vscode/
-.idea/
+# Original rules preserved
+*.log
