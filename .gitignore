@@ -1,5 +1,12 @@
-# Test artifacts
-*.test.*.js
+# Compiled and build artifacts
+*.o
+*.obj
+max_finder
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -14,3 +21,6 @@
 # Editors
 .vscode/
 .idea/
+
+# Original rules preserved
+*.log
