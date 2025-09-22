@@ -1,29 +1,38 @@
-# System/Environment files
-*.ini
+#Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+#Documentation
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
 
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#IDE
 .vscode/
 .idea/
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+#OS
+.DS_Store
+Thumbs.db
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+#Logs
+*.log
+
+#Temp files
+*.tmp
+*.swp
