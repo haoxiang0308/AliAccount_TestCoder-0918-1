@@ -1,10 +1,23 @@
+# HCL and Terraform
+*.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
 dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -20,6 +33,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
