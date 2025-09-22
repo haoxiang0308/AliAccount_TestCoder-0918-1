@@ -1,5 +1,18 @@
+#Compiled and build artifacts
+*.class
+*.o
+*.obj
+dist/
+build/
+
 #Dependencies
-node_modules/
+target/
+.gradle/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
 
 #Environment
 .env
@@ -8,38 +21,11 @@ node_modules/
 
 #Editors
 .vscode/
-
-#Build artifacts
-dist/
-build/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Compiled and binary files
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+.idea/
 
 #System files
 .DS_Store
 Thumbs.db
-
-#Cache directories
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
 
 #Compressed files
 *.zip
