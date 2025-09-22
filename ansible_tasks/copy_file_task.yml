@@ -1,0 +1,11 @@
+---
+- name: Copy a file to remote hosts
+  hosts: all
+  tasks:
+    - name: Copy file from local to remote
+      copy:
+        src: /path/to/local/file.txt
+        dest: /path/to/remote/destination/file.txt
+        owner: root
+        group: root
+        mode: '0644'
