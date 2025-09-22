@@ -1,7 +1,10 @@
 # Compiled and build artifacts
+*.pyc
+pycache/
 *.o
 *.obj
-max_finder
+dist/
+build/
 
 # Dependencies
 .venv/
@@ -21,6 +24,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
