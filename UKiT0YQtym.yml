@@ -1,0 +1,17 @@
+# This is a basic GitLab CI configuration file
+# It defines a pipeline with one job that runs tests
+
+stages:
+  - test
+
+# Job to run tests
+test_job:
+  stage: test
+  image: node:16
+  script:
+    - echo "Running tests..."
+    - npm install
+    - npm test
+  only:
+    - main
+    - merge_requests
