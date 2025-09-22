@@ -1,26 +1,27 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+# Compiled and build artifacts
+*.css
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# If more build artifacts or dependencies are added later, consider:
+# dist/
+# build/
+# node_modules/
+# .venv/
+# venv/
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Environment
+# Environment files (if applicable)
 .env
 .env.local
 .env.*
 
-#Editors
+# IDE/Editor files (if applicable)
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
