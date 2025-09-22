@@ -1,4 +1,6 @@
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
 dist/
@@ -23,11 +25,11 @@ node_modules/
 .vscode/
 .idea/
 
-# System/Environment files
+# System files
 .DS_Store
 Thumbs.db
 
-# Common compressed files
+# Compressed files
 *.zip
 *.gz
 *.tar
