@@ -1,8 +1,23 @@
-# Compiled and build artifacts
-*.bas
+# OCaml build artifacts
+*.cmi
+*.cmx
+*.o
 
-# Environment
-.env
+# Executables
+is_even_check
+
+# Dependencies
+*.opam
+.opam/
+dune/_build/
+_build/
 
 # Editors
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
