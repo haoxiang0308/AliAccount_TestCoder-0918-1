@@ -1,31 +1,25 @@
-# Docker
-docker-compose-random-name.yml
-
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
 __pycache__/
 dist/
 build/
 
-# Dependencies
-.venv/
-venv/
+#Dependencies
 node_modules/
 
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# System files
+#System files
 .DS_Store
 Thumbs.db
