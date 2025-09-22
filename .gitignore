@@ -1,13 +1,13 @@
-# Environment and sensitive files
-.env
-.env.local
-.env.*
-
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
-build/
 
-# Editors and IDEs
+#Dependencies
+node_modules/
+
+#Environment
+.env.local
+
+#Editors
 .vscode/
