@@ -1,4 +1,7 @@
 ```
+# Database files
+*.sql
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
@@ -21,8 +24,6 @@ target/
 .gradle/
 .mypy_cache/
 .pytest_cache/
-.julia/
-zig*/
 
 # Logs and temp files
 *.log
