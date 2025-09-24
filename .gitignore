@@ -1,51 +1,52 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.min.css
-*.css.gz
-*.css.br
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.js
+*.tsbuildinfo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-.julia/
-zig*/
-julia-*/
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
-*.DS_Store
-ehthumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compiled and binary files
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
 # Compressed files
 *.zip
@@ -70,4 +71,10 @@ ehthumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Test and cache directories
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 ```
