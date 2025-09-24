@@ -1,21 +1,21 @@
 ```
-# PowerShell related
-*.ps1~
+# CI/CD
+Jenkinsfile
 
-#Temp files
-*.tmp
-*.swp
-*.swo
-
-#Logs
+# Logs and temp files
 *.log
+*.tmp
 
-#Environment
+# Environment
 .env
 .env.local
 *.env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
