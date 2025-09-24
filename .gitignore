@@ -1,9 +1,18 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
+# Executables
+sort_array_12345
 
-# Temporary and generated files
-*.tmp
-*.temp
+# Compiled files
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Build directories
+build/
+dist/
+target/
 ```
