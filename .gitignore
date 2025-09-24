@@ -1,16 +1,38 @@
 ```
-# Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-build/
+# TypeScript/JavaScript build artifacts
 *.js
 *.tsbuildinfo
+dist/
+build/
+lib/
+out/
+node_modules/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -23,30 +45,14 @@ build/
 *.swp
 *.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
-*.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Compiled and binary files
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+.coverage
 
 # Compressed files
 *.zip
@@ -71,10 +77,4 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Test and cache directories
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 ```
