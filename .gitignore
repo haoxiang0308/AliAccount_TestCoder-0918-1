@@ -1,3 +1,1 @@
-(restart_service_playbook_12345.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes)
-
-(empty - output nothing)
+Nothing to ignore - the change list contains only a Solidity source file (.sol) which should not be ignored.
