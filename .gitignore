@@ -1,1 +1,31 @@
-Nothing to ignore - the change list contains only a source code file (.swift) with no build artifacts, dependencies, or temporary files.
+```
+# VBA project files
+*.bas
+*.frm
+*.cls
+*.vba
+*.vbs
+
+# Compiled VBA files
+*.exd
+*.frx
+
+# Office/Windows temp files
+Thumbs.db
+*.tmp
+*.temp
+~$*
+.DS_Store
+
+# Environment and config
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+```
