@@ -1,1 +1,36 @@
-Nothing to ignore - only a Dart source file was added.
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.a
+*.so
+*.exe
+
+# Dependencies
+_dbuild/
+.opam/
+esy.lock/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
