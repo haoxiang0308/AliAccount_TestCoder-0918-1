@@ -1,8 +1,20 @@
 ```
-# Docker
-docker-compose_*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Environment
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 .env.*
@@ -11,42 +23,34 @@ docker-compose_*.yml
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Compressed files
 *.zip
