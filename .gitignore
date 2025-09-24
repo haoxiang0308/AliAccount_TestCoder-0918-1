@@ -1,1 +1,1 @@
-Nothing to output - the change list contains only a source code file (.lua) and no build artifacts, dependencies, or temp files that need to be ignored.
+Nothing to ignore - the change list contains only a PHP source file (mysql_connect_script.php) which should not be ignored.
