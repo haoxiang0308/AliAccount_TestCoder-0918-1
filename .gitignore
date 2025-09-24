@@ -1,15 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-find_max
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - no ignores needed)
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+```text
 
-# Output files
-*.txt
 ```
