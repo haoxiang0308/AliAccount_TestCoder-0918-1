@@ -1,1 +1,4 @@
-Nothing to ignore - only a source file (.adb) was added.
+```
+# GraphQL schema files (if generated)
+schema.graphql
+```
