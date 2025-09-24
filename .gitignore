@@ -1,15 +1,17 @@
 ```
-# Compiled and build artifacts
+#Temp files
+*.tmp
+tmp.*
+
+#Compiled and build artifacts
 *.o
 *.obj
 *.out
-find_max
 
-# Logs and temp files
-*.log
-*.tmp
+#Editors
 *.swp
+*.swo
 
-# Output files
-*.txt
+#Logs
+*.log
 ```
