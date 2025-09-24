@@ -1,5 +1,31 @@
-(load_and_summarize.R is a source file, so no ignores needed)
+```
+# Elixir specific
+*.beam
+*.ez
+ebin/
+_build/
+deps/
+*.lock
 
-```r
+# Dependencies
+node_modules/
 
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
 ```
