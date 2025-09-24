@@ -1,11 +1,5 @@
-```
-# Compiled and build artifacts
-*.css
+(load_and_summarize.R is a source file, so no ignores needed)
 
-# Cache and temporary files
-*.tmp
-*.swp
+```r
 
-# Logs
-*.log
 ```
