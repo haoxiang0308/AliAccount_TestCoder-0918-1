@@ -1,9 +1,1 @@
-```
-# R plots and generated images
-Rplots.pdf
-*.png
-
-# Temporary and generated files
-*.tmp
-*.temp
-```
+Nothing to ignore - the added file 'model_12345.py' is a source code file that should be tracked in version control.
