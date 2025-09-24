@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes. The added file `add_function_12345.lua` is a source code file that should be tracked in version control.
+```
+# Shell script backup and temp files
+*.sh.bak
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
