@@ -1,1 +1,5 @@
-Nothing to output - the change list contains only a source code file (HelloWorld.scala) with no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# R plot files
+*.pdf
+*.png
+```
