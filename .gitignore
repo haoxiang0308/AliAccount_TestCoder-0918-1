@@ -1,1 +1,11 @@
-(empty)
+```
+# Compiled and build artifacts
+*.css
+
+# Cache and temporary files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
