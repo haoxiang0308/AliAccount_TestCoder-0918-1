@@ -1,67 +1,25 @@
 ```
-# Dependencies
-node_modules/
-
-# Test files
-setupTests.js
-
-# Build artifacts and temp files
-*.map
-*.min.js
-*.cjs
-*.cts
-*.mjs
-*.d.ts
-*.d.mts
-*.d.cts
-dist/
-build/
-lib/
-cjs/
-esm/
-es6/
-commonjs/
-umd/
-types/
+# Jenkins artifacts
+*.xml
 *.log
 *.tmp
-*.swp
-*.swo
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-*.coverage
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
-# Archives
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 ```
