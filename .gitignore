@@ -1,81 +1,10 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-pip-log.txt
-pipenv/
-.Python
-*.egg-info/
-
-# Logs and temp files
-*.log
+# Temporary files
+tmp/
 *.tmp
-*.swp
-*.swo
-*.bak
-*.backup
+*.temp
 
-# Environment
-.env
-.env.local
-.env.*
-*.env
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Kubernetes related
+*.yaml
+*.yml
 ```
