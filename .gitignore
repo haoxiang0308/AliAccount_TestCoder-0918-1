@@ -1,21 +1,40 @@
 ```
-# Scala build system
-.bsp/
-.scala-build/
-
-# Compiled Scala files
-*.class
-
-# IDE files
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.swift
+*.thrift.d
+*.thrift.st
+*.thrift.csharp
+*.thrift.node
+*.thrift.ocaml
+*.thrift.rs
+*.thrift.ts
+*.thrift.erl
+*.thrift.ex
+*.thrift.fs
+*.thrift.hx
+*.thrift.lisp
+*.thrift.lua
+*.thrift.pony
+*.thrift.r
+*.thrift.re
+*.thrift.s
+*.thrift.scala
+*.thrift.scheme
+*.thrift.st
+*.thrift.vala
+*.thrift.vb
+*.thrift.x
+*.thrift.y
+*.thrift.z
 ```
