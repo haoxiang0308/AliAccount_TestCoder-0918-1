@@ -1,0 +1,22 @@
+---
+- name: Restart a service
+  hosts: all
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
+      notify: Wait for service to be active
+
+    - name: Ensure the service is enabled
+      systemd:
+        name: "{{ service_name | default('httpd') }}"
+        enabled: yes
+
+  handlers:
+    - name: Wait for service to be active
+      wait_for:
+        port: "{{ service_port | default(80) }}"
+        delay: 5
+        timeout: 300
