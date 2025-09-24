@@ -1,1 +1,22 @@
-Nothing to output - the change list contains only a source code file (MyViewController.swift) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Compiled and build artifacts
+*.vcd
+*.fst
+*.log
+*.tmp
+
+# Dependencies
+*.out
+*.bin
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
