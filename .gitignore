@@ -1,43 +1,72 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled files
 *.o
 *.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Build directories
+build/
+dist/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-dist/
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
+venv/
+.venv/
+__pycache__/
+*.egg-info/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Django specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-*.db
-*.sqlite3
-media/
-staticfiles/
+# Logs
 *.log
-local_settings.py
-db.sqlite3
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# C/C++ specific
+*.i
+*.ii
+*.s
+*.su
+*.gcno
+*.gcda
+*.gcov
+*.stackdump
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.map
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
 ```
