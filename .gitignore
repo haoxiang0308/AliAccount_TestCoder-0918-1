@@ -1,28 +1,46 @@
-```
-# Compiled and build artifacts
-*.rs.bk
-*.rlib
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
 *.so
-*.dylib
 *.dll
-*.exe
-*.out
+*.dylib
+
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
 
 # Dependencies
-target/
-.cargo/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+.julia/
+Pkg.add/
+Pkg.develop/
+Pkg.test/
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
 ```
