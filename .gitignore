@@ -1,1 +1,11 @@
-Nothing to ignore - the change list contains only a source code file (.swift) with no build artifacts, dependencies, or temporary files.
+```
+# Process data files
+*.csv
+
+# PowerShell and shell scripts backup/swap files
+*.swp
+*.swo
+
+# Logs
+*.log
+```
