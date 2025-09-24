@@ -1,1 +1,14 @@
-(linear_regression_model_2025_09_24.py is a source file, no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# Backup and temp files
+backup_*.sh
+*.tmp
+*.bak
+*.backup
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
