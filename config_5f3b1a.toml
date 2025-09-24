@@ -1,0 +1,21 @@
+# Конфигурация приложения
+
+[app]
+name = "Мое Приложение"
+version = "1.0.0"
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+username = "admin"
+password = "secret"
+database_name = "myapp_db"
+
+[logging]
+level = "info"
+file = "app.log"
+
+[features]
+new_ui = true
+beta_test = false
