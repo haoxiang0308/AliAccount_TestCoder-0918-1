@@ -1,1 +1,33 @@
-Nothing to ignore - the added file 'list_files_12345.sh' is a shell script source file and should not be ignored.
+```
+# Puppet related
+**/modules/
+**/spec/fixtures/modules/
+**/.tmp/
+**/.vagrant/
+**/vendor/
+
+# Common build artifacts
+*.pp_compiled
+*.rb_compiled
+
+# Dependencies
+**/librarian/
+**/bolt-modules/
+
+# Logs
+*.log
+**/log/
+**/logs/
+
+# Temp files
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.
+```
