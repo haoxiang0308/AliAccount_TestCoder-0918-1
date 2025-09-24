@@ -1,5 +1,36 @@
-(load_and_summarize.R is a source file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.class
+*.dex
+*.so
+*.aar
 
-```r
+# Dependencies
+.libs/
+build/
+.gradle/
+node_modules/
+venv/
+.venv/
 
+# Editors
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Android specific
+*.apk
+*.aab
+local.properties
 ```
