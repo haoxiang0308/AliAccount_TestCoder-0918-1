@@ -1,0 +1,4 @@
+// Google Cloud Function
+exports.helloWorld = (req, res) => {
+  res.status(200).send('Hello from GCF');
+};
