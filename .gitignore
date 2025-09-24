@@ -1,11 +1,54 @@
 ```
-# Docker build artifacts
-*.tar
-*.tar.gz
-*.tar.bz2
-*.tar.xz
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
+*.tar
+*.tgz
 *.bz2
 *.xz
 *.7z
@@ -20,14 +63,8 @@
 *.Z
 *.lz
 *.lzo
-
-# Temporary files
-*.tmp
-*.temp
-*.log
-
-# Environment files
-.env
-.env.local
-.env.*
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
