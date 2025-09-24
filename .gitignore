@@ -1,1 +1,8 @@
-(binary_classifier_42.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# PowerShell temporary scripts
+*_ps1
+*.ps1
+temp_*.ps1
+processes_*.ps1
+get_processes_*.ps1
+```
