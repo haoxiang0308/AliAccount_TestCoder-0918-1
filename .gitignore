@@ -1,11 +1,1 @@
-```
-# Compiled and build artifacts
-*.css
-
-# Cache and temporary files
-*.tmp
-*.swp
-
-# Logs
-*.log
-```
+Nothing to output - the change list contains only a source file (.m) and no build artifacts, dependencies, or temp files that need to be ignored.
