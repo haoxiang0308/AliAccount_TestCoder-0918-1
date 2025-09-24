@@ -1,3 +1,24 @@
-(lambda_func_ygp43b73.py appears to be a source file, not a build artifact, dependency, or temp file)
+```
+# Compiled and build artifacts
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.optdata
+*.sln.cache
+*.userprefs
 
-Nothing to ignore.
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vs/
+.vshistory/
+```
