@@ -1,1 +1,10 @@
-Nothing to ignore - the added file is a source code file (.py) which should not be ignored.
+```
+# Logs and temp files
+*.log
+server.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
