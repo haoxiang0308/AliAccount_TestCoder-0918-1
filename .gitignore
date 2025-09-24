@@ -1,45 +1,9 @@
 ```
-# Temporary files
+# R plots and generated images
+Rplots.pdf
+*.png
+
+# Temporary and generated files
 *.tmp
-*.cr
-
-# Logs
-*.log
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-# Build artifacts
-dist/
-build/
-target/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# System files
-.DS_Store
-Thumbs.db
+*.temp
 ```
