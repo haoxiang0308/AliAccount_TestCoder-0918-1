@@ -1,19 +1,13 @@
 ```
-# Jenkins artifacts
-*.log
+#Temp files and scripts
 *.tmp
 *.swp
+*.swo
 
-# Environment
-.env
-.env.local
-.env.*
+#Backup and shell scripts
+*.sh
+!random_backup_script_12345.sh
 
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+#Logs
+*.log
 ```
