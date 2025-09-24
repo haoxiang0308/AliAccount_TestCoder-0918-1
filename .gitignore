@@ -1,1 +1,21 @@
-(empty)
+```
+# Scala build system
+.bsp/
+.scala-build/
+
+# Compiled Scala files
+*.class
+
+# IDE files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
