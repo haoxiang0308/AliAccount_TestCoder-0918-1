@@ -1,66 +1,13 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Generated from detected file changes
+# Thrift generated files
+*.thrift~
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
+# Backup and temp files
 *.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*~
 ```
+
+Wait, let me reconsider. The added file `8f710c8389e54a3e92ab2890f2a6aa62.thrift` appears to be a source file (Thrift definition file), not a build artifact or temporary file. Since it's a source code file and there are no build artifacts, dependencies, or temp files in the changes, no ignores are needed.
+
+(empty — output nothing)
