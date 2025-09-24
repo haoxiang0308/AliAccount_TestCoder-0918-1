@@ -1,1 +1,4 @@
-(todo_list_5a2f9b4e.md is just a markdown file, which is a source/config file, so nothing should be ignored)
+```
+# Query files
+query_*.sql
+```
