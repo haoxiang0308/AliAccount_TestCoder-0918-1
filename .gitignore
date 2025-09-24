@@ -1,21 +1,36 @@
 ```
-# PowerShell related
-*.ps1~
+# VBA/Office files
+*.bas
+*.vba
+*.frm
+*.cls
+*.vbs
+*.vbe
+*.bas~
+*.vba~
+*.frm~
+*.cls~
 
-#Temp files
+# Backup and temp files
+*~
 *.tmp
-*.swp
-*.swo
+*.temp
+*.bak
+*.backup
 
-#Logs
+# Compiled files
+*.dll
+*.exe
+*.obj
+*.o
+*.so
+*.a
+
+# Logs
 *.log
 
-#Environment
+# Environment
 .env
 .env.local
-*.env.*
-
-#Editors
-.vscode/
-.idea/
+.env.
 ```
