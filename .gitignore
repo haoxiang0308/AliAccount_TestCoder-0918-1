@@ -1,1 +1,25 @@
-Nothing to output - the change list contains only a source code file (MyViewController.swift) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.DS_Store
+*.sqlite3
+*.sqlite3-journal
+Thumbs.db
+```
