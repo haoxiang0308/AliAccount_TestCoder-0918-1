@@ -1,4 +1,23 @@
 ```
 # Compiled and build artifacts
-*.ex
+*.pyc
+__pycache__/
+
+# Dependencies
+chef_recipes/.chef/
+.chef/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
