@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided changes. The added file 'README_Project_Template.md' is a source/config file and no build artifacts, dependencies, or temp files are present in the changes.
+Nothing should be ignored based on the provided changes. The added file 'RandomController.cs' is a source code file that should be tracked in version control.
