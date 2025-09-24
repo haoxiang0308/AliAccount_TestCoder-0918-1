@@ -1,18 +1,1 @@
-```
-# Executables
-sort_array_12345
-
-# Compiled files
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Build directories
-build/
-dist/
-target/
-```
+Nothing should be ignored based on the provided changes. The added file `tasks_12345.md` is a markdown source file that should be tracked in version control.
