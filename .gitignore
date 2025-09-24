@@ -1,1 +1,30 @@
-Nothing to ignore - the added file 'list_files_12345.sh' is a shell script source file and should not be ignored.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Dependencies
+*.m
+*.mat
+*.fig
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# MATLAB specific
+*.fig
+*.mat
+simulink/
+slprj/
+```
