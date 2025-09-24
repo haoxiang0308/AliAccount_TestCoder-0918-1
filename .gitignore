@@ -1,1 +1,15 @@
-Nothing to output - the change list contains only a source file (ClickCounter.vue) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+```
