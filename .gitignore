@@ -1,4 +1,41 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Vue.js build artifacts
+dist/
+build/
+*.vue.d.ts
+
+# Dependencies
+node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Python artifacts (if any Python files exist)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# System files
+.DS_Store
+Thumbs.db
 ```
