@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.ex
-```
+Nothing to output - the change list contains only a source file (.py) with no build artifacts, dependencies, or temp files that need to be ignored.
