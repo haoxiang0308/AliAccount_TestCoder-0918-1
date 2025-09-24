@@ -1,5 +1,5 @@
-(ts is a source file, no build artifacts or dependencies detected)
+(book_data.json is a source data file, not a build artifact, dependency, or temp file - no ignores needed)
 
-```ts
+```json
 
 ```
