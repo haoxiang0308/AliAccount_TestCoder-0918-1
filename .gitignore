@@ -1,13 +1,43 @@
 ```
-# Generated from detected file changes
-# Thrift generated files
-*.thrift~
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-# Backup and temp files
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# Logs and temp files
+*.log
 *.tmp
-*~
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Django specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+media/
+staticfiles/
+*.log
+local_settings.py
+db.sqlite3
+.DS_Store
+Thumbs.db
 ```
-
-Wait, let me reconsider. The added file `8f710c8389e54a3e92ab2890f2a6aa62.thrift` appears to be a source file (Thrift definition file), not a build artifact or temporary file. Since it's a source code file and there are no build artifacts, dependencies, or temp files in the changes, no ignores are needed.
-
-(empty — output nothing)
