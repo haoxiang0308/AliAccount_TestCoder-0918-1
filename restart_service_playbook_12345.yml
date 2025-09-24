@@ -1,0 +1,24 @@
+---
+- name: Restart Service Playbook
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('apache2') }}"
+        state: restarted
+      notify: Verification
+
+    - name: Wait for service to be active
+      systemd:
+        name: "{{ service_name | default('apache2') }}"
+        state: started
+      register: result
+      until: result is succeeded
+      retries: 5
+      delay: 2
+
+  handlers:
+    - name: Verification
+      debug:
+        msg: "Service {{ service_name | default('apache2') }} has been restarted and is active."
