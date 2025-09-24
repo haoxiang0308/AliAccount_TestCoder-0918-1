@@ -1,3 +1,26 @@
-(restart_service_playbook_12345.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled Python files
+*.pyc
+__pycache__/
 
-(empty - output nothing)
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+```
