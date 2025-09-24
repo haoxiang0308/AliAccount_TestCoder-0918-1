@@ -1,20 +1,13 @@
 ```
-# Puppet related
-*.pp.bak
-*.pp~*
-*.rb.bak
-*.rb~*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# General temp files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
+# Tests
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 ```
