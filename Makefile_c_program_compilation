@@ -1,0 +1,25 @@
+# This is a simple Makefile to compile a C program.
+
+# The name of the executable.
+TARGET = my_program
+
+# The source file(s).
+SOURCE = main.c
+
+# The compiler to use.
+CC = gcc
+
+# Flags for the compiler.
+CFLAGS = -Wall -g
+
+# Default target: build the program.
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE)
+
+# Rule to clean up the compiled executable.
+clean:
+	rm -f $(TARGET)
+
+# Phony targets for convenience.
+.PHONY: all clean
+all: $(TARGET)
