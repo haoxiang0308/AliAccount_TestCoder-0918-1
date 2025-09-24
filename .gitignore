@@ -1,1 +1,9 @@
-Nothing should be ignored based on the provided changes. The added file `database_config.ini` appears to be a configuration file that should be tracked in version control, and there are no build artifacts, dependencies, or temporary files in the change list.
+```
+# Kubernetes manifests
+*.yaml
+*.yml
+
+# Nginx configuration
+*.conf
+nginx-k8s-manifest.yaml
+```
