@@ -1,4 +1,56 @@
 ```
-# GraphQL schema files
-schema.graphql
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
+
+# Dependency directories
+node_modules/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+julia-*/
+zig*/
 ```
