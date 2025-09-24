@@ -1,4 +1,1 @@
-```
-# Build system
-Makefile_abc123
-```
+Nothing needs to be ignored since only a Julia source file (.jl) was added without any build artifacts, dependencies, or temporary files.
