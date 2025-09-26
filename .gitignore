@@ -1,1 +1,33 @@
-Nothing needs to be ignored since the only added file is a source code file (.m) without any build artifacts, dependencies, or temporary files.
+```
+# Configuration and template files
+*.yml
+*.yaml
+
+# Serverless specific
+.serverless/
+.sls/
+.serverless_plugins/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
