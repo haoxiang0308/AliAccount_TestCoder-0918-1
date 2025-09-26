@@ -1,1 +1,36 @@
-Nothing to output - the change list contains only a source file (.js) with no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+```
