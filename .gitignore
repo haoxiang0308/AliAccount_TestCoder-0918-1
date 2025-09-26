@@ -1,5 +1,33 @@
-(book_info.xml is a source/config file, not a build artifact or temp file, so no ignores needed)
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.a
+*.so
+*.exe
 
-```text
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
 
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
