@@ -4,6 +4,7 @@
 __pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -32,19 +33,11 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Build and distribution
+# Build directories
 dist/
 build/
 target/
 .gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
 
 # Coverage
 coverage/
