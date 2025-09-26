@@ -1,3 +1,40 @@
-(nodejs-deployment.yaml is a source/config file, not a build artifact, dependency, or temp file - so no ignores needed)
+```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unitypackage
+*.userprefs
+*.pidb
+*.user
+*.suo
+*.userosscache
+*.unity-test-report
 
-(empty - output nothing)
+# Compiled files
+*.dll
+*.exe
+*.pdb
+*.meta
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
