@@ -1,5 +1,27 @@
-(todo_list_abc123.md is a markdown file, which is a source/config file, so according to rule #6, if the change list contains only source or config files and no build artifacts, dependencies, or temp files, output nothing)
+```
+# Logs
+*.log
 
-```gitignore
+# Perl
+*.pl~
 
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
