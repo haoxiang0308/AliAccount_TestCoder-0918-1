@@ -1,31 +1,45 @@
-*.class
-*.pyc
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.swp
-*.swo
-*.tmp
-*.log
-*.env
-*.env.local
-.env
-.env.local
-__pycache__/
-*.py[co]
-*$py.class
+```
+# Gradle
+.gradle/
+build/
+dist/
+target/
+
+# Dependencies
 node_modules/
 venv/
 .venv/
+__pycache__/
+*.egg-info/
+.Python
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
+
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -48,17 +62,4 @@ venv/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-.DS_Store
-Thumbs.db
-.julia/
-zig*/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-coverage/
-htmlcov/
-.coverage
-*.class
+```
