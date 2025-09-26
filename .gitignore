@@ -1,27 +1,5 @@
-```
-# Dependencies
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+(summary_stats.R is just an R source file, no build artifacts, dependencies, or temp files in the changes)
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+```gitignore
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
 ```
