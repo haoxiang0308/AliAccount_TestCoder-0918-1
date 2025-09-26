@@ -1,4 +1,1 @@
-```
-# GraphQL schema files are source code and should not be ignored
-# The added schema.graphql file is a source file, so no ignores needed
-```
+(server_abc123.js is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
