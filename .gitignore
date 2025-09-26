@@ -1,4 +1,24 @@
 ```
-# Thrift generated files
-*.thrift
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
