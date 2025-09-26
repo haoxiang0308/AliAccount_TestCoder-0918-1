@@ -1,1 +1,26 @@
-(service-config-12345.yaml is a config file, not a build artifact, dependency, or temp file - no ignores needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.out
+
+# Dependencies
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+```
