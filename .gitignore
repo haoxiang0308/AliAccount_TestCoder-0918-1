@@ -1,100 +1,25 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# VBA/Excel related
+*.tmp
 *.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+*.bak
+*.old
+*.~*
+Thumbs.db
+desktop.ini
 
-# Distribution / packaging
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-dist/
-build/
-*.egg-info/
-.eggs/
-.installed.cfg
-*.egg
-
-# Environment
-.env
-.env.local
-.env.dev
-.env.prod
-.env.backup
-.env.example
-.env.local.example
-.env.dev.example
-.env.prod.example
-.env.staging
-.env.staging.example
-.env.test
-.env.test.example
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# System files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
