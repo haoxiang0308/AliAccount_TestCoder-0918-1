@@ -1,5 +1,4 @@
-(crystal_queue_7894.py is a source file, so no .gitignore rules needed)
-
-```python
-
+```
+# API response data files
+api_response_data_*.json
 ```
