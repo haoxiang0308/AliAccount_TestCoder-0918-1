@@ -1,31 +1,36 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+*.class
+*.dex
+*.so
+*.aar
+*.apk
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+build/
+.gradle/
+local.properties
+
+# Editors
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Distribution and build directories
-dist/
-build/
-target/
+# System files
+.DS_Store
+Thumbs.db
 ```
