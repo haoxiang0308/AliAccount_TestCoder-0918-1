@@ -1,41 +1,5 @@
-```
-# Compiled Python files
-*.pyc
-__pycache__/
+(book_data.xml is a source data file, not a build artifact, dependency, or temp file - so no ignores needed)
 
-# Dependencies
-.venv/
-venv/
-pip-log.txt
-pip-delete-this-directory.txt
+```xml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage reports
-.coverage
-htmlcov/
-coverage/
-
-# Distribution / packaging
-dist/
-build/
-*.egg
-*.egg-info/
-*.whl
-MANIFEST
 ```
