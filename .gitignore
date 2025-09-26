@@ -1,4 +1,1 @@
-```
-# Thrift generated files
-*.thrift
-```
+Nothing to ignore - the added file 'MyViewController.swift' is a source code file that should be tracked in version control.
