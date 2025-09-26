@@ -1,19 +1,15 @@
 ```
-# VBA specific ignores
+# Compiled and build artifacts
+*.o
 *.obj
-*.tlb
-*.frx
-*.vbw
-*.vba~
+*.out
 
-# Backup files
-*.bak
-*~
-
-# Temp files
-*.tmp
-*.temp
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Swap files
+*swap_output_*.txt
+swap_program
 ```
