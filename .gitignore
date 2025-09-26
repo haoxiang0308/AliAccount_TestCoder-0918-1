@@ -1,5 +1,1 @@
-(book_generator.py and gtyznbsy.xml are source/config files, no build artifacts, dependencies, or temp files detected)
-
-```python
-
-```
+Nothing to ignore - the added file `word_freq_counter.pl` is a Perl source code file and no build artifacts, dependencies, or temporary files are present in the changes.
