@@ -1,5 +1,1 @@
-(postgres_script_7392.py is a source file, so no .gitignore rules needed)
-
-```python
-
-```
+Nothing should be ignored based on the provided file changes, as they are only source code files (.py files) without any build artifacts, dependencies, or temporary files.
