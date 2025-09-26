@@ -1,1 +1,51 @@
-(empty)
+```
+# Elixir specific ignores
+*.beam
+*.ez
+ebin/
+_build/
+deps/
+cover/
+.erlang.cookie
+*.dump
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
