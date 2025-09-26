@@ -1,33 +1,10 @@
 ```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.o
-*.a
-*.so
-*.exe
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Build artifacts
-_build/
-_dbuild/
-*.native
-*.byte
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
+# Configuration files that might contain sensitive data
+*config*.ini
+db_config_*.ini
 ```
