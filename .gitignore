@@ -1,4 +1,21 @@
-```
-# Thrift generated files
-*.thrift
-```
+*.jpg
+*.pyc
+__pycache__/
+*.log
+*.tmp
+*.swp
+.env
+.env.local
+.vscode/
+.idea/
+node_modules/
+venv/
+.venv/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
