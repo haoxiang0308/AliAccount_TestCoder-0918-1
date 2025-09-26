@@ -1,1 +1,16 @@
-Nothing to ignore - the added file 'mongo_insert_script.py' is a source code file that should be tracked in version control.
+```
+# Julia-specific compiled files
+*.ji
+*.so
+
+# Julia installation directory
+julia-1.9.4/
+
+# Compressed archives
+*.tar
+*.tar.gz
+*.gz
+
+# Temporary matrix operation files
+matrix_operations_*.jl
+```
