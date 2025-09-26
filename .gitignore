@@ -1,24 +1,42 @@
 ```
-# Dependencies
-.dart_tool/
-.packages
-pubspec.lock
-
 # Compiled and build artifacts
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.o
+*.out
+*.pyc
+*.class
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 build/
 dist/
-*.so
-*.dylib
-*.dll
+*.egg-info/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
@@ -26,7 +44,7 @@ dist/
 *.swp
 *.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
