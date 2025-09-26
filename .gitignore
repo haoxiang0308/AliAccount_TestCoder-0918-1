@@ -1,17 +1,19 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-target/
-build/
+*.o
+*.obj
+*.hi
+*.chi
+*.chs.h
+*.hie
+*.dump-symbols
 
 # Dependencies
-lib/
-project/target/
-.mvn/
-.gradle/
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
 
 # Logs and temp files
 *.log
@@ -21,17 +23,8 @@ project/target/
 # Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-*.ipr
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Scala specific
-*.tasty
-*.scala_dependencies
-.bsp/
-metals.sbt
 ```
