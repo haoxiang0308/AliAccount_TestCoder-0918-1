@@ -1,1 +1,4 @@
-Nothing should be ignored since the added file `sine_wave_plot_12345.m` is a source code file (MATLAB/Octave script) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Configuration backup files
+config_*.toml
+```
