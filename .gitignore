@@ -1,1 +1,1 @@
-(book_data.json is a source data file, not a build artifact or temporary file, so no .gitignore rules are needed)
+Nothing should be ignored since the added file `mutation_create_user.graphql` is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
