@@ -1,1 +1,21 @@
-(empty)
+```
+# Logs
+*.log
+error.log
+
+# Perl
+*.pl~
+
+#Temp files
+*.tmp
+*.swp
+*.swo
+
+#Editor/IDE
+.vscode/
+.idea/
+
+#System
+.DS_Store
+Thumbs.db
+```
