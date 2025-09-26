@@ -1,28 +1,55 @@
 ```
 # Compiled and build artifacts
-*.ji
+*.pyc
+__pycache__/
+*.class
 *.o
-*.so
-*.dylib
+*.obj
+*.exe
 *.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.julia/
-*.julia_project
-*.julia_environment
-
-# Editors
-.julia/
-.repl_history.jl
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Editors
+.vscode/
+.idea/
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
