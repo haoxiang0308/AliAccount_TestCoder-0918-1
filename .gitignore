@@ -1,13 +1,5 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+(service_config_5b7a1d.yaml is a config file, not a build artifact or temp file, so no ignores needed)
 
-# Tests
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
+```yaml
+
 ```
