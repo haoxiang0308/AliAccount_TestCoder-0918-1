@@ -1,1 +1,16 @@
-(empty)
+```
+# VBA files
+*.vba
+
+# Backup files
+*.bak
+*.~*
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
