@@ -1,4 +1,1 @@
-```
-# Thrift generated files
-*.thrift
-```
+Nothing should be ignored based on the provided changes. The only added file is `array_operations.jl` which is a source code file and should not be ignored.
