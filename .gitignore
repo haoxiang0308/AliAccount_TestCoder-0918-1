@@ -1,13 +1,1 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Tests
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-```
+(service_config_5839.yaml is a config file, not a build artifact or temp file, so no ignores needed)
