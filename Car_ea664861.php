@@ -1,0 +1,1 @@
+<?php class Car { public function start() { echo "The car is starting...\n"; } } ?>
