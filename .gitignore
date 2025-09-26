@@ -1,16 +1,1 @@
-```
-# VBA files
-*.vba
-
-# Backup files
-*.bak
-*.~*
-*~
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
-```
+Nothing should be ignored based on the provided changes. The added file `db_connect_9847.php` appears to be a source code file that should be tracked in version control.
