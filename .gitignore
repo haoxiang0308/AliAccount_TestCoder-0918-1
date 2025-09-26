@@ -1,40 +1,72 @@
 ```
-# Unity specific ignores
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-*.unitypackage
-*.userprefs
-*.pidb
-*.user
-*.suo
-*.userosscache
-*.unity-test-report
-
 # Compiled files
-*.dll
+*.class
+*.pyc
+*.o
+*.obj
 *.exe
-*.pdb
-*.meta
+*.dll
+*.so
+*.a
+*.out
 
-# Logs
-*.log
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Environment
-.env
-.env.local
-*.env.*
+# Build artifacts
+dist/
+build/
 
-# Editor/IDE
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *.tmp
 
-# OS specific
+# System files
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
