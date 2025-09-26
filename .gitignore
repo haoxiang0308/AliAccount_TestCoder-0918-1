@@ -1,32 +1,27 @@
 ```
-# SQL query files
-*.sql
+# Configuration and deployment files
+*.yaml
+*.yml
 
-# Database related
-*.db
-*.sqlite
-*.sqlite3
+# Kubernetes/OpenShift artifacts
+*.yaml
+*.yml
+*.json
 
 # Logs and temp files
 *.log
 *.tmp
-*.temp
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
-
-# Backup files
-*~
-*.bak
-*.backup
 ```
