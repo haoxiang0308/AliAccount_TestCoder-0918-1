@@ -1,3 +1,36 @@
-(restart_service_playbook_12345.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Generated from file changes
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-(empty - output nothing)
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Build directories
+dist/
+build/
+target/
+```
