@@ -1,1 +1,9 @@
-Nothing should be ignored based on the provided changes. The only added file is `HelloWorld.scala`, which is a source code file and should not be ignored.
+```
+# Executables
+cpp_programs/find_max
+
+# Temporary files
+*.txt
+!*.txt  # Keep source .txt files, only ignore generated ones like max_result_*.txt
+max_result_*.txt
+```
