@@ -1,39 +1,10 @@
+```toml
+# Configuration file
+app_settings.toml
 ```
-# Database files
-*.db
-*.sqlite
-*.sqlite3
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.python-version
-*.so
+Wait, I need to reconsider. The file `app_settings.toml` is a source/config file that was added, and according to rule #6, if the change list contains only source or config files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
 
-# Logs
-*.log
+Since `app_settings.toml` is a configuration file (not a build artifact, dependency, or temp file), and there are no other types of files in the changes that need ignoring, the output should be empty.
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-*.temp
-```
+(app_settings.toml is a source/config file, so it should not be ignored - it should be version controlled)
