@@ -1,47 +1,4 @@
 ```
-# Dependencies
-node_modules/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-dist/
-build/
-target/
-*.js
-*.ts
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# GraphQL schema files are source code - don't ignore them
+# schema.graphql should be version controlled as it's an added source file
 ```
