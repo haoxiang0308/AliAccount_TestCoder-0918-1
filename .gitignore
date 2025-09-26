@@ -1,8 +1,39 @@
 ```
+# Erlang/OTP specific
+*.beam
+*.app
+*.app.src
+ebin/
+deps/
+_build/
+
+# Common build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
 # Dependencies
 node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Logs
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 *.log
 
 # Environment
@@ -10,53 +41,10 @@ node_modules/
 .env.local
 *.env.*
 
-# Editor
-.vscode/
-.idea/
-
-# Temp files
-*.tmp
-*.swp
-
-# Build artifacts
-dist/
-build/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-.venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
+# Coverage
+coverage/
+htmlcov/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
 
 # Compressed files
 *.zip
