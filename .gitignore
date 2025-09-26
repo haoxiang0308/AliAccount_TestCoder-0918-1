@@ -1,22 +1,19 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.mex*
 *.o
 *.obj
-*.exe
 *.dll
 *.so
-*.class
+*.a
+*.lib
 *.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+*.m
+*.mat
+*.fig
+*.p
 
 # Logs and temp files
 *.log
@@ -31,33 +28,4 @@ venv/
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
