@@ -1,15 +1,21 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.rel
-ebin/
-_build/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Dependencies
-rebar3/
-.erlang.cookie
+# Temporary files
+*.tmp
+*.temp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
 
 # Editors
 .vscode/
@@ -17,12 +23,13 @@ rebar3/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
+# Dependencies
+venv/
+.venv/
+node_modules/
 
-# Environment
-.env
-.env.local
-*.env.*
+# Build artifacts
+dist/
+build/
+target/
 ```
