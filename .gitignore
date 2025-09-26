@@ -1,1 +1,61 @@
-Nothing should be ignored since only a source code file (.adb) was added.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.bin
+*.hex
+*.vcd
+*.fst
+*.ghw
+*.vvp
+
+# Dependencies and build directories
+build/
+dist/
+lib/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+*.~
+*~
+
+# Simulation and synthesis tools
+*.pb
+*.jou
+*.str
+*.d
+*.depend
+*.cmd
+*.hbs
+*.hbsdb
+*.sim
+*.simx
+*.pvl
+*.dsn
+*.prj
+*.xise
+*.xmsgs
+*.xrpt
+*.ngc
+*.ngd
+*.bit
+*.mcs
+*.elf
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.un~
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+```
