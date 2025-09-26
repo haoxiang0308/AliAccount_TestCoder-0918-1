@@ -1,5 +1,30 @@
-(book_generator.py and gtyznbsy.xml are source/config files, no build artifacts, dependencies, or temp files detected)
+```
+# Puppet related
+*.pp.bak
+*.rb.bak
+.r10k-*
+.r10k.yml
 
-```python
+# General temp files
+*.tmp
+*.bak
+*~
 
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
