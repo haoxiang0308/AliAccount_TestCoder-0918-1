@@ -1,36 +1,52 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.tsbuildinfo
-dist/
-build/
-out/
-lib/
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
-# Dependencies
-node_modules/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.python-version
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
-# Editors
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.
+*.env.*
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
+# Build/dist
+dist/
+build/
+*.egg-info/
+.coverage
 htmlcov/
-*.coverage
-
-# OS
-.DS_Store
-Thumbs.db
+coverage/
 ```
