@@ -1,1 +1,1 @@
-Nothing should be ignored since only source code files (.cpp and .h) were added.
+(service-config-12345.yaml is a config file, not a build artifact, dependency, or temp file - no ignores needed)
