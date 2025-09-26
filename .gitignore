@@ -1,1 +1,28 @@
-Nothing to output - the change list contains only a source file (.lua) which should not be ignored.
+```
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+*.rel
+ebin/
+_build/
+
+# Dependencies
+rebar3/
+.erlang.cookie
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
