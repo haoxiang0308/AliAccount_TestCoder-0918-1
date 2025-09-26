@@ -1,5 +1,27 @@
-(book_data_8472.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data for the project, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
 
-```json
+# Dependencies
+octave-workspace
+*.mat
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
