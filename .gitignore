@@ -1,1 +1,4 @@
-Nothing should be ignored since only a VBA macro file (.vba) was added, which is source code.
+```
+# GraphQL schema files are source code and should not be ignored
+# The added schema.graphql file is a source file, so no ignores needed
+```
