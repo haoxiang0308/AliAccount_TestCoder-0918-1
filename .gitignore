@@ -1,1 +1,28 @@
-Nothing should be ignored based on the provided changes, as only a source file (WelcomeMessage.jsx) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+.julia/
+*.julia_project
+*.julia_environment
+
+# Editors
+.julia/
+.repl_history.jl
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
