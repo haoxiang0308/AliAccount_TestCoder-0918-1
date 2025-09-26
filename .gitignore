@@ -1,1 +1,26 @@
-Nothing to ignore - only a Ruby source file was added.
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+.julia-*/ 
+deps/
+test/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.julia_scratch/
+.repl_history.jl
+
+# System
+.DS_Store
+Thumbs.db
+```
