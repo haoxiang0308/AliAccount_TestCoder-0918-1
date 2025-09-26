@@ -1,1 +1,1 @@
-Nothing to ignore - the added file `check_memory.sh` is a shell script source file and should be tracked in version control.
+Nothing should be ignored since the added file `adder_4bit.v` is a source code file (Verilog file) and there are no build artifacts, dependencies, or temporary files in the changes.
