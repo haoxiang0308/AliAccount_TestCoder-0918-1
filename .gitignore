@@ -1,80 +1,49 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# Docker-related
+Dockerfile*
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Editor/IDE files
-.vscode/
-.idea/
-
-# Python
-__pycache__/
+# Compiled files
 *.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-.mypy_cache/
-.pytest_cache/
-.coverage
-htmlcov/
-coverage/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-dist/
-build/
-*.min.js
-*.min.css
-
-# Java
 *.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-
-# C/C++
 *.o
+*.exe
+*.dll
+*.so
 *.a
-*.so
-*.dll
-*.exe
-*.out
 *.obj
+*.out
 
-# Go
-*.exe
-*.dll
-*.so
-*.o
-
-# Rust
-target/
-
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
