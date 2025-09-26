@@ -1,1 +1,1 @@
-Nothing should be ignored since only a Python source file (`connect_to_postgres.py`) was added, which is a source code file that should be tracked in version control.
+Nothing should be ignored since only a source file (`test_file.txt`) was added without any build artifacts, dependencies, or temporary files.
