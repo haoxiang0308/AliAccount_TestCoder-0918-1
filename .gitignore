@@ -1,30 +1,9 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
-
-# Dependencies
-Pods/
-Carthage/
-.xcodeproj/
-xcuserdata/
-DerivedData/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
+temp_*.txt
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
+# GraphQL schema files (if auto-generated)
+*.graphql
+schema_*.graphql
 ```
