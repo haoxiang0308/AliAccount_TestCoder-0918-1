@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source/config file (.hcl) was added without any build artifacts, dependencies, or temp files.
+Nothing needs to be ignored since the only added file is a source code file (.m) without any build artifacts, dependencies, or temporary files.
