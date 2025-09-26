@@ -1,34 +1,9 @@
 ```
-# Binary/compiled files
-*.ex
+# Image files
+*.png
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# System files
-.DS_Store
-Thumbs.db
+# R environment
+.Rhistory
+.RData
+.Rproj.user/
 ```
