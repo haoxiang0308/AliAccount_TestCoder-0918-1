@@ -1,5 +1,24 @@
-(database_config.ini is a config file, not a build artifact or temp file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-```text
+# Dependencies
+.crystal/
+lib/
+deps/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
