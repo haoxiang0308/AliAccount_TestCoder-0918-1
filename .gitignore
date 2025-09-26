@@ -1,1 +1,16 @@
-(empty)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Executables
+find_max
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
