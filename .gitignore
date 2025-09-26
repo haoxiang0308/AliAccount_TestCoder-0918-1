@@ -1,5 +1,31 @@
-(book_generator.py and gtyznbsy.xml are source/config files, no build artifacts, dependencies, or temp files detected)
+```
+# Compiled and build artifacts
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.o
+*.obj
+*.out
 
-```python
+# Dependencies
+.nimble/
+nimcache/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
