@@ -1,5 +1,7 @@
-(person_12345.rb is a source code file, so no .gitignore rules needed)
-
-```ruby
-
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+sort_program
 ```
