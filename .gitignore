@@ -1,5 +1,35 @@
-(button_styles_12345.css is a source file, not a build artifact or dependency, so no ignores are needed)
+```
+# VBA specific ignores
+*.bas.bak
+*.vba.bak
+*.frx
 
-```css
+# Scripts and executables
+*.sh.bak
+*.bat.bak
+*.exe
+*.dll
+*.so
 
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment and config
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
 ```
