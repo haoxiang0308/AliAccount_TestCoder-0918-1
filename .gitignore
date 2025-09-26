@@ -1,42 +1,55 @@
 ```
-# Executables
-sort_array_12345
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.local
+env.bak/
+venv.bak/
 
-# Compiled files
-*.o
-*.obj
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swo
+*.swn
+
+# Build artifacts
+dist/
+build/
 *.out
 *.exe
 *.dll
 *.so
 *.a
-
-# Build directories
-build/
-dist/
+*.class
 target/
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
+.gradle/
 .mypy_cache/
 .pytest_cache/
-.gradle/
 ```
