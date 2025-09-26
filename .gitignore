@@ -1,27 +1,43 @@
 ```
-# Logs
+# Compiled and build artifacts
+*.dll
+*.exe
+*.obj
+*.pdb
+*.sln
+*.user
+*.userosscache
+*.suo
+*.cache
+*.nupkg
+*.snupkg
+[TestContext].xml
+
+# Dependencies
+packages/
+bin/
+obj/
+out/
+
+# Logs and temp files
 *.log
-
-# Perl
-*.pl~
-
-# Temp files
 *.tmp
-*.swp
-*.swo
+*.temp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 
 # Editors
+.vs/
 .vscode/
-.idea/
-*.swp
-*.swo
+*.userprefs
+*.useroptions
 
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
 ```
