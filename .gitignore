@@ -1,51 +1,50 @@
 ```
-# Logs
-*.log
-
-# Java/Scala build artifacts
-*.class
-*.jar
-*.war
-*.ear
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
+*.exe
+*.dll
 *.so
 *.a
-*.dll
-*.exe
+*.out
 
 # Dependencies
-lib/
-target/
-build/
-dist/
-node_modules/
-venv/
 .venv/
-__pycache__/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
 *.egg-info/
 
-# IDE and editor files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
-
-# Environment files
-.env
-.env.local
-*.env.*
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
 
 # Compressed files
 *.zip
@@ -70,7 +69,4 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Specific to the log file found
-hs_err_pid*.log
 ```
