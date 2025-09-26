@@ -1,30 +1,35 @@
 ```
-# Puppet related
-*.pp.bak
-*.rb.bak
-.r10k-*
-.r10k.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-# General temp files
-*.tmp
-*.bak
-*~
+# Dependencies
+.venv/
+venv/
 
-# Logs
+# Logs and temp files
 *.log
-
-# Editor/IDE files
-.vscode/
-.idea/
+*.tmp
 *.swp
-*.swo
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
 ```
