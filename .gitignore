@@ -1,27 +1,12 @@
 ```
-# Dependencies
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Temporary shell scripts
+*.sh
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
+*.log
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
