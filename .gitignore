@@ -1,1 +1,24 @@
-Nothing should be ignored based on the provided changes. The added file `find_email_98765.pl` is a Perl source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.crystal/
+lib/
+bin/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
