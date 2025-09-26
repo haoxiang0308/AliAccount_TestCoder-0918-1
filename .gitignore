@@ -1,40 +1,33 @@
 ```
-# Unity specific ignores
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-*.unitypackage
-*.userprefs
-*.pidb
-*.user
-*.suo
-*.userosscache
-*.unity-test-report
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Compiled files
-*.dll
-*.exe
-*.pdb
-*.meta
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# OS specific
-.DS_Store
-Thumbs.db
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+
+# Distribution artifacts
+dist/
+build/
+*.egg-info/
 ```
