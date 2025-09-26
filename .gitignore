@@ -1,14 +1,12 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+*.plc
+*.plx
+*.pmc
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+lib/
+local/
 
 # Logs and temp files
 *.log
@@ -18,30 +16,20 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Backup files
-*~
-*.bak
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Perl-specific
+__pycache__/
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+*~
 ```
