@@ -1,1 +1,7 @@
-Nothing should be ignored since only a single Lua source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+swap_program
+```
