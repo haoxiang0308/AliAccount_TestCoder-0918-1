@@ -1,1 +1,11 @@
-Nothing should be ignored based on the provided file changes, as they are only source code files (.py files) without any build artifacts, dependencies, or temporary files.
+```
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
+```
