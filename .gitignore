@@ -1,4 +1,1 @@
-```
-# GraphQL schema files are source code and should not be ignored
-# The added schema.graphql file is a source file, so no ignores needed
-```
+Nothing should be ignored based on the provided changes. The added file `find_email_98765.pl` is a Perl source code file that should be tracked in version control.
