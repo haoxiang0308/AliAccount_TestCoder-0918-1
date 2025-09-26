@@ -1,21 +1,16 @@
-*.jpg
-*.pyc
-__pycache__/
+```
+# Compiled files
+*.class
+
+# Dependencies
+target/
+build/
+
+# Logs and temp files
 *.log
 *.tmp
-*.swp
-.env
-.env.local
+
+# Editors
 .vscode/
 .idea/
-node_modules/
-venv/
-.venv/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-htmlcov/
-.coverage
+```
