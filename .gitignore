@@ -1,1 +1,36 @@
-Nothing should be ignored since only a Ruby source file (.rb) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.ts.map
+
+# Temporary files
+*.tmp
+*.temp
+```
