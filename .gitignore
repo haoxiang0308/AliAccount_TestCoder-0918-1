@@ -1,21 +1,44 @@
 ```
-# Elixir specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-deps/
-cover/
-.erlang.cookie
-*.dump
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Archives
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
 *.zip
-*.tar
-*.tar.gz
-*.tar.bz2
-*.tar.xz
 *.gz
+*.tar
+*.tgz
 *.bz2
 *.xz
 *.7z
@@ -30,22 +53,8 @@ cover/
 *.Z
 *.lz
 *.lzo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
