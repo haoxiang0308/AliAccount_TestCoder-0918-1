@@ -1,1 +1,30 @@
-(ts is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.swo
+*.swp
+
+# Dependencies
+Pods/
+Carthage/
+.xcodeproj/
+xcuserdata/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+```
