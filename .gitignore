@@ -1,25 +1,24 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
 *.a
+*.so
+*.dll
+*.exe
 *.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
 target/
 .gradle/
-.mypy_cache/
-.pytest_cache/
 
 # Logs and temp files
 *.log
@@ -40,12 +39,7 @@ target/
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
