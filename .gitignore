@@ -1,1 +1,28 @@
-(circle_area_func_12345.lua is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# iOS/Mac build artifacts
+*.app
+*.ipa
+*.dSYM/
+build/
+DerivedData/
+
+# Swift compilation
+*.swiftmodule
+*.swiftdoc
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+xcuserdata/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+```
