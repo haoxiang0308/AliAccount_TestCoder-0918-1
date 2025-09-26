@@ -1,1 +1,65 @@
-Nothing should be ignored based on the provided file changes, as they are only source code files (.py files) without any build artifacts, dependencies, or temporary files.
+```
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.cjs
+.pnp.loader.mjs
+
+# Build outputs
+dist/
+build/
+coverage/
+.nyc_output/
+out/
+.output/
+.bundle/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+*.tsx
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+._*
+
+# Compiled JavaScript
+*.js.map
+*.mjs.map
+
+# Runtime data
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+```
