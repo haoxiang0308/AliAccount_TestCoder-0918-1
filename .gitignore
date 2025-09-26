@@ -1,5 +1,19 @@
-(server_xk92m.go is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# VBA specific ignores
+*.obj
+*.tlb
+*.frx
+*.vbw
+*.vba~
 
-```go
+# Backup files
+*.bak
+*~
 
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
 ```
