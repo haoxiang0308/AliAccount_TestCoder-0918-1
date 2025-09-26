@@ -1,8 +1,1 @@
-```
-# Kubernetes and deployment
-*.yaml
-*.yml
-
-# If deployment.yaml is generated/configured, preserve it
-!deployment.yaml
-```
+Nothing to output - the change list contains only a source code file (.adb) which should not be ignored.
