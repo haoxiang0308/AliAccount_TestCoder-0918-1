@@ -1,8 +1,1 @@
-```
-# Kubernetes and deployment
-*.yaml
-*.yml
-
-# If deployment.yaml is generated/configured, preserve it
-!deployment.yaml
-```
+Nothing should be ignored since only a source file (.py) was added and no build artifacts, dependencies, or temporary files are present in the changes.
