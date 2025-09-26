@@ -1,1 +1,20 @@
-Nothing to output - the change list contains only a source file (mongo_insert_script.py) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Temporary files
+*.tmp
+*.txt
+
+# Environment and config
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Memory usage files
+memory_usage_*.txt
+```
