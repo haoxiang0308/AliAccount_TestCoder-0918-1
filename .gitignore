@@ -1,47 +1,27 @@
 ```
-# Dependencies
-node_modules/
-
-# Editor/IDE files
-.vscode/
-.idea/
+#Temp files
+*.tmp
 *.swp
 *.swo
-*.tmp
 
-# Logs
-*.log
+#Build artifacts
+*.o
+*.obj
+*.out
 
-# Environment
+#Environment
 .env
 .env.local
 *.env.*
 
-# Build artifacts
-dist/
-build/
-target/
-*.js
-*.ts
+#Editors
+.vscode/
+.idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-pip-log.txt
-pip-delete-this-directory.txt
+#Logs
+*.log
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+#Backup files
+*~
+.#*
 ```
