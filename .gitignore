@@ -1,3 +1,30 @@
-(graphql_mutation_createUser_28473.graphql is a source file, no build artifacts, dependencies, or temp files detected in changes)
+```
+# Compiled and build artifacts
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
 
-(empty — output nothing)
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
+
+# Editors
+.vs/
+.vim/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
