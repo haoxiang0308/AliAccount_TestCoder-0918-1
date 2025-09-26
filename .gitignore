@@ -1,3 +1,23 @@
-(groovy_closure_1758881006607712685.groovy is a source code file, so it should not be ignored)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-(empty — output nothing)
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
