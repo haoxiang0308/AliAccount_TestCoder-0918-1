@@ -1,5 +1,36 @@
-(summary_stats.R is just an R source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+_build/
 
-```gitignore
+# Dependencies
+deps/
+node_modules/
+venv/
+.venv/
 
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+cover/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
 ```
