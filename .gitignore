@@ -1,19 +1,57 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled files
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.out
 
-# Logs and temp files
+# Dependencies
+packages/
+lib/
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
+
+# Build artifacts
+bin/
+obj/
+Debug/
+Release/
+build/
+dist/
+target/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.userprefs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
 *.log
 *.tmp
-*.swp
+*.temp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+Icon?
 ```
