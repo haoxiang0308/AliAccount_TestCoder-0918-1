@@ -1,21 +1,5 @@
-```
-# Compiled and build artifacts
-*.rs.bk
-target/
+(project_README_1758947581544988455.md is a source file, not a build artifact or temp file, so no ignores needed)
 
-# Dependencies
-Cargo.lock
+```markdown
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
