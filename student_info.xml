@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <name>Alexey Petrov</name>
+    <id>12345</id>
+    <major>Computer Science</major>
+    <year>3</year>
+</student>
