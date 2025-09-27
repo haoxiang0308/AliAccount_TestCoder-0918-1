@@ -1,33 +1,22 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
-*.o
-*.obj
-
-# Dependencies
-_dune/
-.opam/
-esy.lock/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Temporary shell scripts
+*.sh~
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
