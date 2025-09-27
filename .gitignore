@@ -1,1 +1,1 @@
-Nothing to ignore - the added file 'hello.adb' is a source code file (.adb extension is for Ada source files) and there are no build artifacts, dependencies, or temporary files in the changes.
+Nothing should be ignored based on the provided file changes. The added files are Python source files (.py) which are source code and should not be ignored.
