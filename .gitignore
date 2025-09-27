@@ -1,10 +1,17 @@
 ```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
@@ -23,7 +30,6 @@ venv/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
@@ -38,15 +44,23 @@ coverage/
 htmlcov/
 .coverage
 
-# Build directories
+# Distribution / packaging
 dist/
 build/
-target/
-.gradle/
+*.tar.gz
+*.whl
+*.egg
+*.egg-info/
 
-# Python specific
+# MyPy
 .mypy_cache/
+
+# PyTest
 .pytest_cache/
+
+# Gradle
+.gradle/
+target/
 
 # Compressed files
 *.zip
