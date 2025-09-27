@@ -1,0 +1,14 @@
+# Конфигурация приложения
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+url = "postgresql://user:password@localhost/mydb"
+max_connections = 20
+
+[logging]
+level = "info"
+output = "stdout"
