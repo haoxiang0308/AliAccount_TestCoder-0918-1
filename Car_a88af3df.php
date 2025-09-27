@@ -1,0 +1,2 @@
+<?php
+class Car {\n    private string $brand;\n    private string $model;\n\n    public function __construct(string $brand, string $model) {\n        $this->brand = $brand;\n        $this->model = $model;\n    }\n\n    public function start(): void {\n        echo "The {$this->brand} {$this->model} is starting...\n";\n    }\n}\n
