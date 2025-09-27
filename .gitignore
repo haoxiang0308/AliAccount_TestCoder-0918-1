@@ -1,74 +1,50 @@
 ```
-# CI/CD
-.github/
+# API output files
+api_output_*.json
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Python compiled files
+*.pyc
+__pycache__/
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
-.coverage
+*.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.dist-info/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
