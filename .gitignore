@@ -1,1 +1,22 @@
-(connect_to_postgres.py is a source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Dependencies
+.julia/
+*.jl.cov
+*.jl.mem
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.julia_scratch/
+```
