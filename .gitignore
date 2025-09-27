@@ -1,19 +1,29 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+.opam/
+.dune/
+_build/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
