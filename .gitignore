@@ -1,12 +1,11 @@
 ```
-# Puppet related
-**/manifests/.tmp/
-**/modules/.tmp/
-**/spec/fixtures/modules/.tmp/
+# Dependencies
+node_modules/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
 
 # Logs
 *.log
@@ -14,57 +13,65 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.swp
-*.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
+# Editor/IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Build artifacts and dependencies
-node_modules/
-venv/
-.venv/
+# Build artifacts
+dist/
+build/
+target/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.class
+.Python
+venv/
+.venv/
+.env
+
+# Compiled files
 *.o
 *.obj
 *.so
+*.a
 *.dll
 *.exe
 *.out
 
-# Distribution and build directories
-dist/
-build/
-target/
-*.tar
-*.tar.gz
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
+*.tar
+*.tgz
 *.bz2
 *.xz
 *.7z
 *.rar
 *.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# System files
+.DS_Store
+Thumbs.db
 ```
