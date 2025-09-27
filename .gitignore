@@ -1,24 +1,34 @@
 ```
-# Compiled and build artifacts
+# Executables
+ownership_demo_e4f7a2
+
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Compiled files
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-target/
 .gradle/
+target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -29,7 +39,7 @@ target/
 .vscode/
 .idea/
 
-# System files
+# System
 .DS_Store
 Thumbs.db
 
@@ -57,8 +67,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
