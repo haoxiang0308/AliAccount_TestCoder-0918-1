@@ -1,1 +1,30 @@
-Nothing should be ignored since only a Perl source file (.pl) was added without any build artifacts, dependencies, or temporary files.
+```
+# Ada build artifacts
+*.adb~
+*.ads~
+*.ali
+*.o
+*.obj
+
+# Dependencies
+build/
+dist/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+```
