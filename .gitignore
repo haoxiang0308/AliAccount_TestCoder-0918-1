@@ -1,10 +1,15 @@
 ```
 # Compiled and build artifacts
-*.rs.bk
-*.rs~
-target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
+target/
 Cargo.lock
 
 # Logs and temp files
@@ -12,18 +17,12 @@ Cargo.lock
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Rust specific
-**/*.rs.bk
-**/*.rs~
 ```
