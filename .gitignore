@@ -1,36 +1,23 @@
 ```
-# Compiled and build artifacts
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-bin/
-obj/
+# Kubernetes and deployment artifacts
+*.yaml
+*.yml
 
-# Dependencies
-packages/
-lib/
+# Environment and config
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.suo
-*.user
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
