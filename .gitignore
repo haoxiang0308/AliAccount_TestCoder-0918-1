@@ -1,15 +1,36 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
+# Compiled and build artifacts
+*.exe
+*.dll
+*.so
+*.a
+*.obj
 *.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+bin/
+obj/
+
+# Dependencies
+packages/
+lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.userprefs
+*.suo
+*.user
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
