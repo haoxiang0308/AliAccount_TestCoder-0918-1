@@ -1,17 +1,23 @@
 ```
-# Zig build artifacts and tools
-zig-*/
-tmp*.zig
-
-# Dependencies and build directories
-build/
-dist/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.a
-*.so
-*.dll
+*.class
 *.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -19,20 +25,18 @@ dist/
 *.swp
 *.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -57,40 +61,4 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Coverage reports
-coverage/
-htmlcov/
-
-# Python artifacts (if any Python in project)
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-
-# Rust artifacts (if any Rust in project)
-target/
-Cargo.lock
-
-# Go artifacts (if any Go in project)
-*.out
-
-# Java artifacts (if any Java in project)
-*.class
-*.jar
-*.war
-*.ear
-
-# Node.js artifacts (if any Node.js in project)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Julia artifacts (if any Julia in project)
-julia-*/
-
-# Gradle (if any Gradle in project)
-.gradle/
-
 ```
