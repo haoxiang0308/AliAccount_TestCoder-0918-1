@@ -1,17 +1,4 @@
 ```
-# Thrift generated files
-*.py
-*.js
-*.java
-*.go
-*.rb
-*.php
-*.cpp
-*.c
-*.h
-*.m
-*.swift
-*.html
-*.st
-gen-*/
+# Query files
+query_*.sql
 ```
