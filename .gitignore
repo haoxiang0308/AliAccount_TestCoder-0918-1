@@ -1,13 +1,25 @@
 ```
 # Compiled and build artifacts
-*.class
+*.ex
+*.exe
+*.dll
+*.so
 *.o
 *.obj
 *.out
+*.class
+*.pyc
+__pycache__/
+*.pyc
+*.pyo
 
 # Dependencies
-target/
-.libs/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -18,12 +30,8 @@ target/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
+# Build directories
+dist/
+build/
+target/
 ```
