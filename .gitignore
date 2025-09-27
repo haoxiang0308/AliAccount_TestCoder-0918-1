@@ -1,1 +1,69 @@
-(connect_to_postgres.py is a source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+vendor/bundle/
+.bundle/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Build and distribution
+build/
+dist/
+*.so
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.out
+
+# Python (if any Python tools used in Chef environment)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.gitignore
+```
