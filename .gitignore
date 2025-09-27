@@ -1,1 +1,24 @@
-Nothing should be ignored since only a source/config file (student_info.xml) was added without any build artifacts, dependencies, or temp files.
+```
+# Compiled and build artifacts
+*.beam
+*.app
+*.ez
+
+# Dependencies
+_deps/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Erlang-specific
+ebin/
+include/
+priv/
+```
