@@ -1,11 +1,10 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
+# Node.js/JavaScript build artifacts
+*.js.map
+*.min.js
+dist/
+build/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -21,7 +20,7 @@ vendor/
 .vscode/
 .idea/
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
