@@ -1,70 +1,27 @@
 ```
-# Puppet related
-**/manifests/.tmp/
-**/modules/.tmp/
-**/spec/fixtures/modules/.tmp/
+# Node.js/JavaScript build artifacts
+*.js.map
+*.min.js
+dist/
+build/
 
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
-*.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Build artifacts and dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.class
-*.o
-*.obj
-*.so
-*.dll
-*.exe
-*.out
-
-# Distribution and build directories
-dist/
-build/
-target/
-*.tar
-*.tar.gz
-*.zip
-*.gz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# System files
+.DS_Store
+Thumbs.db
 ```
