@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided changes. The only added file is `traverse_array.rb`, which is a source code file and should not be ignored.
+```
+# GraphQL schema
+schema.graphql
+```
