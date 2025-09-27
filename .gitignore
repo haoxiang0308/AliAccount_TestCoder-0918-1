@@ -1,27 +1,28 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.hcl
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 
-# Dependencies
-vendor/
+# Environment
+.env
+.env.local
+.env.
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
