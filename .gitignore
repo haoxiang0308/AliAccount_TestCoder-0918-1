@@ -1,11 +1,13 @@
-```
+```python
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
+*.pyc
+__pycache__/
 
 # Dependencies
-vendor/
+.venv/
+venv/
+pip-log.txt
+pipenv.lock
 
 # Logs and temp files
 *.log
