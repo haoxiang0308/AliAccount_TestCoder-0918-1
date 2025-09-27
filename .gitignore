@@ -1,36 +1,54 @@
 ```
+# GraphQL schema files (if generated)
+schema.graphql
+
 # Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-bin/
-obj/
 
 # Dependencies
-packages/
-lib/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.suo
-*.user
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 ```
