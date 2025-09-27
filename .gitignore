@@ -1,1 +1,23 @@
-(empty)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+zig-cache/
+zig-out/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
