@@ -1,50 +1,15 @@
 ```
-# API output files
-api_output_*.json
+# R plots and graphics
+*.pdf
+*.png
 
-# Python compiled files
-*.pyc
-__pycache__/
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
+# R build artifacts
+Rplots.pdf
 
 # Temporary files
 *.tmp
 *.swp
-*.swo
 
-# Editors
-.vscode/
-.idea/
-
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Distribution / packaging
-.dist-info/
-*.egg-info/
-*.egg
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.tox/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 ```
