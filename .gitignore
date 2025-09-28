@@ -1,4 +1,1 @@
-```
-# Build system
-Makefile_abc123
-```
+Nothing to output - the added file `square_func_901.fs` is a source code file (F# source file) and no build artifacts, dependencies, or temporary files are present in the changes.
