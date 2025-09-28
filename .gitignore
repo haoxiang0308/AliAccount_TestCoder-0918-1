@@ -1,31 +1,46 @@
 ```
-# Database files
-*.db
-*.sqlite
-*.sqlite3
+# Compiled files
+*.pyc
+*.swiftmodule
+*.swiftdoc
 
-# SQL query files (if they are auto-generated)
-*.sql
+# Dependencies
+Packages/
+.build/
 
-# Environment files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-.env.
+.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
 ```
