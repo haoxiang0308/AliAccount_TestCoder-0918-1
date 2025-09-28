@@ -1,0 +1,3 @@
+This is a sample text file.
+This file is for testing the word frequency counter.
+The word "is" appears multiple times, as does the word "the".
