@@ -1,24 +1,59 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.out
-
-# Environment files
-.env
-.env.local
+# Configuration and system files
+*.env
+*.env.local
 *.env.*
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Build and distribution
+dist/
+build/
+*.egg
+*.egg-info/
+MANIFEST
+.pytest_cache/
+.coverage
+
+# Kubernetes related
+*.kubeconfig
+.kube/
 ```
