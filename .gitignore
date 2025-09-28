@@ -1,28 +1,5 @@
-```
-# Dependencies
-.dart_tool/
-.pub/
-build/
+(random_keras_model.py is a source code file, so no .gitignore rules needed)
 
-# Environment
-.env
-.env.local
-*.env.*
+```python
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 ```
