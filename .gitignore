@@ -1,15 +1,5 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+(student_info_9274.xml is a source/config file, not a build artifact or temp file, so no ignores needed)
+
+```gitignore
+
 ```
