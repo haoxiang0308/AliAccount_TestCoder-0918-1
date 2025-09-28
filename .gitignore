@@ -1,1 +1,24 @@
-(todo_list_20250929.md is a markdown file, which is a source/config file, so nothing should be ignored)
+```
+# Swap files and temporary files
+*.swp
+*.swo
+*~
+swap_*.txt
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+```
