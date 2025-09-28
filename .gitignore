@@ -1,62 +1,110 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.class
-*.out
+*.m
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
+.julia/
+.julia-*/
+.zig/
+zig*/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv-*/
+.ENV/
+.ENV-*/
+.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+out/
+
+# C/C++
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+*.dSYM/
+*.dylib
+*.lib
+*.pdb
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.cover/
+.dat
+.rbx/
+.config/
+vendor/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+vendor/
+
+# Rust
+target/
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Compression
 *.zip
 *.gz
 *.tar
@@ -79,4 +127,17 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
