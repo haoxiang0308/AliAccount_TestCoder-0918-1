@@ -1,26 +1,3 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
+(restart_service_playbook_9012.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes)
 
-# Dependencies
-lib/
-libs/
-jars/
-target/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
-```
+(empty — output nothing)
