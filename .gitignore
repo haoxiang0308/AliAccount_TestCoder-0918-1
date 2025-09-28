@@ -1,39 +1,38 @@
 ```
-# OCaml build artifacts
-*.cmi
-*.cmo
-*.cmx
-*.cma
-*.cmxa
-*.cmxs
-*.exe
-*.out
-*.o
-*.obj
+# Database files
+*.sql
 
-# Dune build directory
-_build/
-_dbuild/
-
-# OPAM local switch
-.opam/
-
-# Merlin configuration
-.merlin
-
-# Editor files
-*.swp
-*.swo
+# Temporary and build artifacts
 *.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+*.temp
+build/
+dist/
 
 # Logs
 *.log
 
-# Temporary files
-temp_*
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
