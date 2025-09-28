@@ -1,0 +1,21 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      ansible.builtin.systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
+      notify: Verify service status
+
+    - name: Wait for service to be active
+      ansible.builtin.wait_for:
+        path: /var/run/{{ service_name | default('httpd') }}.pid
+        state: present
+        timeout: 30
+
+  handlers:
+    - name: Verify service status
+      ansible.builtin.debug:
+        msg: "Service {{ service_name | default('httpd') }} has been restarted and should be active."
