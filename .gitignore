@@ -1,1 +1,45 @@
-(service-config-2847.yaml is a config file, so it should not be ignored)
+```
+# Compiled files
+*.class
+
+# Dependencies
+target/
+build/
+dist/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Scala
+*.class
+*.jar
+*.scala~
+*.sc~
+
+# System files
+.DS_Store
+Thumbs.db
+```
