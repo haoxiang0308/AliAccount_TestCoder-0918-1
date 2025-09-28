@@ -1,1 +1,33 @@
-Nothing should be ignored based on the provided changes. The added file `test_workflow.yml` is a source/config file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
+*.o
+*.obj
+
+# Dependencies
+_dbuild/
+.opam/
+esy.lock/
+
+# Editors
+.vim/
+.emacs
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OCaml specific
+*.annot
+*.spot
+*.spit
+*.merlin
+```
