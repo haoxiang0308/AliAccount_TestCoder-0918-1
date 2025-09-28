@@ -1,4 +1,23 @@
 ```
-# Compiled files
-*.fs
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files that might contain sensitive data
+*config*.ini
+db_config*.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
