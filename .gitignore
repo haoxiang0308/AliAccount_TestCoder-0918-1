@@ -1,28 +1,22 @@
 ```
-# Kubernetes/Docker related
-*.yaml
-*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# If this is a Kubernetes project with potential build artifacts
-build/
-dist/
-target/
+# Dependencies
+chef_user_recipe_1234.rb
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
