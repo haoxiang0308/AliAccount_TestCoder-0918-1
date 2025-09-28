@@ -1,24 +1,18 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.out
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
 ```
