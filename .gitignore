@@ -1,1 +1,34 @@
-Nothing to output - the change list contains only a source code file (.java) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Compiled files
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+cabal/
+.stack-work/
+.hie/
+.hiefiles/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
