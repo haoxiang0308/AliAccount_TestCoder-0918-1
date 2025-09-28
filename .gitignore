@@ -1,5 +1,15 @@
-(person_class_12345.rb is a source code file, so no ignores needed)
-
-```ruby
-
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
