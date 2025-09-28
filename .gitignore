@@ -1,37 +1,15 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.tsbuildinfo
-dist/
-build/
-out/
-lib/
-
-# Dependencies
-node_modules/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
