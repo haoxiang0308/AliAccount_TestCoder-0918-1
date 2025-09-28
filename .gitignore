@@ -1,55 +1,46 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Python specific
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
+__pycache__/
+
+# Dependencies
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Dependencies
-node_modules/
-julia-*/
-zig*/
-target/
-.gradle/
+# Environment
+.env
+.env.local
+.env.*
 
-# Build artifacts
-dist/
-build/
-*.egg-info/
-.eggs/
-.installed.cfg
-lib/
-lib64/
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
 
 # Compressed files
 *.zip
