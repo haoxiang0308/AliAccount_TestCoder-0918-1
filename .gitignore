@@ -1,4 +1,12 @@
 ```
-# Generated from added files
-*.thrift
+#Temp files
+*.tmp
+*.swp
+*.swo
+
+#Backup and generated scripts
+*_script_*.sh
+
+#Logs
+*.log
 ```
