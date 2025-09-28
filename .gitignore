@@ -1,14 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-find_max
-
-# Logs and temp files
-*.tmp
-*.log
-
-# Generated files
-max_result_*.txt
-```
+Nothing should be ignored since only a source code file (HelloWorld.scala) was added without any build artifacts, dependencies, or temporary files.
