@@ -1,11 +1,20 @@
 ```
 # Compiled and build artifacts
+*.fs
+*.fsi
+*.fsx
+*.exe
+*.dll
+*.so
 *.o
 *.obj
 *.out
 
 # Dependencies
-vendor/
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
@@ -16,8 +25,7 @@ vendor/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
