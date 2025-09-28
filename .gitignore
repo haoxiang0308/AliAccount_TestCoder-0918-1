@@ -1,32 +1,28 @@
 ```
-# Compiled class files
-*.class
+# Generated Lua files
+grades_*.lua
 
-# Scala compiled files
-*.scala.bak
-*.sc.bak
-
-# Dependencies and build directories
-target/
-lib_managed/
-project/target/
-
-# IDE files
-.idea/
-.vscode/
-*.iml
-*.ipr
-*.iws
-
-# System files
-.DS_Store
-Thumbs.db
+# Python build artifacts
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
+
+# Temp files
+*.tmp
+*.temp
 ```
