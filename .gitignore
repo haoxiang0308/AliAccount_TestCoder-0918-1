@@ -1,28 +1,50 @@
 ```
-# Generated Lua files
-grades_*.lua
+# Dependencies
+node_modules/
 
-# Python build artifacts
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Logs
-*.log
+# Build outputs
+dist/
+build/
+coverage/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Temp files
 *.tmp
-*.temp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Coverage
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Venv
+venv/
+.venv/
 ```
