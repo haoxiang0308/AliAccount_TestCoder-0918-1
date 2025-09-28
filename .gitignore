@@ -1,1 +1,44 @@
-Nothing should be ignored since only a source file (.vue) was added without any build artifacts, dependencies, or temporary files.
+```
+# Environment and config files
+.env
+.env.local
+.env.*
+config/
+*.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+```
