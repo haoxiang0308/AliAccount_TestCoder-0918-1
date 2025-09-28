@@ -1,1 +1,36 @@
-Nothing should be ignored based on the provided changes. The added file `disk_check_script.sh` is a shell script source file, which should be tracked in version control.
+```
+# Compiled and build artifacts
+*.fs
+*.fsi
+*.fsx
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+
+# Dependencies
+.paket/
+packages/
+lib/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.userprefs
+*.user
+
+# F# specific
+*.compiled
+*.dll.config
+*.exe.config
+App_Data/
+```
