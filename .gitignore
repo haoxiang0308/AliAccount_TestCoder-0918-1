@@ -1,27 +1,5 @@
-```
-# Compiled files
-*.o
-*.obj
-*.hi
+(api_endpoint_f4305c72.py is a source file, so no ignores needed)
 
-# Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+```python
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
