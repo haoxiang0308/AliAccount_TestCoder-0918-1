@@ -1,44 +1,69 @@
 ```
-# Image files (if they are build artifacts or temporary)
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.webp
+# Dependencies
+node_modules/
 
-# Python compiled files
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
 
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
+
+# Temporary files
+*.tmp
 *.swp
 *.swo
 
-# Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
-*.egg-info/
+# IDE
+.vscode/
+.idea/
 
-# Build and distribution
-build/
-dist/
-*.egg
-*.whl
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.gitattributes
+.next
+.nyc_output
+coverage/
+lib/
+lib64/
+__pycache__/
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
 ```
