@@ -1,11 +1,11 @@
 ```
-# Dependencies
-node_modules/
+# Puppet related
+.r10k/
+.puppet-lint.rc
+spec/fixtures/
 
-# Build artifacts
-dist/
-build/
-*.js.map
+# Dependencies
+modules/
 
 # Logs and temp files
 *.log
@@ -19,43 +19,10 @@ build/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.nox/
-.pytest_cache/
-.mypy_cache/
-
-# Node.js
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-jspm_packages/
-web_modules/
-*.tsbuildinfo
-.next/
-.nuxt/
-.vuepress/dist
-.uxt
-dist
-.output
-.commit
-.nyc_output
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
