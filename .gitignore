@@ -1,52 +1,15 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Rust build artifacts
+*.rs.bk
+*.rs~
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Backup files
+*~
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-*.zip
-*.tar.gz
-*.whl
-
-# Temp files
+# Temporary files
 *.tmp
 *.temp
-*~
-.DS_Store
-Thumbs.db
+
+# Logs
+*.log
 ```
