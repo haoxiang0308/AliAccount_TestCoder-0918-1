@@ -1,25 +1,30 @@
 ```
-# Docker
-docker-compose_*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Temporary files
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
-
-# Logs
-*.log
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Testing
+.selenium/
+*.pyc
+*.pyo
+*.pyd
 ```
