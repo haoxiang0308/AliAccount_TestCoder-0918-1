@@ -1,34 +1,10 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# R plots and generated files
+Rplots.pdf
 
-# Dependencies
-.venv/
-venv/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+# R environment and cache
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
 ```
