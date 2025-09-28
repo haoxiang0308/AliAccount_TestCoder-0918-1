@@ -1,1 +1,23 @@
-Nothing should be ignored since the added file 'adder_4bit.v' is a source code file (.v extension typically refers to Verilog/VHDL source files), which should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.groovy.class
+
+# Dependencies
+.gradle/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
