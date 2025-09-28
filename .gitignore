@@ -1,4 +1,12 @@
 ```
-# GraphQL schema
-schema.graphql
+# Shell script backup/swap files
+*.sh.swp
+*.sh.swo
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
 ```
