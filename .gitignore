@@ -1,57 +1,45 @@
 ```
-# Compiled files
+# Generated from Thrift file
+*.thrift~
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
 *.obj
 *.exe
 *.dll
 *.so
 *.a
-*.o
 *.out
 
 # Dependencies
-packages/
-lib/
 node_modules/
 venv/
 .venv/
-__pycache__/
-*.egg-info/
-.Python
-
-# Build artifacts
-bin/
-obj/
-Debug/
-Release/
-build/
-dist/
-target/
-
-# IDE files
-.vs/
-.vscode/
-.idea/
-*.userprefs
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Logs
-*.log
-*.tmp
-*.temp
-
-# Environment
 .env
 .env.local
 *.env.*
 
-# OS generated files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
-desktop.ini
-$RECYCLE.BIN/
-ehthumbs.db
-Icon?
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
