@@ -1,25 +1,65 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
+*.plc
+*.plx
+*.pmc
+*.p6c
+*.p6l
+*.nqp
 
 # Dependencies
-build/
-dist/
+local/lib/
+blib/
+lib/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
 
+# System files
+.DS_Store
+Thumbs.db
+
 # Environment
 .env
 .env.local
 *.env.*
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+*.gcov
+*.profraw
+*.profdata
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
