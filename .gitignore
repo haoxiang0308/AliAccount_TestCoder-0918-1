@@ -1,10 +1,6 @@
 ```
-# Node.js/JavaScript build artifacts
-*.js.map
-*.min.js
-dist/
-build/
-node_modules/
+# Configuration and setup files
+*.pp
 
 # Logs and temp files
 *.log
@@ -14,13 +10,17 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+.env.
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 ```
