@@ -1,33 +1,32 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# OCaml dependency directories
+_dune/
+.opam/
+esy.lock/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
 ```
