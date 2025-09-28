@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided changes. The added file `check_disk_usage.sh` is a shell script source file, which should be tracked in version control.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
