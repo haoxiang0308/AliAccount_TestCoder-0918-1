@@ -1,14 +1,17 @@
 ```
+# GraphQL artifacts
+*.graphql
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
 
 # Dependencies
 .venv/
