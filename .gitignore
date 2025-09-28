@@ -1,38 +1,4 @@
 ```
-# Compiled and build artifacts
-*.ex
-*.beam
-*.o
-*.obj
-*.out
-
-# Dependencies
-deps/
-_build/
-ebin/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS
-.DS_Store
-Thumbs.db
+# Docker compose files
+docker-compose-*.yml
 ```
