@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added files are Python source files (.py) which are source code and should not be ignored.
+```
+# Configuration and source files only - no build artifacts to ignore
+```
