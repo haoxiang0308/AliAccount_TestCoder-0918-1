@@ -1,16 +1,28 @@
 ```
-# VBA project files
-*.bas
-*.frm
-*.cls
-*.vba
-*.vbs
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.zig.cache
 
-# Compiled VBA files
-*.exd
-*.frx
+# Dependencies
+deps/
 
-# VBA project backup files
-*.bak
-*.~*
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
