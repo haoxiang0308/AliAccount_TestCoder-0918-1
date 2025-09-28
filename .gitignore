@@ -1,21 +1,49 @@
 ```
-# Julia installation
-julia_install/
-
-# Compiled and build artifacts
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.eggs/
+.egg-info/
+dist/
+build/
+*.egg
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.tox/
+nox/
+pip-log.txt
+pip-delete-this-directory.txt
 *.so
+*.dylib
 *.dll
-*.exe
-*.out
 
-# Dependencies and packages
-julia-*/
+# Logs
+*.log
+*.log.*
 
-# Documentation and cached files
-*.cache
-*.ji
+# Environment
+.env
+.env.local
+.env.*
+.envrc
 
-# System files
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
 .DS_Store
 Thumbs.db
 ```
