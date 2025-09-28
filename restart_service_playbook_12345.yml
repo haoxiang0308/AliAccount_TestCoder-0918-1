@@ -1,0 +1,20 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart service
+      systemd:
+        name: "{{ service_name | default('some_default_service') }}"
+        state: restarted
+      notify: "Service {{ service_name | default('some_default_service') }} restarted"
+
+    - name: Ensure service is enabled
+      systemd:
+        name: "{{ service_name | default('some_default_service') }}"
+        enabled: yes
+
+  handlers:
+    - name: Service restarted
+      debug:
+        msg: "The service {{ service_name | default('some_default_service') }} has been restarted."
