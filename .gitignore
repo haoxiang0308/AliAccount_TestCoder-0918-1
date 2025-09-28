@@ -1,5 +1,75 @@
-(database_config.ini is a config file, not a build artifact or temp file, so no ignores needed)
+```
+# VBA/Office files
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbs
 
-```text
+# Compiled/Generated VBA files
+*.exd
+*.cache
 
+# Editor/IDE files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Backup files
+*~
+.#*
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Python (if present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.test
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
