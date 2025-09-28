@@ -1,21 +1,14 @@
 ```
 # Compiled and build artifacts
-*.fs
-*.fsi
-*.fsx
-*.exe
-*.dll
-*.so
 *.o
 *.obj
+*.mod
+*.exe
 *.out
 
 # Dependencies
-.paket/
-packages/
-lib/
-bin/
-obj/
+build/
+dist/
 
 # Logs and temp files
 *.log
@@ -25,12 +18,9 @@ obj/
 # Editors
 .vscode/
 .idea/
-*.userprefs
-*.user
 
-# F# specific
-*.compiled
-*.dll.config
-*.exe.config
-App_Data/
+# Environment
+.env
+.env.local
+.env.*
 ```
