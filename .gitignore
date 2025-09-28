@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `get_processes.ps1` is a PowerShell script file, which is source code and should not be ignored.
+Nothing to output - the added file 'user_recipe_12345.rb' is a source code file that should not be ignored.
