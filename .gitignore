@@ -1,23 +1,28 @@
 ```
-# Kubernetes and deployment artifacts
-*.yaml
-*.yml
+# Images and generated files
+*.png
 
-# Environment and config
+# Temporary and build files
+*.tmp
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
 ```
