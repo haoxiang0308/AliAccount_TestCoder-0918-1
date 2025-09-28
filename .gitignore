@@ -1,29 +1,31 @@
-```python
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+```
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
-# Dependencies
-.venv/
-venv/
-pip-log.txt
-pipenv.lock
+# SQL query files (if they are auto-generated)
+*.sql
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+.env.
 
-# Editors
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 ```
