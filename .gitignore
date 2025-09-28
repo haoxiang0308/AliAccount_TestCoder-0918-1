@@ -1,21 +1,4 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-target/
-
-# Dependencies
-Cargo.lock
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# GraphQL schema files
+schema.graphql
 ```
