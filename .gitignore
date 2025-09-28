@@ -1,15 +1,1 @@
-```
-# R plots and graphics
-*.pdf
-*.png
-
-# R build artifacts
-Rplots.pdf
-
-# Temporary files
-*.tmp
-*.swp
-
-# Logs
-*.log
-```
+(empty)
