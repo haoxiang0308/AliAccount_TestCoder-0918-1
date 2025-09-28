@@ -1,1 +1,33 @@
-Nothing should be ignored based on the provided file changes. The added file `get_processes.ps1` is a PowerShell script file, which is source code and should not be ignored.
+```
+# Compiled files
+*.o
+*.obj
+*.hi
+
+# Haskell build artifacts
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal-dev/
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Dependencies
+.cabal/
+.stack-work/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
