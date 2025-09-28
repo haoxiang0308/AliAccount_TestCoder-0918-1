@@ -1,15 +1,1 @@
-```
-# Images and plots
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.pdf
-*.eps
-
-# R-specific
-.Rhistory
-.RData
-.Rproj.user/
-```
+Nothing to output - the change list contains only a source file (LoginForm.vue) and no build artifacts, dependencies, or temp files that need to be ignored.
