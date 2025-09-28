@@ -1,4 +1,1 @@
-```
-# Query files
-query_*.sql
-```
+Nothing to output - the change list contains only a source code file (.py) and no build artifacts, dependencies, or temp files that need to be ignored.
