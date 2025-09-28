@@ -1,0 +1,10 @@
+# PowerShell Script to Get Current User Information
+
+# 获取当前用户信息并以详细格式输出
+$currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent()
+$principal = New-Object System.Security.Principal.WindowsPrincipal($currentUser)
+
+Write-Output "当前用户信息:"
+Write-Output "用户名: $($currentUser.Name)"
+Write-Output "用户主体名称 (UPN): $($principal.Identity.Name)"
+Write-Output "是否为管理员: $($principal.IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator))"
