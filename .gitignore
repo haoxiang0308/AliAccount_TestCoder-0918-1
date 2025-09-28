@@ -1,21 +1,43 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.js.map
-*.min.css
-*.min.js
+*.ex
+*.beam
+*.o
+*.obj
+*.pyc
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
