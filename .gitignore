@@ -1,51 +1,47 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Zig compiler and related artifacts
+zig-*/
+**/zig-*/
+
+# Build artifacts and temporary files
 *.o
 *.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.pyc
+__pycache__/
+*.class
+
+# Dependencies and package directories
+node_modules/
+venv/
+.venv/
 dist/
 build/
 target/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-.julia/
-.zig/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
+.gradle/
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
 
-# Python specific
-.mypy_cache/
-.pytest_cache/
-*.pyc
-__pycache__/
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System and environment files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.env.*
 
 # Compressed files
 *.zip
@@ -70,4 +66,8 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Logs
+*.log
+
 ```
