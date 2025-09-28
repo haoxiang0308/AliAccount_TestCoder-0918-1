@@ -1,5 +1,5 @@
-(redis_script_abc123xyz.py is a source file, so no .gitignore rules needed)
-
-```python
+```
+# Build system
+Makefile_*
 
 ```
