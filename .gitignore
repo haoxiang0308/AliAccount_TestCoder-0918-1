@@ -1,17 +1,30 @@
 ```
-# Database files
-*.db
-*.sql
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-# Temporary and generated files
-*.tmp
-*.temp
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
