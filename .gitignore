@@ -1,28 +1,40 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.hcl
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
+*.RData
+*.rds
+*.Rds
+*.renv
+*cache/
 
-# Environment
-.env
-.env.local
-.env.
+# Dependencies
+renv/
+packrat/
+
+# Compiled/build artifacts
+dist/
+build/
+*.so
+*.dll
+*.dylib
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
