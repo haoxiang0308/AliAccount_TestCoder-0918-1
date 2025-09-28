@@ -1,21 +1,44 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-target/
+# Image files (if they are build artifacts or temporary)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
 
-# Dependencies
-Cargo.lock
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
 *.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+.venv/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# Build and distribution
+build/
+dist/
+*.egg
+*.whl
 ```
