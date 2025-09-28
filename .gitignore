@@ -1,56 +1,28 @@
 ```
-# Dependencies
-node_modules/
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
 
-# Build artifacts and temp files from node_modules
-*.js.map
-*.cjs
-*.cts
-*.d.ts
-*.d.cts
-*.min.js
-*.bundle.js
+# OCaml dependency directories
+_dbuild/
+.opam/
+esy.lock/
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Logs
-*.log
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
-.env
-.env.local
-*.env.*
+# General build artifacts
+build/
+dist/
+target/
 
 # Editor/IDE files
 .vscode/
@@ -59,13 +31,20 @@ Thumbs.db
 *.swo
 *.tmp
 
-# Test and coverage
-.jshintrc
-.editorconfig
-.gitattributes
-.npmignore
-.travis.yml
-.istanbul.yml
-.babelrc
-.eslintrc
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+
+# OS specific
+.DS_Store
+Thumbs.db
 ```
