@@ -1,51 +1,55 @@
 ```
-# Compiled and build artifacts
-*.pyc
+# Configuration and data files
+*.yml
+*.yaml
+*.json
+*.toml
+*.cfg
+*.ini
+*.env
+*.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
 __pycache__/
-*.o
-*.obj
-*.class
+.pytest_cache/
+.mypy_cache/
+pip-log.txt
+pipenv.lock
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
+*.o
+*.class
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-julia-*/
-zig*/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Coverage
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
