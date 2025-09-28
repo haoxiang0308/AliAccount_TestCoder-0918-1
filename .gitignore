@@ -1,32 +1,42 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
-*.dll
+```julia
+# Julia-specific ignores
+*.jl.cov
+*.jl.mem
+*.jl.info
+*.jl.prof
+*.jl.trace
+*.jl.cache
+*.jl.so
+*.jl.dylib
+*.jl.dll
+
+# Build artifacts
+build/
+dist/
 *.so
-*.a
-*.out
+*.dylib
+*.dll
 
 # Dependencies
-*.mod/
-*.o/
-*.exe/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+.julia/
+Pkg.add/
+Pkg.rm/
+Pkg.update/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
 # Coverage
 coverage/
