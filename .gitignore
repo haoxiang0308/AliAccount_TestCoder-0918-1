@@ -1,15 +1,1 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-```
+(binary_classifier_model_42.py is a source code file, not a build artifact or temporary file, so no .gitignore rules are needed)
