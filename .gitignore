@@ -1,22 +1,27 @@
 ```
-# Temporary shell scripts
-*.sh~
+# Compiled and build artifacts
+*.beam
+*.ez
+*.plt
+*.dump
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+_deps/
+_build/
+erl_crash.dump
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
 ```
