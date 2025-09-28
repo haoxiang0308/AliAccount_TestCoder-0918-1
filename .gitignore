@@ -1,12 +1,5 @@
-```
-# Shell script backup/swap files
-*.sh.swp
-*.sh.swo
+(book_info.xml is a source/config file, not a build artifact or temp file - no ignores needed)
 
-# Temp files
-*.tmp
-*.temp
+```text
 
-# Logs
-*.log
 ```
