@@ -1,1 +1,9 @@
-Nothing should be ignored based on the provided file changes. The added file `get_processes.ps1` is a PowerShell script file, which is source code and should not be ignored.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files that might contain sensitive data
+*config*.ini
+```
