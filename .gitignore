@@ -1,1 +1,24 @@
-Nothing to ignore - the change list contains only a source code file (.swift) without any build artifacts, dependencies, or temporary files.
+```
+# Docker
+docker-compose_*.yml
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
