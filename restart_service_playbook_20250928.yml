@@ -1,0 +1,19 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      ansible.builtin.systemd:
+        name: "{{ service_name | default('apache2') }}"
+        state: restarted
+      notify: Verify service status
+
+    - name: Flush handlers
+      ansible.builtin.meta: flush_handlers
+
+  handlers:
+    - name: Verify service status
+      ansible.builtin.systemd:
+        name: "{{ service_name | default('apache2') }}"
+        state: started
