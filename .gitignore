@@ -1,1 +1,3 @@
-Nothing should be ignored since only a source code file (.lua) was added.
+```
+# Configuration and source files only - no build artifacts or dependencies detected
+```
