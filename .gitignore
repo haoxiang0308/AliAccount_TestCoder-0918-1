@@ -1,28 +1,32 @@
 ```
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+*.rel
+
 # Dependencies
-.dart_tool/
-.pub/
-build/
+_deps/
+_rebar/
+_rebuild/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+# Coverage and testing
+.coverage
+coverage/
+eunit/
 ```
