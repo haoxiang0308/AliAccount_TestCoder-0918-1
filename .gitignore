@@ -1,1 +1,1 @@
-(database_config.ini is a config file, not a build artifact or temp file, so nothing should be ignored)
+Nothing should be ignored since only a source file (.m) was added without any build artifacts, dependencies, or temporary files.
