@@ -1,14 +1,20 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Compiled files
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
+
+# Build artifacts
+nimcache/
+build/
+dist/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.nimble/
+nimbledeps/
 
 # Logs and temp files
 *.log
@@ -23,8 +29,6 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.swp
+*.swo
 ```
