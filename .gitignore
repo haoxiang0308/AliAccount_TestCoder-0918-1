@@ -1,5 +1,11 @@
-(redis_script_abc123xyz.py is a source file, so no .gitignore rules needed)
+```
+# Output files
+output_*
+final_output_file_*
 
-```python
+# Perl build artifacts
+*.pl~
 
+# Temp files
+*.tmp
 ```
