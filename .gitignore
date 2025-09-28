@@ -1,11 +1,13 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
@@ -16,18 +18,20 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
+*.coverage
 
-# Python cache
-.mypy_cache/
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
 ```
