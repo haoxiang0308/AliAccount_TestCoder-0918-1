@@ -1,1 +1,28 @@
-Nothing should be ignored since only a PHP source file was added.
+```
+# Dependencies
+.dart_tool/
+.pub/
+build/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
