@@ -1,0 +1,7 @@
+- name: Copy a file
+  hosts: localhost
+  tasks:
+    - name: Copy source file
+      copy:
+        src: /workspace/source_file.txt
+        dest: /workspace/copied_file.txt
