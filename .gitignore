@@ -1,74 +1,55 @@
 ```
-# Docker-related
-Dockerfile*
-
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
+# Unity-specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unitypackage
+*.user
+*.sln
+*.csproj
+*.pidb
+*.userprefs
+*.usermeta
+*.unityproj
+*.booproj
+*.cache
 *.log
 *.tmp
 *.swp
 *.swo
 
-# Environment
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.exp
+*.lib
+*.so
+*.dylib
+
+# Environment and temp files
 .env
 .env.local
 *.env.*
+*.tmp
+*.swp
+*.swo
 
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Logs
+*.log
 ```
