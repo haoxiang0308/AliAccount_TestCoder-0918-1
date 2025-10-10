@@ -1,3 +1,1 @@
-HttpTriggerCSharp.cs is a source code file and should not be added to .gitignore.
-
-(empty)
+Nothing should be ignored since the added file 'add_function.lua' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
