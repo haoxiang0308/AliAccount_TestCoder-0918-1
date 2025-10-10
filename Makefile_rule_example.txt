@@ -1,0 +1,18 @@
+# This is a simple Makefile rule to compile a C program.
+# It assumes the source file is named 'main.c' and the output executable is named 'my_program'.
+
+CC = gcc
+CFLAGS = -Wall -g # Add warning flags and debug info
+
+# Default target
+all: my_program
+
+# Rule to build the executable
+my_program: main.c
+	$(CC) $(CFLAGS) $< -o $@
+
+# Rule to clean up the compiled executable
+clean:
+	rm -f my_program
+
+.PHONY: all clean
