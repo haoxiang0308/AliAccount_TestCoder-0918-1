@@ -1,3 +1,5 @@
-(mongo_insert_script.py and wtriqyozct.py are both Python source files, which should not be ignored according to the rules)
+(data-fetching.service.ts is a source file, so no ignores needed)
 
-(empty - output nothing)
+```ts
+
+```
