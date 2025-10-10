@@ -1,33 +1,27 @@
-```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.log
+.julia/
+.JuliaFormatter.toml
+.JuliaFormatter
 
-# Dependencies
-Pods/
-Carthage/
-.xcworkspace/
-xcuserdata/
+# Dependencies and build artifacts
+.julia/
+.juliacov/
+.coverage/
+build/
+dist/
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# iOS/Mac build
-build/
-DerivedData/
-*.app
-*.ipa
-*.dSYM
+# System files
+.DS_Store
+Thumbs.db
 ```
