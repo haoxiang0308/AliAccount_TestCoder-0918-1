@@ -1,32 +1,47 @@
 ```
-# Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.scala
-target/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Dependencies
-lib_managed/
-project/target/
-**/project/project/
+# Generated files
+dist/
+build/
+*.egg
+*.egg-info/
+.eggs/
 
-# Editors
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
 ```
