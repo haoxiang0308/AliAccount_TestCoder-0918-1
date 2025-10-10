@@ -1,0 +1,38 @@
+```
+# Compiled files
+*.class
+
+# Dependencies
+lib/
+libs/
+jars/
+
+# Build directories
+build/
+target/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+```
