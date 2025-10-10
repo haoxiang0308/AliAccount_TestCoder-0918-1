@@ -1,1 +1,6 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a shell script file (check_disk_usage.sh) which is a source file and should not be ignored.
+```
+# R plot outputs
+*.png
+scatter_plot_*.png
+scatter_plot_*_png
+```
