@@ -1,3 +1,23 @@
-(mongo_insert_script.py and wtriqyozct.py are both Python source files, which should not be ignored according to the rules)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-(empty - output nothing)
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
