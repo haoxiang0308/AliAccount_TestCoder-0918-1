@@ -1,5 +1,4 @@
-(my_cpp_HLeRDx.cpp is a source file, so no .gitignore rules needed)
-
-```gitignore
-
+```
+# Configuration files
+config_*.xml
 ```
