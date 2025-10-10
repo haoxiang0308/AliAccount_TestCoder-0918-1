@@ -1,9 +1,1 @@
-```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-```
+Nothing should be ignored based on the provided file changes. The added file `check_disk.sh` is a shell script source file, which should be tracked in version control.
