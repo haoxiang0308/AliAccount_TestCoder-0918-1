@@ -1,9 +1,42 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
+# Jenkins artifacts
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# System files
+.DS_Store
+Thumbs.db
 ```
