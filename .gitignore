@@ -1,23 +1,18 @@
 ```
-# Zig build artifacts
-zig-cache/
-zig-out/
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-
 # Dependencies
-.zig/
-zig-*/
+node_modules/
 
-# Logs and temp files
-*.log
+# Package manager
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Temporary files
 *.tmp
-*.swp
+*.log
 
 # Environment
 .env
@@ -27,39 +22,13 @@ zig-*/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Output files
+*.txt
 ```
