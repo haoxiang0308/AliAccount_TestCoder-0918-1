@@ -1,5 +1,49 @@
-(my_cpp_HLeRDx.cpp is a source file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-```gitignore
+# Dependencies
+.venv/
+venv/
+node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.zip
+*.tar.gz
+*.whl
+
+# System files
+.DS_Store
+Thumbs.db
 ```
