@@ -1,1 +1,55 @@
-(api_data.json is a data file, not a build artifact, dependency, or temp file - it appears to be source data that should be tracked)
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Temporary and generated Python files
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Distribution artifacts
+dist/
+build/
+*.egg
+*.whl
+*.zip
+*.tar.gz
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# System files
+.DS_Store
+Thumbs.db
+```
