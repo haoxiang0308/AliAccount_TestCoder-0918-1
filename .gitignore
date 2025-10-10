@@ -1,14 +1,13 @@
-```
+```gitignore
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.hi
+*.out
 
 # Dependencies
-.stack-work/
-.cabal-sandbox/
-dist/
-dist-newstyle/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
