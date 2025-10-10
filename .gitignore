@@ -2,17 +2,15 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.class
-*.pyc
-__pycache__/
+*.hi
+*.dyn_o
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+.stack-work/
+dist/
+cabal-dist/
+.cabal-sandbox/
+cabal-dev/
 
 # Logs and temp files
 *.log
@@ -22,13 +20,16 @@ venv/
 # Editors
 .vscode/
 .idea/
+*.swp
+*~
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
+# Haskell specific
+.hie
+*.dump-simpl
+*.dump-stg
+*.dump-iface
+*.prof
+*.eventlog
+*.dyn_hi
+*.dyn_o
 ```
