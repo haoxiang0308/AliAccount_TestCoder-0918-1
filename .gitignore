@@ -1,1 +1,23 @@
-Nothing to ignore - the added file 'greeting_module.ex' is a source code file (Elixir module) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Julia installation
+julia-*.tar.gz
+julia_install_temp/
+
+# Compressed files
+*.gz
+*.tar
+*.tar.gz
+
+# Build artifacts
+*.cache
+*.jl
+
+# Temporary directories
+tmp/
+temp/
+julia_install_temp/
+
+# System files
+.DS_Store
+Thumbs.db
+```
