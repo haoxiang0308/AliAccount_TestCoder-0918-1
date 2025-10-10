@@ -1,47 +1,40 @@
 ```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# OCaml build artifacts
+_dbuild/
+*.native
+*.byte
+*.run
+
 # Dependencies
-node_modules/
+.opam/
+.dune/
+_build/
 
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
+# Logs and temp files
 *.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-.mypy_cache/
-
-# Temporary files
 *.tmp
-*.temp
-*~
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
