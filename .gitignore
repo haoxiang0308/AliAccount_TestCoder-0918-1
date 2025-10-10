@@ -1,33 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# R plots and generated files
+Rplots.pdf
+*.pdf
 
-# Dependencies
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-build/
-dist/
-target/
+# R script generated outputs
+*.png
 ```
