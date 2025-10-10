@@ -1,1 +1,1 @@
-Nothing to output - the change list contains only a source code file (.kt) which should not be ignored.
+Nothing should be ignored in this case, as the added file `get-date-info.ps1` is a PowerShell script file (source code), and there are no build artifacts, dependencies, or temporary files in the changes.
