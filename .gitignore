@@ -1,40 +1,41 @@
-```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
+```toml
+# Configuration files
+*.toml
 
-# OCaml build artifacts
-_dbuild/
-*.native
-*.byte
-*.run
+# Environment and temporary files
+.env
+.env.local
+*.env.*
 
-# Dependencies
-.opam/
-.dune/
-_build/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
+# Logs
 *.log
-*.tmp
 
-# System files
+# Backup and temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Dependencies and build artifacts (if any)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+target/
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.vscode/
+.idea/
 ```
