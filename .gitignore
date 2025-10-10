@@ -1,23 +1,25 @@
 ```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
+# Compiled and build artifacts
+*.pl~
 
-# Editor/IDE files
+# Logs and temp files
 *.tmp
 *.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
 # Backup files
 *~
 \#*\#
-*.bak
-*.backup
-
-# System files
 .DS_Store
 Thumbs.db
 ```
