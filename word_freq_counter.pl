@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+# Check if a filename is provided
+if (@ARGV != 1) {
+    print "Usage: $0 <filename>\n";
+    exit 1;
+}
+
+my $filename = $ARGV[0];
+
+# Check if the file exists
+unless (-e $filename) {
+    print "Error: File '$filename' does not exist.\n";
+    exit 1;
+}
+
+# Hash to store word frequencies
+my %word_count;
+
+# Open and read the file
+open my $fh, '<', $filename or die "Could not open '$filename': $!";
+
+while (my $line = <$fh>) {
+    # Convert to lowercase and split into words (alphanumeric characters)
+    for my $word (split /\W+/, lc $line) {
+        next if $word eq '';  # Skip empty strings
+        $word_count{$word}++;
+    }
+}
+
+close $fh;
+
+# Print the results
+for my $word (sort keys %word_count) {
+    print "$word: $word_count{$word}\n";
+}
