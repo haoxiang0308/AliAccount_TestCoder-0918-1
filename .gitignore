@@ -1,1 +1,14 @@
-Nothing to output - the added file 'mongo_insert_script_837294.py' is a source code file and should not be ignored.
+```
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.dSYM/
+```
