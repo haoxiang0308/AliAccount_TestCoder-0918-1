@@ -1,1 +1,44 @@
-(filterStrings.kt)
+```
+# Julia specific
+.julia/
+*.ji
+*.jl.cov
+*.jl.info
+.coverage/
+docs/build/
+
+# Dependencies
+deps/
+test/
+
+# Compiled and build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# System
+.DS_Store
+Thumbs.db
+```
