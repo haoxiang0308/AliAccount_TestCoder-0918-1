@@ -1,3 +1,1 @@
-(doc.tex is a source document file, not a build artifact or temporary file, so no .gitignore rules are needed)
-
-(empty - output nothing)
+Nothing should be ignored since only a Python source file (`mongo_insert_script.py`) was added, which is a source code file that should be tracked in version control.
