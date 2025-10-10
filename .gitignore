@@ -1,83 +1,53 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-
-# General build artifacts
-build/
-dist/
-*.pyc
-__pycache__/
-*.class
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
 *.o
-*.obj
-*.exe
-*.dll
 *.so
-*.a
-*.out
+*.dll
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+# Plots and generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Temporary files
 *.tmp
+*~
+.swp
+.swo
 
-# Logs
-*.log
+# Environment
+.Rprofile
+```
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+Wait, I need to reconsider. The scatter_plot_82613.png is likely a generated output file, but since it's specifically mentioned as added, and R projects commonly generate plot files, I should reconsider what should be ignored.
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+Actually, looking more carefully - the .png file appears to be a generated plot output. However, the rule about not ignoring source code or config files unless clearly generated or sensitive applies. A scatter plot PNG could be either an output artifact or a meaningful result to track. Given the naming pattern (with what appears to be a timestamp/random number), it's likely auto-generated.
+
+```
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
+*.o
+*.so
+*.dll
+
+# Generated plots and images
+scatter_plot_*.png
+
+# Temporary files
+*.tmp
+*~
+.swp
+.swo
+
+# Environment
+.Rprofile
 ```
