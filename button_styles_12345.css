@@ -1,0 +1,25 @@
+.styled-button {
+  background-color: #4CAF50; /* Зелёный фон */
+  border: none;
+  color: white; /* Белый текст */
+  padding: 15px 32px; /* Отступы */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Скруглённые углы */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Тень */
+  transition: box-shadow 0.3s ease-in-out; /* Плавный переход тени */
+}
+
+/* Эффект при наведении */
+.styled-button:hover {
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3);
+}
+
+/* Эффект при нажатии */
+.styled-button:active {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
