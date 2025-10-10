@@ -1,3 +1,11 @@
-(connect_postgres_39482.py is a source file, so no .gitignore content needed)
+```
+# Compiled and build artifacts
+*.pl~
 
-Nothing to output.
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
