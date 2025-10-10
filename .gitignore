@@ -1,12 +1,1 @@
-```
-# Temporary and generated files
-*.tmp
-*.temp
-
-# Ansible related
-*.retry
-
-# System files
-.DS_Store
-Thumbs.db
-```
+Nothing to output - the added file 'LoginForm.vue' is a source code file and should not be ignored.
