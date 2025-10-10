@@ -1,32 +1,12 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.boot
-*.rel
-
-# Dependencies
-deps/
-_build/
-
-# Editors
-.vscode/
-.idea/
+#Temp files
+*.tmp
 *.swp
 *.swo
 
-# Logs and temp files
+#Shell script backups
+*backup_script_*.sh
+
+#Logs
 *.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and test
-.coverage
-coverage/
-eunit/
 ```
