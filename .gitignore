@@ -1,3 +1,1 @@
-HttpTriggerCSharp.cs is a source code file and should not be added to .gitignore.
-
-(empty)
+(book_data.json is a data file, not a build artifact, dependency, or temp file - it should not be ignored)
