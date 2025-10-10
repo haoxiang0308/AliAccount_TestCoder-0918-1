@@ -1,26 +1,31 @@
 ```
 # Compiled and build artifacts
+*.ji
 *.o
 *.obj
-*.hi
 
 # Dependencies
-.stack-work/
-.cabal-sandbox/
-dist/
-dist-newstyle/
+.julia/
+*.jl.cov
+*.jl.info
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+*.cov
 ```
