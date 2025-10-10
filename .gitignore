@@ -1,32 +1,19 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.swiftmodule
+*.swiftdoc
+*.swo
+*.swp
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+Pods/
+Carthage/
+.swiftlint.yml
+DerivedData/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-*.swo
 
 # Environment
 .env
@@ -36,37 +23,29 @@ target/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# Build
+build/
+*.build/
+DerivedData/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdatad/
+*.xccheckout
+*.playground/
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+
+# Simulator
+*.app/
+*.ipa
+*.dSYM.zip
+*.dSYM/
+
+# OS generated files
 .DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
