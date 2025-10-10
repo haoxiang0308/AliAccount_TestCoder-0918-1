@@ -1,23 +1,33 @@
 ```
-# VBA specific ignores
-*.frx
-*.bas
-*.cls
-*.frm
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Editor/IDE files
-*.tmp
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
+*.tmp
 *.swp
-*.swo
 
-# Backup files
-*~
-\#*\#
-*.bak
-*.backup
+# Environment
+.env
+.env.local
+*.env.*
 
-# System files
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
