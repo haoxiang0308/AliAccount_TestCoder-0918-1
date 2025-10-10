@@ -1,33 +1,49 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
-Pods/
-Carthage/
-.xcworkspace/
-xcuserdata/
+_dbuild/
+.opam/
+esy.lock/
 
 # Logs and temp files
 *.log
 *.tmp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# iOS/Mac build
-build/
-DerivedData/
-*.app
-*.ipa
-*.dSYM
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.out
+*.run
+*.native
+*.byte
+dune-project
+dune-work
 ```
+
+Wait, I need to reconsider. The file added is `parity_check_42.ml` which is a source file. Looking at the rules again:
+
+6. If the change list contains ONLY source or config files (e.g., `.py`, `.js`, `.java`, `.go`, `.cpp`, `.h`, `.md`, `.txt`, `.json`, `.yml`, `.yaml`, `.toml`, `.cfg`, `.ini`, etc.) and NO build artifacts, dependencies, or temp files — output an EMPTY .gitignore (i.e., output nothing).
+
+Since only `parity_check_42.ml` was added, which is a source file, and there are no build artifacts, dependencies, or temp files in the changes, I should output nothing.
+
+(empty - no output)
