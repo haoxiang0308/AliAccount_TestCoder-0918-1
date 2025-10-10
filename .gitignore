@@ -1,5 +1,50 @@
-(linear_regression_model_12345.py is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes, so no .gitignore rules are needed)
+```julia
+# Julia-specific ignores
+*.jl.cov
+*.jl.mem
+*.jl.info
+*.out
+*.o
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
 
-```python
+# Build artifacts
+build/
+dist/
+*.build/
+*.so
 
+# Dependencies
+.julia/
+Pkg.add/
+Pkg.rm/
+Pkg.update/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+*.cov
+*.info
+
+# System files
+.DS_Store
+Thumbs.db
 ```
