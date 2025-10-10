@@ -1,9 +1,14 @@
 ```
 # Compiled and build artifacts
-*.pl
-*.pyc
 *.o
 *.obj
+*.ali
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
@@ -18,4 +23,11 @@
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+target/
 ```
