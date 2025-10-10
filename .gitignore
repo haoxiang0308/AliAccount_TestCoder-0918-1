@@ -1,3 +1,36 @@
-HttpTriggerCSharp.cs is a source code file and should not be added to .gitignore.
+```
+# Kubernetes/Docker related
+*.yaml
+*.yml
 
-(empty)
+# If this is a Kubernetes project with potential build artifacts
+build/
+dist/
+target/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Dependency directories (if any are found in the project)
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+```
