@@ -1,3 +1,21 @@
-(my_project/filter_script.py and my_project/qrwghetp6u.py are source code files, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Compiled and build artifacts
+*.pl
+*.pyc
+*.o
+*.obj
 
-(empty — output nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
