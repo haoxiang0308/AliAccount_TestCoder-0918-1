@@ -1,15 +1,8 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
 *.out
-
-# Dependencies
-target/
-lib_managed/
-project/
-*.lock
 
 # Logs and temp files
 *.log
@@ -20,7 +13,8 @@ project/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.
 ```
