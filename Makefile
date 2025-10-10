@@ -1,0 +1,17 @@
+CC=gcc
+CFLAGS=-Wall -g
+TARGET=program
+SOURCES=main.c helper.c
+
+OBJECTS=$(SOURCES:.c=.o)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $(TARGET)
+
+.c.o:
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+
+.PHONY: clean
