@@ -1,8 +1,1 @@
-```
-# SQL query files (if they are temporary/generated)
-*.sql
-
-# If query files are meant to be temporary, you can be more specific
-# For example, if they follow a pattern like query_*.sql:
-query_*.sql
-```
+Nothing should be ignored since only a Python source file (.py) was added and no build artifacts, dependencies, or temporary files are present in the changes.
