@@ -1,4 +1,18 @@
 ```
-# Configuration files
-config_*.xml
+# Compiled and build artifacts
+*.css.map
+*.min.css
+*.bundle.css
+
+# Cache directories
+.cache/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
 ```
