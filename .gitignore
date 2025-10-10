@@ -1,50 +1,24 @@
-```julia
-# Julia-specific ignores
-*.jl.cov
-*.jl.mem
-*.jl.info
-*.out
-*.o
-*.so
-*.dylib
-*.dll
-*.a
-*.lib
-
-# Build artifacts
-build/
-dist/
-*.build/
-*.so
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Dependencies
-.julia/
-Pkg.add/
-Pkg.rm/
-Pkg.update/
+requirements.txt.bak
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 .env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
-# Coverage
-coverage/
-*.cov
-*.info
-
-# System files
-.DS_Store
-Thumbs.db
 ```
