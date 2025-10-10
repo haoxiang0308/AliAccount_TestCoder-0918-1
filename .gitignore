@@ -1,1 +1,58 @@
-(empty)
+```
+# Visual Basic/Office files
+*.vba
+*.bas
+*.frm
+*.cls
+*.vbp
+*.dsr
+*.ctl
+
+# Compiled files
+*.exe
+*.dll
+*.ocx
+*.tlb
+*.obj
+*.o
+
+# Backup files
+*.bak
+*.~*
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+*.so
+*.a
+*.dylib
+
+# System files
+.DS_Store
+Thumbs.db
+```
