@@ -1,28 +1,3 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+(my_project/filter_script.py and my_project/qrwghetp6u.py are source code files, and there are no build artifacts, dependencies, or temporary files in the changes)
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty — output nothing)
