@@ -1,97 +1,43 @@
 ```
-# Generated from file changes
-# Protocol buffer files
-*.proto
-
-# Common build artifacts for protobuf
-*.pb.go
-*.pb.py
-*.pb.js
-*.pb.ts
-*.pb.dart
-*.pb.objc
-*.pb.swift
-*.pb.php
-*.pb.rb
-*.pb.java
-*.pb.kt
-*.pb.cs
-*.pb.clj
-*.pb.lua
-*.pb.c
-*.pb.h
-*.pb.cc
-*.pb.cpp
-*.pb.hxx
-*.pb.hpp
-*.pb.s
-
-# Compiled files
+# Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+venv/
+node_modules/
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs and temp files
+*.log
 *.tmp
+*.swp
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
 ```
