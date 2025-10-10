@@ -1,11 +1,9 @@
 ```
 # Compiled and build artifacts
+*.class
 *.pyc
-__pycache__/
 *.o
 *.obj
-dist/
-build/
 *.exe
 *.dll
 *.so
@@ -13,15 +11,16 @@ build/
 *.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
 target/
 .gradle/
 .mypy_cache/
 .pytest_cache/
-julia-*/
-zig*/
 
 # Logs and temp files
 *.log
