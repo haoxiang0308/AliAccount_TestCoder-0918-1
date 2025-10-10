@@ -1,18 +1,15 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.class
-*.pyc
-__pycache__/
+*.out
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+target/
+lib_managed/
+project/
+*.lock
 
 # Logs and temp files
 *.log
@@ -26,9 +23,4 @@ venv/
 # System files
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
 ```
