@@ -1,3 +1,37 @@
-```
-node_modules/
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.info
+.coverage/
+.julia/
+build/
+dist/
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+deps/
+test/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+
+# System
+.DS_Store
+Thumbs.db
 ```
