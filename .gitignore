@@ -1,1 +1,15 @@
-Nothing should be ignored in this case, as the only change is adding a MATLAB source file (.m) without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
