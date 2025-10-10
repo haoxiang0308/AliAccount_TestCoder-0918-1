@@ -1,9 +1,1 @@
-```
-# R plots and generated files
-*.pdf
-*.png
-plot_*.r
-
-# Dependencies
-Rplots.pdf
-```
+Nothing should be ignored based on the provided file changes. The added file 'user_recipe_12345.rb' is a source code file that should be tracked in version control.
