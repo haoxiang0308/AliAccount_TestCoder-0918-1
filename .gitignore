@@ -1,4 +1,28 @@
 ```
-# Assembly files
-*.asm
+# Compiled and build artifacts
+*.beam
+*.app
+*.ez
+ebin/
+_build/
+
+# Dependencies
+deps/
+_rebar/
+.rebar3/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
