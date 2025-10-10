@@ -1,12 +1,16 @@
 ```
-#Temp files
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.asm
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-#Shell script backups
-*backup_script_*.sh
-
-#Logs
-*.log
+# Editors
+.vscode/
+.idea/
 ```
