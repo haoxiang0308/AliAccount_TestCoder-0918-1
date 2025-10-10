@@ -1,5 +1,13 @@
-(linear_regression_model_12345.py is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes, so no .gitignore rules are needed)
+```
+# Temporary shell scripts
+*.sh~
 
-```python
+# Logs and temp files
+*.tmp
+*.log
 
+# Environment
+.env
+.env.local
+.env.
 ```
