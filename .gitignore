@@ -1,38 +1,24 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.fs
+*.fsx
+*.fsi
 
 # Dependencies
-lib/
-libs/
-jars/
+.paket/
+.packages/
 
-# Build directories
-build/
-target/
-dist/
-
-# IDE files
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Temporary files
-*.tmp
-*.temp
-*~
+# Editors
+.vscode/
+.idea/
 ```
