@@ -1,33 +1,15 @@
 ```
 # Compiled and build artifacts
-*.exe
-*.dll
-*.so
-*.a
+*.o
 *.obj
 *.out
-*.o
-
-# Dependencies
-vendor/
-*.mod
-*.sum
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
-
-# Go specific
-*.test
-*.prof
 ```
