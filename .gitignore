@@ -1,1 +1,1 @@
-(book_data_20234.json is a data file, not a build artifact, dependency, or temp file - it should not be ignored)
+Nothing needs to be added to .gitignore since only a source code file (.f90) was added without any build artifacts, dependencies, or temporary files.
