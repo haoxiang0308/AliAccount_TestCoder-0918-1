@@ -1,28 +1,36 @@
 ```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
+*.o
+*.obj
+*.so
+*.dll
+*.exe
 
 # Dependencies
-Pods/
-Carthage/
-build/
-DerivedData/
+.Rpackages/
+renv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-.env.
+*.env.*
 
 # Editors
-.xcodeproj/
-xcuserdata/
-*.xcworkspace/
-.project
-.idea/
 .vscode/
+.idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
