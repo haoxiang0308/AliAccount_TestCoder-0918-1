@@ -1,1 +1,13 @@
-Nothing should be ignored based on the provided file changes. The added file 'person_12345.rb' is a source code file that should be tracked in version control.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
