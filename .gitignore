@@ -1,5 +1,1 @@
-(my_cpp_HLeRDx.cpp is a source file, so no .gitignore rules needed)
-
-```gitignore
-
-```
+Nothing should be ignored in this case, as only a Python source file (`mysql_query.py`) was added without any build artifacts, dependencies, or temporary files.
