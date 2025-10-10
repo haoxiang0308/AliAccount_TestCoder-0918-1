@@ -1,1 +1,36 @@
-Nothing should be ignored since only a Swift source file (ViewController_9F3A2.swift) was added, which is a source code file and not a build artifact, dependency, or temporary file.
+```
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.Rdata
+*.RData
+*.rds
+*.rda
+*.Rproj
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Dependencies and packages
+lib/
+library/
+packrat/
+renv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.Rproj.swp
+*~
+```
+
+Wait, let me reconsider - the only file added is `summary_stats.R`, which is a source file, and there are no build artifacts, dependencies, or temp files in the changes. Following rule #6, I should output nothing.
+
+(summary_stats.R is a source file, not a build artifact or dependency)
