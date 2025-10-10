@@ -1,20 +1,23 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# VBA specific ignores
+*.frx
+*.bas
+*.cls
+*.frm
 
-# Logs and temp files
-*.log
+# Editor/IDE files
 *.tmp
+*.log
 *.swp
+*.swo
 
-# Editors
-.vscode/
-.idea/
+# Backup files
+*~
+\#*\#
+*.bak
+*.backup
 
-# Environment
-.env
-.env.local
-.env.
+# System files
+.DS_Store
+Thumbs.db
 ```
