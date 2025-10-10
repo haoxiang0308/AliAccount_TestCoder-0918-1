@@ -1,50 +1,5 @@
-```julia
-# Julia-specific ignores
-*.jl.cov
-*.jl.mem
-*.jl.info
-*.out
-*.o
-*.so
-*.dylib
-*.dll
-*.a
-*.lib
+(button_styles_12345.css is a source file, so no .gitignore content needed)
 
-# Build artifacts
-build/
-dist/
-*.build/
-*.so
+```css
 
-# Dependencies
-.julia/
-Pkg.add/
-Pkg.rm/
-Pkg.update/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
-# Coverage
-coverage/
-*.cov
-*.info
-
-# System files
-.DS_Store
-Thumbs.db
 ```
