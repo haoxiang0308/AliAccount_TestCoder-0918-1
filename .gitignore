@@ -1,1 +1,1 @@
-(book_data.json is a data file, not a build artifact, dependency, or temp file - it should not be ignored)
+(js_func_27283940.js is a source file, not a build artifact or temporary file, so no .gitignore rules are needed)
