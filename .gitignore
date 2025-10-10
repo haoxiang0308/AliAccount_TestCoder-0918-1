@@ -1,1 +1,1 @@
-(todo_list_abc123.md is a markdown file, which is a source/config file, so nothing should be ignored)
+Nothing should be ignored based on the provided file changes. The added file 'adder_4bit.v' appears to be a Verilog source file, which is source code that should be tracked in version control.
