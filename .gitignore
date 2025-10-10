@@ -1,1 +1,31 @@
-(empty)
+```
+# Dependencies
+.dart_tool/
+.packages
+
+# Compiled and build artifacts
+*.dart.js
+*.js
+*.map
+build/
+dist/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
