@@ -1,1 +1,7 @@
-(empty)
+```
+# VBA specific ignores
+*.vba.bak
+*.vba~
+*.bak
+*.~*
+```
