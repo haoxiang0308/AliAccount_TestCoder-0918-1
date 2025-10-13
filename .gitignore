@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore for this change list. The file `test_workflow.yml` is a source/config file that should be tracked in version control.
+Nothing should be ignored based on the provided file changes. The added file `server_config.json` is a configuration file that should typically be tracked in version control.
