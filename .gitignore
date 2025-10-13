@@ -1,44 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
+(index.html is a source file, so no ignores needed)
 
-# Dependencies
-build/
-dist/
+```gitignore
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
