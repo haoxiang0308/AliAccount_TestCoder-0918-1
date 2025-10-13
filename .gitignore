@@ -1,4 +1,35 @@
 ```
-# GraphQL schema
-schema.graphql
+#Julia specific
+*.ji
+*.jl.cov
+*.jl.mem
+*.o
+*.so
+*.dylib
+*.dll
+
+#Dependencies and build artifacts
+.julia/
+build/
+dist/
+lib/
+deps/
+
+#Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Logs
+*.log
+
+#Environment
+.env
+.env.local
+*.env.*
 ```
