@@ -1,1 +1,97 @@
-Nothing should be ignored in this case, as only a single Lua source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Zig compiler distribution
+zig-linux-x86_64-0.13.0/
+
+# Compressed archives
+*.tar.xz
+
+# Dependencies and build artifacts
+node_modules/
+build/
+dist/
+target/
+.cargo/
+zig-cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.gradle/
+build/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Rust
+Cargo.lock
+target/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Julia
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+julia-*/
+
+# Zig
+zig-cache/
+zig-out/
+
+```
