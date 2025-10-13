@@ -1,1 +1,1 @@
-Nothing should be ignored since the added file `merge_lists.hs` is a source code file (.hs extension indicates Haskell source code).
+Nothing should be ignored based on the provided file changes. The added file `get_user_info_random_name.ps1` is a PowerShell script file, which is source code and should not be ignored.
