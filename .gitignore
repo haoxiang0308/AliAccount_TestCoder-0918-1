@@ -1,1 +1,5 @@
-(connect_to_postgres.py is a source file, no build artifacts, dependencies, or temp files in the changes)
+(image_script.py and placeholder_image.jpg are source files and an image file, both should be tracked, so no ignores needed)
+
+```python
+
+```
