@@ -1,53 +1,41 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# Compiled files
+*.class
+
+# Dependencies
+lib/
+libs/
+jars/
+
+# Build artifacts
+build/
+dist/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Environment
+.env
+.env.local
+*.env.*
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.julia/
-.julia-*/
-zig*/
-target/
-.gradle/
-
-# Build artifacts
-dist/
-build/
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Editor files
-.vscode/
-.idea/
+# Temp files
+*.tmp
+*~
 ```
+
+Wait, let me reconsider. The only files added are `.java` source files, which are source code and should not be ignored. There are no build artifacts, dependency directories, or temporary files in the change list that would require adding ignore rules.
+
+(empty — output nothing)
