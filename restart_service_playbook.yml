@@ -1,0 +1,9 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart service
+      ansible.builtin.systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
