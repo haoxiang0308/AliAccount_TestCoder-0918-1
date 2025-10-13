@@ -1,28 +1,29 @@
 ```
-# Compiled and build artifacts
-*.mex
-*.mexa64
-*.mexw64
-*.mexw32
-*.oct
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-matlab/
-octave/
-
-# Logs and temp files
-*.log
-*.tmp
+# Puppet-related ignores
+*.pp.bak
+*.rb.bak
+.rpmmacros
 *.swp
-
-# Editors
-.vscode/
-.idea/
+*.swo
+*.tmp
+*.log
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
 ```
