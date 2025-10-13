@@ -1,12 +1,1 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-
-# Dependencies
-target/
-
-# Editors
-.idea/
-```
+(server_9j2k4.js is a source file, not a build artifact or temporary file, so it should not be ignored)
