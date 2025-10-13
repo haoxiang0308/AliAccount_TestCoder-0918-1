@@ -1,1 +1,1 @@
-Nothing to output - the added file 'mongo_insert_script.py' is a source code file and should not be ignored.
+Nothing needs to be added to .gitignore since the only change is adding a Python test file (.py) which is source code and should not be ignored.
