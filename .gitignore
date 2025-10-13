@@ -1,1 +1,5 @@
-Nothing should be ignored in this case, as the added file 'format_sheet_macro.bas' is a source code file that should be tracked in version control. The list contains only a source file with no build artifacts, dependencies, or temporary files that would warrant adding to .gitignore.
+(book_info.xml is a source/config file, not a build artifact, dependency, or temp file - no ignores needed)
+
+```gitignore
+
+```
