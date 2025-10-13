@@ -1,38 +1,30 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Zig compiler distribution
+zig-linux-x86_64-0.13.0/
+
+# Dependencies and build artifacts
 *.o
 *.obj
-dist/
-build/
-*.exe
-*.dll
-*.so
 *.a
+*.so
+*.dll
+*.exe
 *.out
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
 *.swo
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 
@@ -68,4 +60,5 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
 ```
