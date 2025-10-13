@@ -1,4 +1,1 @@
-```
-# GraphQL schema
-schema.graphql
-```
+Nothing should be ignored based on the provided file changes. The added file `server_abc123.js` is a source code file that should be tracked in version control.
