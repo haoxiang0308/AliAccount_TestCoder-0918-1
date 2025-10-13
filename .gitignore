@@ -1,27 +1,38 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
-.Rapp.history
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Environment files
+# Dependencies
+.venv/
+venv/
+pip-log.txt
+pip-selfcheck.json
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*~
-```
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-Wait, let me reconsider. The added files are just `data.csv` and `summary_stats_9274.r` - these appear to be data and R source files, not build artifacts or dependencies. There are no build artifacts, dependency directories, or temporary files in the change list that would warrant adding ignore rules.
+# OS
+.DS_Store
+Thumbs.db
 
-```
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
+# Testing
+.pytest_cache/
+.mypy_cache/
 ```
