@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `square_func_9102.fs` appears to be a source code file (F# script file) which should not be ignored.
+Nothing needs to be added to .gitignore for this change. The added file 'current_datetime.ps1' is a PowerShell script source file, which should be tracked in version control.
