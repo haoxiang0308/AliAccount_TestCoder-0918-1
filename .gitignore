@@ -6,6 +6,7 @@ __pycache__/
 # Dependencies
 .venv/
 venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -15,16 +16,20 @@ venv/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-.coverage
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
 coverage/
 htmlcov/
+.coverage
 
 # Python specific
 *.pyc
@@ -32,12 +37,13 @@ htmlcov/
 *.pyd
 .Python
 *.so
+
+# Build directories
+dist/
+build/
 *.egg-info/
-.eggs/
 
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
+# Cache directories
+.mypy_cache/
+.pytest_cache/
 ```
