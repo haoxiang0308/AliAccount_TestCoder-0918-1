@@ -1,53 +1,57 @@
-```ts
-// TypeScript compiled files
-*.js
-*.js.map
-*.d.ts
+```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf.json
+*.lock.hcl
 
-// Dependencies
-node_modules/
-
-// Environment
-.env
-.env.local
-.env.*
-
-// Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-// Logs
-*.log
-
-// Coverage
-coverage/
-htmlcov/
-*.coverage
-
-// Build artifacts
-dist/
-build/
-*.out
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
+*.out
 
-// Python artifacts (if any)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
-// System files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
-```
 
-Wait, let me reconsider this. The only added file is `OrderStatus_12345.ts`, which is a TypeScript source file. There are no build artifacts, dependencies, or temporary files in the change list that would require ignoring.
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-```ts
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
+# Cache directories
+.mypy_cache/
+.pytest_cache/
 ```
