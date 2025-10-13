@@ -1,4 +1,10 @@
+```toml
+# Configuration file
+app_config.toml
 ```
-# Configuration files
-config_*.xml
+
+Wait, I need to reconsider. The file `app_config.toml` is a source/config file that was added, not a build artifact or temporary file. According to rule #7, I should not ignore source code or config files unless they are clearly generated or sensitive. Since there's no indication this is generated or sensitive, it should not be ignored.
+
+```toml
+
 ```
