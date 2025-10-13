@@ -1,22 +1,84 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Zig compiler distribution
+zig-linux-x86_64-0.13.0/
 
-# Dependencies
-julia-*/
-*.jl.*
+# Compressed archives
+*.tar.xz
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
 ```
