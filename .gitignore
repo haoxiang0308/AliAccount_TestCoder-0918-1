@@ -1,20 +1,45 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.swiftmodule
-*.swiftdoc
+# Docker related
+.dockerenv
+Dockerfile
 
 # Dependencies
-Pods/
-Carthage/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+dist/
 build/
-DerivedData/
+target/
+.gradle/
+.cargo/
+.go/
+.npm/
+.yarn/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tar.bz2
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
+*~
 
 # Environment
 .env
@@ -27,8 +52,29 @@ DerivedData/
 *.swp
 *.swo
 
-# iOS specific
-*.ipa
-*.app
-*.dSYM/
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
 ```
