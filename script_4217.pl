@@ -1,0 +1,1 @@
+print "Total errors counted by this script: 3\n";

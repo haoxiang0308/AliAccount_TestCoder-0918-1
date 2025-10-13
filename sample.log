@@ -1,0 +1,7 @@
+[INFO] 2023-10-27T10:00:00Z Application started
+[ERROR] 2023-10-27T10:01:00Z Failed to connect to database
+[INFO] 2023-10-27T10:02:00Z User login successful
+[WARNING] 2023-10-27T10:03:00Z Low disk space
+[ERROR] 2023-10-27T10:04:00Z Permission denied for file access
+[ERROR] 2023-10-27T10:05:00Z Segmentation fault
+[INFO] 2023-10-27T10:06:00Z Application shutdown
