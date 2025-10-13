@@ -1,1 +1,48 @@
-(user_profile_component/user_profile_42.ts is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Compiled Scala files
+*.class
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+target/
+dist/
+build/
+
+# Scala dependencies and cache
+lib_managed/
+project_target/
+.scala_dependencies
+.scala_history
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Archives
+*.tgz
+*.zip
+*.gz
+*.tar
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
