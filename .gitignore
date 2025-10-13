@@ -1,15 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing needs to be added to .gitignore for this change list. The file `test_workflow.yml` is a source/config file that should be tracked in version control.
