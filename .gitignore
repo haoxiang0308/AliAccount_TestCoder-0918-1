@@ -1,56 +1,11 @@
 ```
-# Workflow files
-test_workflow_*.yml
-
-# Temporary and generated files
-*.tmp
-*.temp
-*.log
-
-# Editor/IDE files
-.vscode/
-.idea/
+# Swap files
 *.swp
 *.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Build artifacts
-dist/
-build/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.o
-*.obj
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-.env/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
+*~
+```
+swap_output_*.txt
 ```
