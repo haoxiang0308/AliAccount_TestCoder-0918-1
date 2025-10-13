@@ -1,4 +1,13 @@
 ```
-# Docker compose files
-docker-compose_*.yml
+# Julia installation
+julia-*/
+julia-*.tar.gz
+
+# Compiled Julia files
+*.ji
+*.so
+
+# Logs
+*.log
+wget-log
 ```
