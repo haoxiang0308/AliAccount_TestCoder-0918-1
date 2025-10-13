@@ -1,5 +1,1 @@
-(car.dart is a source code file, so no .gitignore rules needed)
-
-```dart
-
-```
+Nothing should be ignored since the added file `vba/sum_function.vba` is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
