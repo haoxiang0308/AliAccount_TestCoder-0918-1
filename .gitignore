@@ -1,43 +1,53 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unitypackage
+*.user
+*.sln
+*.csproj
+*.pidb
+*.userprefs
+*.usermeta
+*.unityproj
+*.unity3d
+*.asset
+*.prefab
+*.mat
+*.anim
+*.controller
+*.meta
+*.asmdef
+*.asmref
+*.log
+*.tmp
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Build artifacts
 *.exe
 *.dll
 *.so
-*.a
-*.out
+*.dylib
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Environment
 .env
 .env.local
-.env.*
+.env.
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
 
 # Coverage
 coverage/
@@ -63,4 +73,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
