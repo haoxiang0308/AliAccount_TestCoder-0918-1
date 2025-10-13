@@ -1,4 +1,4 @@
 ```
-# Build system
-Makefile_abc123
+# Compiled files
+*.m
 ```
