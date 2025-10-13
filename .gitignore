@@ -1,15 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing should be ignored based on the provided file changes. The added file 'loop_7a2b3c.f90' is a source code file (.f90 extension indicates Fortran source code) and should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
