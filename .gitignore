@@ -1,4 +1,41 @@
 ```
-# Build system
-*.mk
+# Dart/Flutter build artifacts
+.dart_tool/
+.build/
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# Dependencies
+.pub/
+.packages
+
+# Logs
+*.log
+**/logs
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temp files
+*.tmp
+*.temp
 ```
