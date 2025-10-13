@@ -1,1 +1,53 @@
-Nothing should be ignored since the added file `hello_world_page.html` is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Dependencies
+node_modules/
+julia-*/
+zig*/
+target/
+.gradle/
+
+# System
+.DS_Store
+Thumbs.db
+```
