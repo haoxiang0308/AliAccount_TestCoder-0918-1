@@ -1,1 +1,25 @@
-(empty)
+```
+# Compiled and build artifacts
+*.zig-cache/
+zig-out/
+*.o
+*.obj
+
+# Dependencies
+.zig-cache/
+zig-cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
