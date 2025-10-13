@@ -1,12 +1,11 @@
 ```
 # Compiled and build artifacts
+*.beam
 *.o
 *.obj
-*.out
 
 # Dependencies
-.crystal/
-lib/
+ebin/
 deps/
 
 # Logs and temp files
@@ -18,7 +17,8 @@ deps/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
