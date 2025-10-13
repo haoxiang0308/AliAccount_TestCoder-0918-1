@@ -1,40 +1,12 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.exe
+# R plots and generated images
+Rplots.pdf
+*.png
 
-# Dependencies
-build/
-dist/
-*.so
-*.dll
-*.a
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.gcda
-*.gcno
-
-# System files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 ```
