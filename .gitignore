@@ -1,64 +1,38 @@
 ```
-# Build system
-Makefile
+# Compiled and build artifacts
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.out
 
 # Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 *.swp
+*.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-.coverage
+# Coverage and testing
 coverage/
 htmlcov/
+.coverage
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
+# System files
+.DS_Store
+Thumbs.db
 ```
