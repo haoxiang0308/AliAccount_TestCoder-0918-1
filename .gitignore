@@ -1,5 +1,8 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
 *.o
 *.obj
 *.exe
@@ -12,9 +15,11 @@
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+.env
+.env.local
+.env.*
+
+# Build directories
 dist/
 build/
 target/
@@ -25,11 +30,6 @@ target/
 *.tmp
 *.swp
 *.swo
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
@@ -44,7 +44,13 @@ coverage/
 htmlcov/
 .coverage
 
-# Common compressed files
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Compressed files
 *.zip
 *.gz
 *.tar
