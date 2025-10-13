@@ -1,25 +1,57 @@
 ```
-# PowerShell related
-*.ps1xml
-*.psc1
-*.psd1
-*.psm1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Generated from file changes
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.csharp
+*.thrift.swift
+*.thrift.d
+*.thrift.st
+*.thrift.erl
+*.thrift.rs
+*.thrift.ts
+*.thrift.lua
+*.thrift.ml
+*.thrift.co
+*.thrift.ex
+*.thrift.cr
+*.thrift.nim
+*.thrift.eg
+*.thrift.purs
+*.thrift.hx
+*.thrift.idr
+*.thrift.lean
+*.thrift.lidr
+*.thrift.f
+*.thrift.fs
+*.thrift.vb
+*.thrift.cs
+*.thrift.vbproj
+*.thrift.fsproj
+*.thrift.csproj
+*.thrift.userprefs
+*.thrift.user
+*.thrift.sln
+*.thrift.suo
+*.thrift.userosscache
+*.thrift.userprefs
+*.thrift.user
+*.thrift.vspscc
+*.thrift.vssscc
+*.thrift.scc
+*.thrift.userosscache
+*.thrift.userprefs
+*.thrift.user
+*.thrift.vspscc
+*.thrift.vssscc
+*.thrift.scc
 ```
