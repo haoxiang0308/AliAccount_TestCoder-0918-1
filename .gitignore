@@ -1,1 +1,48 @@
-(empty)
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+*.jar
+lib/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python (if mixed project)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+```
