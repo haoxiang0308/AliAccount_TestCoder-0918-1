@@ -2,9 +2,9 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.class
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -18,12 +18,6 @@ venv/
 .env
 .env.local
 .env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
