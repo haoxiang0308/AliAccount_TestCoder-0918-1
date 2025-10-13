@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `square_func_9102.fs` appears to be a source code file (F# script file) which should not be ignored.
+Nothing should be ignored based on the provided file changes. The added file `email_finder.pl` is a source code file that should be tracked in version control.
