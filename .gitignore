@@ -1,1 +1,30 @@
-Nothing should be ignored in this case, as only a Perl source file (.pl) was added without any build artifacts, dependencies, or temporary files.
+```
+# Dependencies
+node_modules/
+
+# Package manager
+package-lock.json
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+```
