@@ -1,0 +1,1 @@
+Write-Output "The current date and time is: $(Get-Date)"
