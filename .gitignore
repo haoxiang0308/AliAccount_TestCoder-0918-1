@@ -1,12 +1,92 @@
 ```
-# Temporary shell scripts
-*.sh
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
-*.tmp
 *.log
+*.tmp
+*.swp
 
-# System files
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.so
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg-link
+*.egg-metadata
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+.coverage.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+.env.*
 ```
