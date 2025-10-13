@@ -1,6 +1,1 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-```
+(current_user_info.ps1 is a PowerShell script file, which is a source code file, so no .gitignore rules are needed)
