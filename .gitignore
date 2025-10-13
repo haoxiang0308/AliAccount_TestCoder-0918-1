@@ -1,12 +1,1 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-
-# Dependencies
-target/
-
-# Editors
-.idea/
-```
+Nothing should be ignored based on the provided file changes, as only a source code file (.cs) was added without any build artifacts, dependencies, or temporary files.
