@@ -1,41 +1,6 @@
 ```
-# Elixir specific ignores
-*.beam
-*.ez
-.erlang.cookie
-.eunit
-.hex
-.rebar
-.rebar3
-.deps
-_build/
-cover/
-doc/
-ebin/
-tmp/
-
-# Dependencies
-deps/
-node_modules/
-
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-cover/
+*.env.*
 ```
