@@ -1,26 +1,53 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.exe
+```ts
+// TypeScript compiled files
+*.js
+*.js.map
+*.d.ts
 
-# Dependencies
-build/
-dist/
+// Dependencies
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
+// Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+// Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+// Logs
+*.log
+
+// Coverage
+coverage/
+htmlcov/
+*.coverage
+
+// Build artifacts
+dist/
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+// Python artifacts (if any)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+// System files
+.DS_Store
+Thumbs.db
+```
+
+Wait, let me reconsider this. The only added file is `OrderStatus_12345.ts`, which is a TypeScript source file. There are no build artifacts, dependencies, or temporary files in the change list that would require ignoring.
+
+```ts
+
 ```
