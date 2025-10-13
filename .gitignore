@@ -1,3 +1,52 @@
-(server_kjsd83.js is a source file, so it should not be added to .gitignore)
+```python
+# Compiled Python files
+*.pyc
+__pycache__/
 
-Nothing to output.
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.coverage.*
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# System files
+.DS_Store
+Thumbs.db
+```
