@@ -1,43 +1,38 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Elixir specific ignores
+*.beam
+*.ez
+.erlang.cookie
+.eunit
+.rebar
+.rebar3
+_deps/
+_build/
+cover/
+doc/
+ebin/
+tmp/
 
 # Environment
 .env
 .env.local
 .env.*
 
+# Logs
+*.log
+log/
+
+# Dependencies
+deps/
+node_modules/
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-*.egg
-
-# Python
-.Python
-*.pyo
-*~
-.pytest_cache/
-.mypy_cache/
+# System
+.DS_Store
+Thumbs.db
 ```
