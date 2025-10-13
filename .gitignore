@@ -1,32 +1,13 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Puppet related
+**/modules/
+**/spec/fixtures/modules/
+**/pkg/
+**/vendor/
+.r10k/
+.rspec/
+.yardoc/
+.yardopts
+coverage/
+doc/
 ```
