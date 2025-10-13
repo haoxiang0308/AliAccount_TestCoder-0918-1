@@ -1,30 +1,58 @@
 ```
-# Compiled Scala files
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Scala build artifacts
-target/
-.project
-.scala_dependencies
-lib_managed/
-src_managed/
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
-# IDE files
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Temporary files
-*.tmp
+# Logs and temp files
 *.log
+*.tmp
 *.swp
+*.swo
 
-# Local configuration
-.local/
+# Editors
+.vscode/
+.idea/
 
-# SBT files
-.project/
-*.sbt
-.cache/
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
 ```
