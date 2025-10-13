@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as the added file 'format_sheet_macro.bas' is a source code file that should be tracked in version control. The list contains only a source file with no build artifacts, dependencies, or temporary files that would warrant adding to .gitignore.
+Nothing should be ignored based on the provided file changes, as they are both Python source files (.py) which are legitimate source code files that should be tracked in version control.
