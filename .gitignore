@@ -1,31 +1,4 @@
-```
-# Compiled and build artifacts
-*.fs
-*.fsi
-*.fsx
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Dependencies
-.paket/
-.packages/
-bin/
-obj/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+```toml
+# Configuration
+app_settings.toml
 ```
