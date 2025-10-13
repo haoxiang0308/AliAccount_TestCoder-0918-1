@@ -1,42 +1,26 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.mex
+*.mexa64
+*.mexw64
+*.mexw32
+*.oct
+*.so
+*.dylib
+*.dll
 
-# Virtual environments
-venv/
-.venv/
-env/
+# Dependencies
+matlab/
+octave/
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Distribution artifacts
-dist/
-build/
-*.egg-info/
-
-# Testing
-.coverage
-htmlcov/
-.coverage.*
-.pytest_cache/
-.mypy_cache/
 
 # System files
 .DS_Store
