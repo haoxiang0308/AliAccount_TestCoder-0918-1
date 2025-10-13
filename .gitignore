@@ -1,1 +1,72 @@
-(server_9j2k4.js is a source file, not a build artifact or temporary file, so it should not be ignored)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.exe
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mlir/
+.opam/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OCaml/Dune build artifacts
+_build/
+.dune/
+.dune-release/
+*.native
+*.byte
+*.install
+
+# General compiled files
+*.so
+*.dll
+*.a
+*.dylib
+*.jar
+*.war
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
