@@ -1,62 +1,7 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# SQL query files (if they are generated/temporary)
+*.sql
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution
-dist/
-build/
-*.egg-info/
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# System files
-.DS_Store
-Thumbs.db
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Git
-.git/
-
-# OS generated files
-*.swp
-*.swo
-*~
-.DS_Store
-ehthumbs.db
-Icon?
-Thumbs.db
+# If query files are temporary outputs, ignore them
+# Otherwise, remove this line if they are source files
 ```
