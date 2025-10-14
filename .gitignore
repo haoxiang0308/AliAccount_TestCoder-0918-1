@@ -1,4 +1,43 @@
-```
-# GraphQL schema files
-schema.graphql
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
+*.so
+*.dylib
+*.dll
+
+# Build artifacts
+build/
+dist/
+lib/
+deps/
+
+# Package manager
+.julia/
+*.tar.gz
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# System
+.DS_Store
+Thumbs.db
 ```
