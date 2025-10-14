@@ -1,1 +1,21 @@
-Nothing should be ignored based on the provided file changes. The added file 'p9WvWlc5Ik.lua' is a source code file that should be tracked in version control.
+```
+# VBA/Office files
+*.bas
+*.frm
+*.cls
+*.vba
+*.vbs
+*.bas~
+*.frm~
+*.cls~
+
+# Backup and temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
