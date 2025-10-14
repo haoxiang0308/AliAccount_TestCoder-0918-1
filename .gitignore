@@ -1,9 +1,7 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# SQL query files (if they contain sensitive data or are auto-generated)
+*.sql
 
-# Configuration files
-*.ini
+# If query files are temporary or auto-generated, be more specific
+# query_*.sql
 ```
