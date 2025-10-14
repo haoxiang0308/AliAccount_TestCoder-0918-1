@@ -1,27 +1,9 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Dependencies
-texmf-var/
-*.class
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Configuration files
+*.ini
 ```
