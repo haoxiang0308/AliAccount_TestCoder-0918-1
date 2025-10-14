@@ -1,1 +1,12 @@
-(index.html is a source file, so no .gitignore rules needed)
+```
+# Temporary shell scripts
+*.sh
+
+# Logs and temp files
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+```
