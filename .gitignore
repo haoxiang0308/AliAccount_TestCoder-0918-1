@@ -1,3 +1,27 @@
-(restart_service_playbook_987654321.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 
-(empty — output nothing)
+# Dependencies
+texmf-var/
+*.class
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
