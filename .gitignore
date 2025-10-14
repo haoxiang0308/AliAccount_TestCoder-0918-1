@@ -1,7 +1,32 @@
 ```
-# R-specific ignores
-*.Rhistory
-*.RData
-.Rproj.user/
-.Rprofile
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# Compiled and binary files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+.zig/
+zig-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
