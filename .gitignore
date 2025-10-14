@@ -1,1 +1,9 @@
-Nothing should be ignored based on the provided file changes. The added file 'greeting_module.ex' is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files
+*.ini
+```
