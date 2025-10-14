@@ -1,1 +1,4 @@
-(empty)
+```
+# Terraform variables
+terraform_var_*.hcl
+```
