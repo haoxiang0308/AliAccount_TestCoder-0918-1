@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.j@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.s@example.com"
+      }
+    ],
+    "total_count": 2
+  }
+}
