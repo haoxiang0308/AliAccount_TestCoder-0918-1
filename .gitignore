@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided file changes. The added file `check_disk_usage.sh` is a shell script source file, which should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Rust-specific
+**/target/
+Cargo.lock
+```
