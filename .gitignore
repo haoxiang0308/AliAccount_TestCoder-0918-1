@@ -1,3 +1,50 @@
-(restart_service_playbook_987654321.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-(empty — output nothing)
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Rust specific
+**/*.rs.bk
+*.dSYM/
+*.pdb
+
+# System files
+.DS_Store
+Thumbs.db
+```
