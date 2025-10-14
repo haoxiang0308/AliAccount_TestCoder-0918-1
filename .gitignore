@@ -1,24 +1,30 @@
 ```
-# API output files
-api_output.json
+# Temporary files
+*.tmp
+*.swp
+*.swo
 
-# Generated script files
-script_*.py
-
-# Python compiled files
-*.pyc
-__pycache__/
+# Logs
+*.log
 
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.pyc
+__pycache__/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# System files
+.DS_Store
+Thumbs.db
 ```
