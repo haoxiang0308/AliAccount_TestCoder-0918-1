@@ -1,1 +1,291 @@
-(empty)
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+web_modules/
+*.tsbuildinfo
+.nyc_output
+coverage/
+.nyc_output/
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Test files
+.test*
+.test
+
+# Mocha
+mocha.opts
+
+# Chokidar
+.chokidar/
+
+# Glob
+.glob
+
+# Randombytes
+.randombytes
+
+# Safe buffer
+.safe-buffer
+
+# Workerpool
+.workerpool
+
+# Yargs
+.yargs
+yargs.*
+
+# Y18n
+.y18n
+
+# Yaml
+.yaml
+.yml.swp
+
+# Js-yaml
+.js-yaml
+
+# Serialize javascript
+.serialize-javascript
+
+# Readdirp
+.readdirp
+
+# Require directory
+.require-directory
+
+# Package json from dist
+.package-json-from-dist
+
+# Path scurry
+.path-scurry
+
+# Path key
+.path-key
+
+# Path exists
+.path-exists
+
+# P limit
+.p-limit
+
+# P locate
+.p-locate
+
+# Minipass
+.minipass
+
+# Minimatch
+.minimatch
+
+# Lru cache
+.lru-cache
+
+# Locate path
+.locate-path
+
+# Log symbols
+.log-symbols
+
+# Isexe
+.isexe
+
+# Is path inside
+.is-path-inside
+
+# Is plain obj
+.is-plain-obj
+
+# Is unicode supported
+.is-unicode-supported
+
+# Is fullwidth code point
+.is-fullwidth-code-point
+
+# He
+.he
+
+# Has flag
+.has-flag
+
+# Glob
+.glob
+
+# Get caller file
+.get-caller-file
+
+# Foreground child
+.foreground-child
+
+# Flat
+.flat
+
+# Find up
+.find-up
+
+# Escalade
+.escalade
+
+# Escape string regexp
+.escape-string-regexp
+
+# Emoji regex
+.emoji-regex
+
+# Eastasianwidth
+.eastasianwidth
+
+# Diff
+.diff
+
+# Decamelize
+.decamelize
+
+# Debug
+.debug
+
+# Cross spawn
+.cross-spawn
+
+# Color name
+.color-name
+
+# Color convert
+.color-convert
+
+# Cliui
+.cliui
+
+# Chalk
+.chalk
+
+# Camelcase
+.camelcase
+
+# Browser stdout
+.browser-stdout
+
+# Balanced match
+.balanced-match
+
+# Argparse
+.argparse
+
+# Ansi styles
+.ansi-styles
+
+# Ansi regex
+.ansi-regex
+
+# Parseargs
+.parseargs
+
+# Cliui
+.cliui
+
+# Wrap ansi
+.wrap-ansi
+
+# String width
+.string-width
+
+# Strip ansi
+.strip-ansi
+
+# Strip json comments
+.strip-json-comments
+
+# Supports color
+.supports-color
+
+# Which
+.which
+
+# Workerpool
+.workerpool
+
+# Test files
+test/
+tests/
+
+# Temporary test file
+b8d8a02b5736d815f89521519b38d3fa.js
+
+```
