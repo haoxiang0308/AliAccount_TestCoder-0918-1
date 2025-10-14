@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file '467ds9ohv9.py' is a Python source file that should be tracked in version control.
+Nothing should be ignored since the added files are shell scripts (.sh) which are source code files, and there are no build artifacts, dependencies, or temporary files in the changes.
