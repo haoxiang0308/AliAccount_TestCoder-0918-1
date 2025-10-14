@@ -1,4 +1,1 @@
-```
-# Generated from file changes
-*.thrift
-```
+Nothing should be ignored based on the provided file changes. The added file `loop_98765.f90` is a source code file that should be tracked in version control.
