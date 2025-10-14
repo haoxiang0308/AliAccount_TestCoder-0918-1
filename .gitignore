@@ -1,3 +1,14 @@
-```rust
-
+```
+# Elixir specific ignores
+*.beam
+*.ez
+.erlang.cookie
+.elixir_ls/
+.coverage/
+.eunit/
+.hex/
+.rebar/
+.rebar3/
+_build/
+deps/
 ```
