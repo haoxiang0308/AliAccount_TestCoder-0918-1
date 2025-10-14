@@ -1,1 +1,47 @@
-Nothing should be ignored based on the provided file changes. The added file `square_function_9102.fs` appears to be a source code file that should be tracked in version control.
+```
+# Ruby specific ignores
+*.gem
+*.rbc
+coverage/
+*.reek
+*.ru
+.rake
+test.rbx
+spec/reports/
+*.dSYM
+*.dump
+*.prof
+*.seed
+*.so
+*.o
+*.obj
+*.bak
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment and dependency directories
+.bundle/
+vendor/bundle/
+vendor/ruby/
+.gem/
+.rvmrc
+.gemrc
+*.gemspec
+Gemfile.lock
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
