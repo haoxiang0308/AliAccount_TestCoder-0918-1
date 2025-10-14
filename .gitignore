@@ -1,7 +1,1 @@
-```
-# R-specific ignores
-*.Rhistory
-*.RData
-.Rproj.user/
-.Rprofile
-```
+Nothing needs to be added to .gitignore for this change list. The added file `server_kjx92v.js` is a JavaScript source file that should be tracked in version control.
