@@ -1,1 +1,35 @@
-Nothing needs to be added to .gitignore since the only change is adding a Kotlin source file (MainActivity_928374.kt), which is a source code file that should not be ignored.
+```
+# Docker build artifacts
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.gz
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
+# Docker specific
+.dockerenv
+.dockerinit
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*
+```
