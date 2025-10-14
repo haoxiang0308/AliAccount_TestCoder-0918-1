@@ -1,0 +1,10 @@
+```
+# Logs and temp files
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
