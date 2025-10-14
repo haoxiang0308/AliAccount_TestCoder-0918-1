@@ -1,3 +1,24 @@
-(restart_service_playbook_987654321.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-(empty — output nothing)
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+```
