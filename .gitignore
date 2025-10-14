@@ -1,1 +1,48 @@
-Nothing needs to be added to .gitignore for this change list. The added file `check_disk_usage.sh` is a shell script source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+*.exe
+
+# Assembly related
+*.s
+*.S
+*.asm
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
