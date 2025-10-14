@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file `square_function_9102.fs` appears to be a source code file that should be tracked in version control.
+```
+# GraphQL schema files
+schema.graphql
+```
