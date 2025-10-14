@@ -1,15 +1,1 @@
-```
-# Environment and config files
-.env
-.env.local
-*.env.*
-
-# Backup/config files
-*~
-*.bak
-*.backup
-
-# OS generated files
-.DS_Store
-Thumbs.db
-```
+(check_disk_usage.sh is a shell script file, which is source code and should not be ignored)
