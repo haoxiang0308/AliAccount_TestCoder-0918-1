@@ -1,42 +1,27 @@
 ```
-# Compiled and build artifacts
-*.bas
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Serverless framework
+.serverless/
+.sls/
+.sls-local/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -44,6 +29,33 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nosetests
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg-info/
+*.so
 
 # Compressed files
 *.zip
