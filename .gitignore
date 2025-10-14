@@ -1,23 +1,15 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment and config files
 .env
 .env.local
 *.env.*
+
+# Backup/config files
+*~
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
