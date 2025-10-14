@@ -1,8 +1,9 @@
 ```
-# PowerShell/Windows specific
-*.ps1~
-*.psd1~
-*.psm1~
+# Compiled and build artifacts
+*.js
+
+# Dependencies
+node_modules/
 
 # Logs and temp files
 *.log
@@ -12,13 +13,9 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# OS specific
-.DS_Store
-Thumbs.db
 ```
