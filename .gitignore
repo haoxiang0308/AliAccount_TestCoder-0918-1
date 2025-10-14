@@ -1,4 +1,1 @@
-```
-# Generated from file changes
-*.thrift
-```
+Nothing should be ignored based on the provided file changes. The added file `check_disk_usage.sh` is a shell script source file, which should not be ignored.
