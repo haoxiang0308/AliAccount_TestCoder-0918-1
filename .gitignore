@@ -1,3 +1,8 @@
-(person_12345.rb is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
-
-(empty — output nothing)
+```
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webm
+```
