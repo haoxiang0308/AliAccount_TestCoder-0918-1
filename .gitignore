@@ -1,9 +1,43 @@
 ```
+# Temporary and generated files
+*.tmp
+*.temp
+*.log
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
 # Environment files
 .env
 .env.local
-*.env.*
+.env.*
+venv/
+.venv/
+env/
+ENV/
 
-# Configuration files
-*.ini
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+coverage/
+
+# System files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
 ```
