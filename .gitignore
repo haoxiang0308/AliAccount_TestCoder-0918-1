@@ -1,10 +1,11 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
 *.o
 *.obj
+*.mod
+*.smod
+*.pyc
+*.class
 *.exe
 *.dll
 *.so
@@ -15,13 +16,9 @@ __pycache__/
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
 .gradle/
 
@@ -29,6 +26,12 @@ target/
 *.log
 *.tmp
 *.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
