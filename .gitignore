@@ -1,1 +1,36 @@
-Nothing needs to be added to .gitignore for this change list. The added file `get_processes.ps1` is a PowerShell script source file, which should be tracked in version control.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+*.dvi
+*.ps
+
+# Dependencies
+texmf-var/
+build/
+dist/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
