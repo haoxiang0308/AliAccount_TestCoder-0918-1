@@ -1,15 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+(filter_closure.groovy)
