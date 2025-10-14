@@ -1,1 +1,28 @@
-Nothing to output - the change list contains only a source code file (.py) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# VBA project artifacts
+vba_project/*.zip
+
+# Backup and temporary files
+*.tmp
+*.bak
+*.~*
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
