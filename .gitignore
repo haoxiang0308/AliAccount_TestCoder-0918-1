@@ -1,54 +1,36 @@
 ```
-# Environment
-.env
-.env.local
-*.env.*
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
 
-# Logs
-*.log
+# Dependencies
+_dbuild/
+.opam/
+esy.lock/
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# IDE
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+
+# OCaml-specific
+*.annot
+*.cmt
+*.cmti
+*.out
+_coverage/
+_coverage_report/
 ```
