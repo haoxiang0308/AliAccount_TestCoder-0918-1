@@ -1,4 +1,22 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# Compiled and build artifacts
+*.class
+
+# Dependencies
+target/
+build/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
