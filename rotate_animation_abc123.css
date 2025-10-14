@@ -1,0 +1,21 @@
+/* 定义旋转动画的关键帧 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* 动画开始时元素没有旋转 */
+  }
+  to {
+    transform: rotate(360deg); /* 动画结束时元素旋转360度 */
+  }
+}
+
+/* 应用动画到具有 .rotating-element 类的HTML元素 */
+.rotating-element {
+  /* 指定要使用的动画名称 */
+  animation-name: spin;
+  /* 指定动画的持续时间，例如 2 秒 */
+  animation-duration: 2s;
+  /* 指定动画无限次重复 */
+  animation-iteration-count: infinite;
+  /* 指定动画匀速进行 */
+  animation-timing-function: linear;
+}
