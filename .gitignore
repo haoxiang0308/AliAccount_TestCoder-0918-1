@@ -1,12 +1,3 @@
 ```
-# Temporary shell scripts
-*.sh
-
-# Logs and temp files
-*.tmp
-*.log
-
-# System files
-.DS_Store
-Thumbs.db
+# Configuration and deployment files only - no build artifacts to ignore
 ```
