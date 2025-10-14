@@ -1,4 +1,1 @@
-```
-# GraphQL schema files
-schema.graphql
-```
+Nothing needs to be added to .gitignore for this change list, as it only contains a source code file (.jl) without any build artifacts, dependencies, or temporary files.
