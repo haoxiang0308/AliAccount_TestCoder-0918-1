@@ -1,33 +1,127 @@
 ```
-# Compiled files
-*.class
+# System files
+.DS_Store
+Thumbs.db
 
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# Build artifacts
-dist/
-build/
-target/
-node_modules/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
 venv/
 .venv/
+env/
+.venv*/
+env*/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.coverage.xml
+*.coverage
+.nyc_output
+coverage-final.json
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Generated files
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Gradle
+.gradle/
+build/
+
+# Rust
+target/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Other common ignores
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+.fuse_hidden*
+*.swp
+*.swo
+*~
+.DS_Store?
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
