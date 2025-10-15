@@ -1,0 +1,28 @@
+```
+# Database files
+*.sql
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+.Trashes
+*.nfs*
+```
