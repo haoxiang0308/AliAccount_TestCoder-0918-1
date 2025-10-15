@@ -1,4 +1,28 @@
 ```
-# Compiled files
-*.m
+# Elixir compiled files
+*.beam
+
+# Elixir build artifacts
+ebin/
+_build/
+cover/
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
