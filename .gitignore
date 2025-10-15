@@ -1,54 +1,33 @@
 ```
 # Compiled and build artifacts
-*.m
-*.o
-*.obj
-*.out
+*.css.map
+*.css.gz
+*.css.br
 
-# Dependencies
-.julia/
-.zig-cache/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
-*.swp
+*.temp
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
+# Dependencies
+node_modules/
+.npm/
+.yarn/
 
-# Distribution / packaging
-dist/
-build/
-*.tar.gz
-*.zip
-*.gz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar
-*.tgz
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
 ```
