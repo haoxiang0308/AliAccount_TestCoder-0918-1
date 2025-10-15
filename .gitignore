@@ -1,22 +1,47 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Model files (if they are generated/intermediate)
+*.model
+*.pkl
+*.joblib
 
 # Dependencies
-julia-*/
-zig*/
+.venv/
+venv/
+env/
+pyenv/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# Distribution / build artifacts
+dist/
+build/
+*.egg-info/
 ```
