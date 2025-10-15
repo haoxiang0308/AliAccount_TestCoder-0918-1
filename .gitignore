@@ -1,1 +1,25 @@
-(binary_classifier_4567.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Erlang/OTP build artifacts
+ebin/
+*.app
+*.beam
+*.dump
+
+# Dependencies
+rebar3/
+_erl_types/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
