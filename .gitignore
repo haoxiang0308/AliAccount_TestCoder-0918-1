@@ -1,36 +1,4 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
-
-# Temp files
-*.tmp
-*.temp
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Dependency directories
-node_modules/
-dist/
-build/
-target/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Compiled files
+*.fs
 ```
