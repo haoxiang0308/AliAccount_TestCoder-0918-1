@@ -1,25 +1,32 @@
-```julia
-# Compiled and build artifacts
-*.ji
-*.o
-*.so
-*.dylib
-*.dll
+```
+# Database files
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Dependencies
-.julia/
-deps/
-test/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+.venv/
+venv/
+env/
 .env
 .env.local
 .env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Editors
 .vscode/
@@ -27,19 +34,8 @@ test/
 *.swp
 *.swo
 
-# Coverage and testing
-coverage/
-.jest/
-.nyc_output/
-
-# Distribution
+# Build artifacts
 dist/
 build/
-target/
-
-# Julia-specific
-*.res
 *.out
-.DS_Store
-Thumbs.db
 ```
