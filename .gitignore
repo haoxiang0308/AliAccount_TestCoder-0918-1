@@ -1,23 +1,36 @@
-```julia
-# Compiled and build artifacts
-*.ji
-*.o
-*.so
-*.dylib
-*.dll
+```
+# Image files
+*.png
 
-# Dependencies
-.julia/
-*.jl.cov
-*.jl.tmp
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# Editor/IDE files
+.vscode/
+.idea/
 *.swp
+*.swo
+*.tmp
 
-# Editors
-.julia_scratch/
-.julia_project/
-.julia_environment/
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
 ```
