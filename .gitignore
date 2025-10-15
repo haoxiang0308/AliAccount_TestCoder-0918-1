@@ -1,36 +1,39 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
+*.class
+*.jar
+*.war
+*.ear
+*.groovy.class
+*.classfile
 
-# Temp files
-*.tmp
-*.temp
+# Dependencies
+.gradle/
+build/
+target/
 
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Dependency directories
-node_modules/
-dist/
-build/
-target/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
