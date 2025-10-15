@@ -1,28 +1,37 @@
 ```
-# VBA/Excel related
-*.vba
-*.bas
-*.cls
-*.frm
-*.vbp
-*.ds_store
-Thumbs.db
+# Generated TypeScript build artifacts
+*.tsbuildinfo
+*.js
+*.js.map
+*.d.ts
 
-# Logs and temp files
-*.log
-*.tmp
+# Editor/IDE files
+.vscode/
+.idea/
 *.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Coverage and test reports
+coverage/
+htmlcov/
+*.coverage
+.nyc_output/
+
+# Dependency directories
+node_modules/
+dist/
+build/
+.npm/
+.yarn/
 
 # System files
 .DS_Store
