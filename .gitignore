@@ -1,80 +1,51 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# R plots and graphics
+Rplots.pdf
+*.png
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Build directories
+# Build and distribution
 dist/
 build/
-target/
-.gradle/
+*.egg-info/
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
+# Temporary files
+*.tmp
+*~
+```
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+Wait, I need to reconsider. The only added files are `Rplots.pdf`, `barplot.png`, and `plot.R`. The `.R` file is source code and should not be ignored. Only the output files `Rplots.pdf` and `barplot.png` should be considered for ignoring, but since they're just two specific files and not part of a build system, it might be intentional to commit them. However, `Rplots.pdf` is clearly a generated output file.
+
+Actually, looking more carefully - `plot.R` is the source file (should not be ignored), while `Rplots.pdf` and `barplot.png` are output files. In R projects, it's common to ignore generated plots/outputs.
+
+```
+Rplots.pdf
 ```
