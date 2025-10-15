@@ -1,1 +1,15 @@
-Nothing should be ignored since only a TypeScript source file (.ts) was added.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
