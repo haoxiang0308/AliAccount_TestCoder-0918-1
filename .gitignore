@@ -1,1 +1,28 @@
-Nothing should be ignored in this case. The added files are Python source files (.py) which are source code and should not be ignored. There are no build artifacts, dependencies, or temporary files in the change list that would warrant adding ignore rules.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+target/
+__pycache__/
+*.pyc
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Generated files
+*.txt
+```
