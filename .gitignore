@@ -1,56 +1,53 @@
 ```
-# System files
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Logs
-*.log
-
-# Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*.tmp
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
+# Editors
+.vscode/
+.idea/
 
-# Virtual environments
-venv/
-.venv/
-env/
-.venv*/
-env*/
+# System files
+.DS_Store
+Thumbs.db
 
-# Build artifacts
-build/
-dist/
-*.egg
-*.egg-info/
-.installed.cfg
-*.egg-info/
-
-# Testing
-.coverage
+# Coverage
+coverage/
 htmlcov/
-.coverage.*
-.coverage.xml
-*.coverage
-.nyc_output
-coverage-final.json
+.coverage
 
-# Compression
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -73,55 +70,4 @@ coverage-final.json
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Generated files
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Gradle
-.gradle/
-build/
-
-# Rust
-target/
-
-# Go
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-
-# Other common ignores
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-.directory
-.fuse_hidden*
-*.swp
-*.swo
-*~
-.DS_Store?
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 ```
