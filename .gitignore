@@ -1,3 +1,10 @@
-(filterStrings.kt is a source file, so no .gitignore rules needed)
+```toml
+# Configuration files that might contain sensitive data
+*.toml
+!app_config.toml
+!ob4l1enocs.toml
+```
 
-Nothing to output.
+Wait, I need to reconsider. The .toml files are explicitly added and appear to be configuration files that should be tracked, not ignored. Since the changes only include .toml files (which are source/config files), no files need to be ignored.
+
+(empty)
