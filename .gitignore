@@ -1,26 +1,22 @@
 ```
-# Vue.js build artifacts
-dist/
-build/
-*.vuepress/dist/
+# Compiled and build artifacts
+*.ex
 
 # Dependencies
-node_modules/
+julia-*/
+zig*/
 
-# Editor files
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# Editors
+.vscode/
+.idea/
 ```
