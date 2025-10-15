@@ -1,14 +1,54 @@
-```graphql
-# GraphQL schema files (if they are auto-generated)
-*.graphql
-*.gql
-
-# If the schema file is auto-generated, ignore it
-graphql_schemas/
 ```
+# Compiled and build artifacts
+*.m
+*.o
+*.obj
+*.out
 
-Wait, let me reconsider this. The file `graphql_schemas/mutation_create_user_9j2k4l.graphql` appears to be a specific generated GraphQL schema file with what looks like an auto-generated suffix. However, if GraphQL schema files are part of the normal project source code (which is common), we shouldn't ignore all `.graphql` files. 
+# Dependencies
+.julia/
+.zig-cache/
 
-Since this appears to be a legitimate project file that was added (not a build artifact), and there are no other build artifacts, dependency directories, or temporary files in the changes, no .gitignore rules are needed.
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-(empty — output nothing)
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.zip
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar
+*.tgz
+```
