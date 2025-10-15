@@ -1,13 +1,5 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+(book.xml is a source/config file, so no ignores needed)
 
-# Tests
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+```gitignore
+
 ```
