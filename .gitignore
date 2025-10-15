@@ -1,16 +1,18 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
+*.beam
+*.app
+*.appup
+*.rel
 
 # Dependencies
-vendor/
+ebin/
+deps/
+_build/
 
 # Logs and temp files
 *.log
-*.tmp
-*.swp
+erl_crash.dump
 
 # Environment
 .env
@@ -20,23 +22,10 @@ vendor/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
-*.tar.gz
-*.zip
-*.tar
-*.gz
-
-# Go specific
-*.test
-*.prof
 ```
