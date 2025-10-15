@@ -1,15 +1,21 @@
-```
-# Vue.js build artifacts
-dist/
-build/
-*.vuepress/dist/
+```fsharp
+# Compiled and build artifacts
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
 
 # Dependencies
-node_modules/
+.paket/
+packages/
+bin/
+obj/
 
-# Editor files
-.vscode/
-.idea/
+# Editors
+.vs/
+.vim/
 *.swp
 *.swo
 
@@ -18,9 +24,12 @@ node_modules/
 .env.local
 *.env.*
 
-# Logs
-*.log
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Temporary files
 *.tmp
+*~
 ```
