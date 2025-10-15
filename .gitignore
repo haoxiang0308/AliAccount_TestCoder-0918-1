@@ -1,15 +1,10 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
 *.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.pyc
+__pycache__/
 
 # Dependencies
 node_modules/
@@ -23,7 +18,6 @@ venv/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
@@ -33,20 +27,20 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
 # Build directories
-dist/
 build/
+dist/
 target/
 .gradle/
-
-# Python specific
 .mypy_cache/
 .pytest_cache/
+coverage/
+htmlcov/
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Compressed files
 *.zip
