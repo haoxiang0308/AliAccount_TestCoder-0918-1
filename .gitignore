@@ -1,18 +1,18 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.rel
+# Compressed files
+*.tar.gz
+
+# Python
+*.pyc
+__pycache__/
 
 # Dependencies
-ebin/
-deps/
-_build/
+node_modules/
+venv/
+.venv/
 
-# Logs and temp files
+# Logs
 *.log
-erl_crash.dump
 
 # Environment
 .env
@@ -22,10 +22,18 @@ erl_crash.dump
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+target/
 ```
