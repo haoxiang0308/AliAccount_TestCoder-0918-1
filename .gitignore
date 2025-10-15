@@ -1,36 +1,46 @@
 ```
-# Image files
-*.png
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Package lock files
+package-lock.json
+yarn.lock
 
 # Environment files
 .env
 .env.local
-*.env.*
+.env.
 
-# Editor/IDE files
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # Logs
 *.log
 
-# Python
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
 
-# R
-.Rhistory
-.RData
-.Rproj.user/
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing
+*.test.js
+test_*.js
 ```
