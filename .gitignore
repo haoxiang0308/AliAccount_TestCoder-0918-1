@@ -1,40 +1,45 @@
-```julia
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.info
-*.out
-*.o
-*.so
-*.dylib
-*.dll
+```
+# Configuration and deployment files
+*.yml
+*.yaml
 
-# Build artifacts
-build/
-dist/
-lib/
-deps/
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
 
-# Environment
-.julia/
-.JuliaFormatter.toml.bak
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
+# Environment and local config
+.env
+.env.local
+.env.*
 
 # Logs
 *.log
 
-# System
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if any get added)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 ```
