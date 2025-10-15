@@ -1,3 +1,33 @@
-(square_func_9012.fs is a shader file, which is a source code file, so it should not be added to .gitignore)
+```
+# Compiled files
+*.class
 
-(empty — output nothing)
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+target/
+node_modules/
+venv/
+.venv/
+```
