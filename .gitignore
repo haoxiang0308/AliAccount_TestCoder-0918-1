@@ -1,1 +1,26 @@
-Nothing should be ignored based on the provided file changes. The added file 'dg65385wvq.py' is a source code file and should not be added to .gitignore.
+```php
+# PHP specific
+*.php~
+*.php.bak
+*.php.swp
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
