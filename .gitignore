@@ -1,1 +1,34 @@
-Nothing should be ignored based on the provided file changes. The added file `get_processes.ps1` is a PowerShell script file, which is source code and should not be ignored.
+```
+# Compiled and build artifacts
+*.js.map
+*.min.js
+*.bundle.js
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Distribution and build
+dist/
+build/
+target/
+```
