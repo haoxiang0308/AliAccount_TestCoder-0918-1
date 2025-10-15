@@ -1,25 +1,23 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-ebin/
-_build/
+# Backup files
+backup_*.sh
 
-# Dependencies
-deps/
+# Temporary and backup files
+*.tmp
+*.bak
+*.backup
+*~
+```
 
-# Logs and temp files
-*.log
-erl_crash.dump
+Wait, let me reconsider. The file `backup_362b6ed4bd9b.sh` appears to be a specific backup script file. Since it's a specific named file rather than a pattern of backup files, and there's no clear indication this is a generated/temporary file (it could be an intentional backup script), I should not automatically ignore it.
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+Actually, reconsidering the rules more carefully - if this is a backup script that was intentionally added to the repository, it shouldn't be ignored. The pattern suggests it might be a backup script, but without more context, I shouldn't assume all backup scripts should be ignored.
 
-# Environment
-.env
-.env.local
-*.env.*
+Given that only one file was added and it appears to be a specific backup script file, and there are no other typical build artifacts, dependency directories, or temp files in the changes:
+
+```
+# Backup and temporary scripts
+backup_*.sh
+*.backup
+*.bak
 ```
