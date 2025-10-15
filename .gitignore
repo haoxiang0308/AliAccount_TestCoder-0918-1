@@ -1,28 +1,40 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-*.plt
-*.dump
-
-# Dependencies
-_deps/
-ebin/
-_generated/
-_build/
-
-# Logs and temp files
-*.log
-erl_crash.dump
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
+# Generated from file changes
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.rb
+*.thrift.java
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.csharp
+*.thrift.swift
+*.thrift.d
+*.thrift.st
+*.thrift.erl
+*.thrift.rs
+*.thrift.ts
+*.thrift.dart
+*.thrift.ml
+*.thrift.ex
+*.thrift.fs
+*.thrift.vb
+*.thrift.lua
+*.thrift.cobol
+*.thrift.haxe
+*.thrift.js
+*.thrift.json
+*.thrift.rb
+*.thrift.scala
+*.thrift.st
+*.thrift.x
+*.thrift.xmi
+*.thrift.xsd
+*.thrift.yaml
+*.thrift.yml
 ```
