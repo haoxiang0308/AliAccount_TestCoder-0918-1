@@ -1,52 +1,26 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Vue.js build artifacts
+dist/
+build/
+*.vuepress/dist/
 
 # Dependencies
-.venv/
-venv/
-pip-tools/
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
+# Editor files
+.vscode/
+.idea/
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-.eggs/
-.installed.cfg
-*.egg
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
 ```
