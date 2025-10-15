@@ -1,34 +1,30 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.class
-*.out
+# Generated .gitignore for TypeScript project
 
 # Dependencies
 node_modules/
-venv/
-.venv/
+
+# Build outputs
+dist/
+build/
+*.js
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment
 .env
 .env.local
 .env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# Editor files
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS files
 .DS_Store
 Thumbs.db
 
@@ -37,19 +33,20 @@ coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
+# Python (if mixed project)
 __pycache__/
+*.pyc
 *.pyo
 *.pyd
 .Python
-*.so
+env/
+venv/
+.venv/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
 
 # Compressed files
 *.zip
