@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added file `get_date_time.ps1` is a PowerShell script source file, which should be tracked in version control.
+(filterStrings.kt is a source file, so no .gitignore rules needed)
+
+Nothing to output.
