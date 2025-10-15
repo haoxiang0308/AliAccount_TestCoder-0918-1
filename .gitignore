@@ -1,12 +1,25 @@
 ```
-# Compiled files
-*.bas
+# Compiled and build artifacts
+*.beam
+*.app
+ebin/
+_build/
 
-# Backup and swap files
-*~
-*.bak
-*.tmp
+# Dependencies
+deps/
 
-# Logs
+# Logs and temp files
 *.log
+erl_crash.dump
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
