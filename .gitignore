@@ -1,17 +1,43 @@
 ```
 # Compiled and build artifacts
-*.pl~
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# Dependencies
+_opam/
+.dune/
+.dune-release/
 
 # Logs and temp files
-*.tmp
 *.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.annot
+*.build
+*.install
+*.run
+*.native
+*.byte
 ```
