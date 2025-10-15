@@ -1,5 +1,14 @@
-(postgres_connector_12345.py is a source file, so no ignores needed)
+```graphql
+# GraphQL schema files (if they are auto-generated)
+*.graphql
+*.gql
 
-```python
-
+# If the schema file is auto-generated, ignore it
+graphql_schemas/
 ```
+
+Wait, let me reconsider this. The file `graphql_schemas/mutation_create_user_9j2k4l.graphql` appears to be a specific generated GraphQL schema file with what looks like an auto-generated suffix. However, if GraphQL schema files are part of the normal project source code (which is common), we shouldn't ignore all `.graphql` files. 
+
+Since this appears to be a legitimate project file that was added (not a build artifact), and there are no other build artifacts, dependency directories, or temporary files in the changes, no .gitignore rules are needed.
+
+(empty — output nothing)
