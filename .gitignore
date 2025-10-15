@@ -1,11 +1,13 @@
 ```
 # Compiled and build artifacts
+*.beam
 *.o
 *.obj
-*.out
 
 # Dependencies
-vendor/
+ebin/
+deps/
+_build/
 
 # Logs and temp files
 *.log
@@ -15,28 +17,9 @@ vendor/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
-*.tar.gz
-*.zip
-*.tar
-*.gz
-
-# Go specific
-*.test
-*.prof
 ```
