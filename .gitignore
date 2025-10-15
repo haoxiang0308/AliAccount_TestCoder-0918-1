@@ -1,28 +1,3 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
-
-# Dependencies
-target/
-__pycache__/
-*.pyc
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Generated files
-*.txt
+*.m
 ```
