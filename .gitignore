@@ -1,70 +1,7 @@
-```
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+Nothing should be ignored in this case, as the added files (`backup_script.sh` and `test_file.txt`) are regular script and text files that are likely part of the project source code, not build artifacts, dependencies, or temporary files.
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+Therefore, the output is empty:
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
+```gitignore
 
-# System files
-.DS_Store
-Thumbs.db
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
