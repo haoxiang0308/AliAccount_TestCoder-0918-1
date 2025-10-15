@@ -1,10 +1,12 @@
 ```
-# Compiled and build artifacts
-*.ex
-
-# Dependencies
-julia-*/
-zig*/
+# VBA/Excel related
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbp
+*.ds_store
+Thumbs.db
 
 # Logs and temp files
 *.log
@@ -19,4 +21,10 @@ zig*/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
