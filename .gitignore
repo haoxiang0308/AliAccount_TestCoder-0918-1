@@ -1,4 +1,1 @@
-```
-# Compiled files
-*.fs
-```
+Nothing to output - the change list contains only a source code file (.kt) and no build artifacts, dependencies, or temp files that need to be ignored.
