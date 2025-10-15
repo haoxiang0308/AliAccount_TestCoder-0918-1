@@ -1,23 +1,25 @@
-```
+```julia
 # Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.rel
+*.ji
+*.o
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-ebin/
+.julia/
 deps/
-_build/
+test/
 
 # Logs and temp files
 *.log
-erl_crash.dump
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
@@ -25,7 +27,19 @@ erl_crash.dump
 *.swp
 *.swo
 
-# OS
+# Coverage and testing
+coverage/
+.jest/
+.nyc_output/
+
+# Distribution
+dist/
+build/
+target/
+
+# Julia-specific
+*.res
+*.out
 .DS_Store
 Thumbs.db
 ```
