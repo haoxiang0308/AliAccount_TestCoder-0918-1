@@ -1,5 +1,14 @@
-(postgres_connector_12345.py is a source file, so no ignores needed)
+```
+# Executables
+find_max
 
-```python
+# Output files
+*.txt
+!*.txt
+output_*.txt
 
+# Compiled files
+*.o
+*.obj
+*.out
 ```
