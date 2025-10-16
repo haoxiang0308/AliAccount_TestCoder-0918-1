@@ -1,5 +1,46 @@
-(book.xml is a source/config file, so no ignores needed)
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.info
+.coverage/
+.julia/
+build/
+dist/
+*.so
+*.dylib
+*.dll
 
-```gitignore
+# Dependencies
+.julia/
+Pkg.add/
 
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 ```
