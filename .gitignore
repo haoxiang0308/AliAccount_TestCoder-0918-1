@@ -1,9 +1,1 @@
-```
-# Configuration files
-*.ini
-
-# Environment files
-.env
-.env.local
-*.env.*
-```
+Nothing should be ignored since the changes only include source code files (.lua files) without any build artifacts, dependencies, or temporary files.
