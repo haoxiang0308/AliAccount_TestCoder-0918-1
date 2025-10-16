@@ -1,0 +1,6 @@
+# Scraped Page Titles
+page_titles = [
+    {'url': 'https://example.com', 'title': 'Example Domain'},
+    {'url': 'https://httpbin.org/html', 'title': 'No title found'},
+    {'url': 'https://github.com', 'title': 'GitHub · Build and ship software on a single, collaborative platform · GitHub'},
+]
