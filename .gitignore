@@ -1,69 +1,36 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# Jenkins artifacts
+*.jpi
+*.hpi
+*.war
+**/target/
 
-# Environment files
+# Logs
+*.log
+**/logs/
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
 # Dependencies
 node_modules/
+**/node_modules/
 venv/
 .venv/
 __pycache__/
+**/__pycache__/
 *.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
+**/*.egg-info/
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
+*.swp
+*.swo
 
-# System files
+# System
 .DS_Store
 Thumbs.db
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
