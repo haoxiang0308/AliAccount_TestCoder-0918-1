@@ -1,7 +1,7 @@
-Nothing should be ignored in this case, as the added files (`backup_script.sh` and `test_file.txt`) are regular script and text files that are likely part of the project source code, not build artifacts, dependencies, or temporary files.
+```
+# Temporary files
+*.tmp
 
-Therefore, the output is empty:
-
-```gitignore
-
+# Generated files
+*_*.json
 ```
