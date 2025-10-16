@@ -1,47 +1,8 @@
-```gitignore
-# PowerShell related
-*.ps1xml
-*.psc1
-*.psd1
-*.psm1
-*.pssc
-*.psrc
-*.clixml
+```
+# Build artifacts and generated files
+*.mk
 
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.temp
-
-# System files
-Thumbs.db
-ehthumbs.db
-Icon?
-.DS_Store
-Desktop.ini
-$RECYCLE.BIN/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Dependency directories
-node_modules/
-__pycache__/
-*.egg-info/
-.venv/
-venv/
-.env/
-target/
-build/
-dist/
 ```
