@@ -1,10 +1,7 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
@@ -15,15 +12,22 @@ __pycache__/
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+__pycache__/
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -37,24 +41,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-
-# Dart/Flutter specific (since we have a .dart file)
-.dart_tool/
-.packages
-*.g.dart
-*.freezed.dart
 
 # Compressed files
 *.zip
