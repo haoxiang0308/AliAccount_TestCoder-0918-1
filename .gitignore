@@ -1,20 +1,14 @@
-```bash
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
+```
+# Compiled files
+*.m
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment
 .env
@@ -27,28 +21,26 @@ node_modules/
 *.swp
 *.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
 target/
 .gradle/
 
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
