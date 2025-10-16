@@ -1,1 +1,17 @@
-Nothing should be ignored based on the provided file changes. The added file `get_date_time.ps1` is a PowerShell script source file, which should be tracked in version control.
+```
+# Executable files
+multiplication_table
+multiplication_table_eb2f6b46
+
+# Nim build artifacts
+*.nim.cfg
+nimcache/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.obj
+*.o
+```
