@@ -1,39 +1,10 @@
 ```
-# Compressed files
-*.tar.gz
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
+.Rproj
 
-# Python
-*.pyc
-__pycache__/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts
-dist/
-build/
-target/
+# Images (not ignored as they are part of the project output)
+# scatter_plot_2487.png is kept in version control
 ```
