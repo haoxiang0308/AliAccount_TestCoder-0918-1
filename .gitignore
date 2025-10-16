@@ -1,8 +1,46 @@
 ```
-# Assembly files
-*.asm
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Temporary files
+# Configuration files (if they are build-related)
+julia-*/
+zig*/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
 *.tmp
-temp_*.txt
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+
+# Node.js specific
+node_modules/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Build directories
+dist/
+build/
 ```
