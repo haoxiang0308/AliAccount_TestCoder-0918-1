@@ -1,51 +1,50 @@
 ```
-# GraphQL files
-*.graphql
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 node_modules/
+dist/
+build/
+target/
+.gradle/
 
-# Editors
-.vscode/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
 
-# Temp files
-*.tmp
-*.swp
+# System files
+.DS_Store
+Thumbs.db
 
-# Build artifacts
-dist/
-build/
-target/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
-# C/C++
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -64,17 +63,8 @@ __pycache__/
 *.Z
 *.lz
 *.lzo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Testing
-.mypy_cache/
-.pytest_cache/
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
