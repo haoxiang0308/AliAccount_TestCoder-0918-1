@@ -1,39 +1,30 @@
 ```
-# Compiled and build artifacts
-*.asm
-*.o
-*.obj
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
+# Temporary and backup files
 *.tmp
+*.bak
 *.swp
+*~
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Script backup/swap files
+*.sh.swp
+*sh~
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor files
+.vscode/
+.idea/
+*.swo
 
 # Compressed files
 *.zip
