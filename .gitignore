@@ -1,7 +1,29 @@
 ```
-# Temporary files
-*.tmp
+# Compiled files
+*.class
 
-# Generated files
-*_*.json
+# Dependencies
+lib/
+libs/
+jars/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Build artifacts
+build/
+dist/
+target/
+out/
 ```
