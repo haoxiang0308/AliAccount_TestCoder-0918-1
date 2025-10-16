@@ -1,27 +1,29 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.ali
+*.so
+*.dll
+*.exe
+*.out
+
 # Dependencies
-node_modules/
+lib/
+obj/
+*.ali
 
-# Environment
-.env
-.env.local
-.env.
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
 
-# Package manager
-package-lock.json
+# Editors
+.vim/
+*.swp
+*.swo
 
-# IDE
-.vscode/
-.idea/
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
