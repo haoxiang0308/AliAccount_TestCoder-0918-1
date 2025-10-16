@@ -1,0 +1,36 @@
+/* 旋转动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用旋转动画的元素 */
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 可选：为元素添加圆形样式 */
+.rotating-element.circle {
+  border-radius: 50%;
+}
+
+/* 更快的旋转动画示例 */
+.fast-rotate {
+  animation: rotate 0.5s linear infinite;
+}
+
+/* 慢速的旋转动画示例 */
+.slow-rotate {
+  animation: rotate 4s linear infinite;
+}
