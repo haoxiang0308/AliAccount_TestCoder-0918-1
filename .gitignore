@@ -1,69 +1,42 @@
 ```
-# Julia-specific compiled files and artifacts
-*.ji
-*.so
+# Compiled and build artifacts
+*.css
+*.js
+*.min.css
+*.min.js
+*.bundle.js
+dist/
+build/
+out/
+public/
+
+# Dependencies
+node_modules/
+vendor/
+target/
+.gradle/
+.cargo/
+.npm/
+.bower/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
 *.cache
 
-# Julia installation directory
-julia-*/
+# Environment
+.env
+.env.local
+.env.*
 
-# Julia test files
-share/julia/test/
-
-# Compressed files
-*.tar.gz
-*.gz
-*.zip
-
-# Temporary files
-*.tmp
-*.1
-*.2
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python-related (if any mixed environment)
-__pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-.mypy_cache/
-
-# Node.js-related (if any mixed environment)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE-specific
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Build outputs
-dist/
-build/
-target/
-.gradle/
-
-# Julia-specific
-.julia/
-JuliaProject.toml
-JuliaManifest.toml
+# System
+.DS_Store
+Thumbs.db
 ```
