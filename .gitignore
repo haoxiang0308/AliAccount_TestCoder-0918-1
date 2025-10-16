@@ -1,27 +1,27 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-target/
-
 # Dependencies
-Cargo.lock
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+node_modules/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 
-# Editors
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Package manager
+package-lock.json
+
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Rust specific
-**/*.rs.bk
+# OS
+.DS_Store
+Thumbs.db
 ```
