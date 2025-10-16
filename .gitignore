@@ -1,45 +1,45 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# Compiled and build artifacts
+*.o
+*.ali
+*.pyc
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-# Serverless framework
-.serverless/
-.sls/
-.serverless_plugins/
+# Executables
+task_demo
+parallel_tasks
 
-# Environment and local config
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies (if any get added)
+# Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-*.egg-info/
 dist/
 build/
 target/
 .gradle/
-.mypy_cache/
-.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
