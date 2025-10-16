@@ -1,1 +1,11 @@
-(circle_area_fwuxa5.lua is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Temporary files
+*.tmp
+*.temp
+tmp.*
+
+# Solidity compilation artifacts
+*.sol.js
+*.sol.map
+.solhint.cache
+```
