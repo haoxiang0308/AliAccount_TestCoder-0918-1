@@ -2,7 +2,11 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.hi
+
+# Dependencies
+dist/
+build/
 
 # Logs and temp files
 *.log
@@ -18,13 +22,17 @@
 .env.local
 .env.*
 
-# Coverage and testing
+# Coverage
 coverage/
 htmlcov/
 .coverage
-*.coverage
 
-# System files
-.DS_Store
-Thumbs.db
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Git
+.git/
 ```
