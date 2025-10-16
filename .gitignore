@@ -1,26 +1,30 @@
-```php
-# PHP specific
-*.php~
-*.php.bak
-*.php.swp
+```
+# Compiled and build artifacts
+*.fsi
+*.fsx
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.swo
-*.swp
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 ```
