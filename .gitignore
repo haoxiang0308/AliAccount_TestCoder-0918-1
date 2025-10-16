@@ -1,16 +1,21 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.plc
+*.plx
+*.o
+*.obj
 
-# Temporary and generated files
+# Dependencies
+lib/
+blib/
+pm_to_blib/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 
-# Logs
-*.log
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
@@ -18,26 +23,10 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-
-# Distribution / packaging
-dist/
-build/
-*.egg
-*.egg-info/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Pytest cache
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
 ```
