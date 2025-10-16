@@ -1,1 +1,21 @@
-Nothing should be ignored since the changes only include source code files (.lua files) without any build artifacts, dependencies, or temporary files.
+```
+#Temp files
+*.tmp
+*.temp
+tmp.*
+
+#TeX files
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdf
+```
