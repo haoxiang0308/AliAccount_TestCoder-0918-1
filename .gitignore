@@ -1,12 +1,17 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Kotlin compiler distribution
+kotlinc/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Compiled and build artifacts
+*.class
+*.jar
+*.klib
+
+# Dependencies and build tools
+.gradle/
+build/
+target/
+dist/
 
 # Logs and temp files
 *.log
@@ -22,55 +27,7 @@ node_modules/
 .vscode/
 .idea/
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Distribution / packaging
-*.egg
-*.egg-info/
-dist/
-build/
-*.egg-info/
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# FastAPI/Swagger
-/swagger/
-/openapi.json
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# System files
+.DS_Store
+Thumbs.db
 ```
