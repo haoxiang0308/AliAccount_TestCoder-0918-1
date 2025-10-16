@@ -1,5 +1,32 @@
-(postgres_connector_12345.py is a source file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-```python
+# Dependencies
+vendor/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+.DS_Store
+Thumbs.db
 ```
