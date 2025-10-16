@@ -1,6 +1,33 @@
 ```
-# Generated rules based on file changes
-*.ts
+# Compiled files
+*.dart.js
+*.js
+*.map
 
-# Preserve any existing rules
+# Build artifacts
+build/
+dist/
+out/
+
+# Dependencies
+.pub/
+.dart_tool/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
