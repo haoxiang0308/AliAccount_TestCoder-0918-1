@@ -2,18 +2,11 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.o
-*.obj
-dist/
-build/
-*.out
 
 # Dependencies
 .venv/
 venv/
 node_modules/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
@@ -23,7 +16,7 @@ target/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -34,11 +27,17 @@ target/
 Thumbs.db
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Compressed files
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Compression files
 *.zip
 *.gz
 *.tar
