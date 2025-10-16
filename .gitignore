@@ -1,12 +1,32 @@
 ```
-# Web artifacts
-*.html
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.Packages/
+build/
+DerivedData/
 
 # Logs and temp files
-*.tmp
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
-.env.
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# iOS
+*.xcodeproj/
+*.xcworkspace/
 ```
