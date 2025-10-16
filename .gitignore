@@ -2,7 +2,13 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.mod
+*.smod
+*.exe
+
+# Dependencies
+build/
+dist/
 
 # Logs and temp files
 *.log
@@ -12,4 +18,9 @@
 # Editors
 .vscode/
 .idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
