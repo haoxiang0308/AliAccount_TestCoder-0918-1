@@ -1,26 +1,22 @@
-```
-# R plots and graphics
-Rplots.pdf
-*.png
+```rust
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+target/
 
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+Cargo.lock
+vendor/
 
-# Build and distribution
-dist/
-build/
-*.egg-info/
-
-# Logs
+# Logs and temp files
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
+*.tmp
+*.swp
 
 # Editors
 .vscode/
@@ -28,24 +24,17 @@ build/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
+.coverage
 
-# Temporary files
-*.tmp
-*~
-```
-
-Wait, I need to reconsider. The only added files are `Rplots.pdf`, `barplot.png`, and `plot.R`. The `.R` file is source code and should not be ignored. Only the output files `Rplots.pdf` and `barplot.png` should be considered for ignoring, but since they're just two specific files and not part of a build system, it might be intentional to commit them. However, `Rplots.pdf` is clearly a generated output file.
-
-Actually, looking more carefully - `plot.R` is the source file (should not be ignored), while `Rplots.pdf` and `barplot.png` are output files. In R projects, it's common to ignore generated plots/outputs.
-
-```
-Rplots.pdf
+# Rust-specific
+**/*.rs.bk
+Cargo.lock
 ```
