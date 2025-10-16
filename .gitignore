@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added file 'dg65385wvq.py' is a source code file and should not be added to .gitignore.
+```
+# R build artifacts
+*.rds
+*.RData
+*.rda
+.Rhistory
+.Rprofile
+
+# Dependencies
+renv/
+packrat/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+```
