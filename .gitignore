@@ -1,25 +1,11 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-ebin/
-_build/
+# Temporary files
+*.tmp
+temp_*
 
-# Dependencies
-deps/
+# PowerShell artifacts
+*.ps1
 
-# Logs and temp files
+# Logs
 *.log
-erl_crash.dump
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
