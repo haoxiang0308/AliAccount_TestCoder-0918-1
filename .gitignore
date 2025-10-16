@@ -1,5 +1,41 @@
-(book.xml is a source/config file, so no ignores needed)
+```bash
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
 
-```gitignore
+# Dependencies
+.venv/
+venv/
+node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
 ```
