@@ -1,13 +1,1 @@
-```
-# Temporary files
-*.tmp
-*.temp
-
-# Shell script related
-*.sh.swp
-*.sh~
-
-# Memory reports and temporary scripts
-memory_report_*.txt
-memory_script_*.sh
-```
+Nothing should be ignored in this case, as only a single Python source file (`dnld8rq1rt.py`) was added without any build artifacts, dependencies, or temporary files.
