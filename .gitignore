@@ -1,32 +1,40 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
+# Julia-specific ignores
+*.ji
+*.jl.c
+*.jl.o
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-*.jar
-lib/
-target/
+.julia/
+deps/
+test/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Build artifacts
+build/
+dist/
+*.so
+*.dylib
+*.dll
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
+*.swp
+*.swo
 
-# OS
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
 .DS_Store
 Thumbs.db
 ```
