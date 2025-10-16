@@ -1,27 +1,39 @@
 ```
-# Script files
-*.sh
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Temporary and generated files
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-# Logs
-*.log
-
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Compressed files
 *.zip
