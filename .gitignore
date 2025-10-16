@@ -1,9 +1,1 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration backups
-*config_*.ini
-```
+Nothing should be ignored based on the provided file changes. The added file `user_interface_fmg5eei6.ts` is a TypeScript source file that should be tracked in version control.
