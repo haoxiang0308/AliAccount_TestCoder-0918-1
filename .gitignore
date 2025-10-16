@@ -1,8 +1,37 @@
 ```
-# R build artifacts
-*.r
-Rplots.pdf
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.scala_bak
+*.sc_bak
 
-# Images (not typically ignored, but R plots are often regenerated)
-*.png
+# Dependencies
+lib_managed/
+project/project/
+target/
+
+# Editors
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
 ```
