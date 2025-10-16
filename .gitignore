@@ -1,12 +1,47 @@
 ```
-# Swap output files
-swap_output_*.txt
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Logs
 *.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
 ```
