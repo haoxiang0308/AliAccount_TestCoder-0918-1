@@ -1,36 +1,40 @@
-```gitignore
+```
+# Temporary files and system files
+*.tmp
+*.swp
+*.swo
+*.log
+
 # Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python
+# Build artifacts and dependencies
+dist/
+build/
+target/
+node_modules/
+venv/
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
+*.class
+*.o
+*.obj
+*.exe
+*.dll
 *.so
+*.a
+*.out
 
-# Compressed files
+# Compression and archive files
 *.zip
 *.gz
 *.tar
@@ -53,4 +57,21 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+
+# Query files with date variables (likely generated)
+*$(date*
 ```
