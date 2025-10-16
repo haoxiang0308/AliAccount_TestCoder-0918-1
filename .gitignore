@@ -1,28 +1,3 @@
 ```
-# Elixir compiled files
-*.beam
-
-# Elixir build artifacts
-ebin/
-_build/
-cover/
-
-# Temporary files
-*.tmp
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
+factorial_08f43b79340a73c3.hs
 ```
