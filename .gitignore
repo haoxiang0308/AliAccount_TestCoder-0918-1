@@ -1,7 +1,1 @@
-```
-# R artifacts
-*.rds
-*.RData
-.Rhistory
-.Rproj.user/
-```
+Nothing should be ignored based on the provided file changes. The added file 'summary_stats_script.r' is a source code file (.r extension) which should not be ignored.
