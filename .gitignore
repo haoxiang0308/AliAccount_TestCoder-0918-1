@@ -1,5 +1,53 @@
-(reverse_list.ex is a source code file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-```elixir
+# Dependencies
+.venv/
+venv/
+node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# VBA files temp/persistent
+*.vba.bak
+*.vba~
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Git submodules
+submodules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
