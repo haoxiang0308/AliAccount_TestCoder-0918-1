@@ -1,0 +1,21 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart service
+      systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
+      notify: Wait for service to be active
+
+    - name: Reload systemd daemon
+      systemd:
+        daemon_reload: yes
+
+  handlers:
+    - name: Wait for service to be active
+      wait_for:
+        path: /var/run/{{ service_name | default('httpd') }}.pid
+        state: present
+        timeout: 30
