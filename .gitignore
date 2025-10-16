@@ -1,40 +1,23 @@
 ```
-# Generated from file changes
-# Thrift generated files
-*.thrift.g
-*.thrift.c
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.rb
-*.thrift.java
-*.thrift.php
-*.thrift.perl
-*.thrift.cpp
-*.thrift.go
-*.thrift.csharp
-*.thrift.swift
-*.thrift.d
-*.thrift.st
-*.thrift.erl
-*.thrift.rs
-*.thrift.ts
-*.thrift.dart
-*.thrift.ml
-*.thrift.ex
-*.thrift.fs
-*.thrift.vb
-*.thrift.lua
-*.thrift.cobol
-*.thrift.haxe
-*.thrift.js
-*.thrift.json
-*.thrift.rb
-*.thrift.scala
-*.thrift.st
-*.thrift.x
-*.thrift.xmi
-*.thrift.xsd
-*.thrift.yaml
-*.thrift.yml
+# Compiled files
+*.mex*
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# MATLAB specific
+*.fig
+*.mat
+*.m~
+*~
+```
+
+Wait, let me reconsider. The added files are just `.m` files (MATLAB files), which are source code files. According to rule #6, if the change list contains only source files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
+
+The files `Y25vsNKLrIsV.m` and `solve_linear_system.m` are both `.m` source files, not build artifacts or dependencies.
+
+```
+
 ```
