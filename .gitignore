@@ -1,51 +1,77 @@
 ```
-# R plots and graphics
-Rplots.pdf
-*.png
+# VBA/Office files
+*.bas
+*.vba
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.accdb
+*.mdb
+*.vsd
+*.vsdx
 
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build and distribution
-dist/
-build/
-*.egg-info/
+# Backup and temporary files
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.out
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Temporary files
-*.tmp
-*~
-```
-
-Wait, I need to reconsider. The only added files are `Rplots.pdf`, `barplot.png`, and `plot.R`. The `.R` file is source code and should not be ignored. Only the output files `Rplots.pdf` and `barplot.png` should be considered for ignoring, but since they're just two specific files and not part of a build system, it might be intentional to commit them. However, `Rplots.pdf` is clearly a generated output file.
-
-Actually, looking more carefully - `plot.R` is the source file (should not be ignored), while `Rplots.pdf` and `barplot.png` are output files. In R projects, it's common to ignore generated plots/outputs.
-
-```
-Rplots.pdf
+# Build artifacts
+dist/
+build/
+target/
+*.class
+*.jar
+*.war
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
