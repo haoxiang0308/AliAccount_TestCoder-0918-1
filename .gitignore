@@ -3,60 +3,56 @@
 *.o
 *.obj
 *.out
+*.exe
+*.dll
+*.so
+*.a
 
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
+*.swo
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage reports
+# Editors
+.vscode/
+.idea/
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Distribution / packaging
-dist/
-build/
-*.tar.gz
-*.whl
-*.egg
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 *.egg-info/
+.eggs/
 
-# System files
-.DS_Store
-Thumbs.db
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build directories
+build/
+dist/
 ```
