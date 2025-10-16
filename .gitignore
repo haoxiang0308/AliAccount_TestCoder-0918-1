@@ -1,1 +1,21 @@
-Nothing should be ignored in this case, as the added file is a source code file (.bas) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Thrift generated files
+*.py
+*.js
+*.java
+*.go
+*.cpp
+*.rb
+*.php
+*.c
+*.h
+*.m4
+*.sln
+*.csproj
+*.vcxproj
+*.iml
+*.ipr
+*.iws
+Thumbs.db
+.DS_Store
+```
