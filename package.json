@@ -1,0 +1,15 @@
+{
+  "name": "erc20-token-contract",
+  "version": "1.0.0",
+  "description": "ERC-20 Token Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["solidity", "ethereum", "erc20"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
