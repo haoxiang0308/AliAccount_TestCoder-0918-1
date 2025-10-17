@@ -1,8 +1,4 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-
-# Docker
-docker-compose-*.yml
+# Configuration files
+*.hcl
 ```
