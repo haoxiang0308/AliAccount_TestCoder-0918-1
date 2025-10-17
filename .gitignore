@@ -1,15 +1,10 @@
-```bash
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
+```
+# Compiled files
+*.bas~
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Backup files
+*.bak
+*~
 
 # Logs and temp files
 *.log
@@ -28,14 +23,4 @@ node_modules/
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
 ```
