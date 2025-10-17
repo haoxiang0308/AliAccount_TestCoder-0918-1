@@ -1,21 +1,29 @@
-```fsharp
+```
+# Build system
+Makefile
+
 # Compiled and build artifacts
-*.fsi
-*.dll
+*.o
+*.obj
+*.out
 *.exe
-*.pdb
-*.cache
-*.log
+*.dll
+*.so
+*.a
 
 # Dependencies
-.paket/
-packages/
-bin/
-obj/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Editors
-.vs/
-.vim/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
@@ -24,12 +32,40 @@ obj/
 .env.local
 *.env.*
 
-# OS generated files
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Temporary files
-*.tmp
-*~
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
