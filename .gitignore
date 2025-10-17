@@ -1,1 +1,26 @@
-Nothing to output - the change list contains only a CSS source file (rotate-animation.css) which should not be ignored.
+```
+# Docker build artifacts
+Dockerfile.*
+
+# Compiled binaries
+*.o
+*.obj
+*.out
+
+# Dependencies
+go.sum
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
