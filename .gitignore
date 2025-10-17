@@ -1,1 +1,4 @@
-Nothing should be ignored since the added files are markdown files (.md) which are source/config files, not build artifacts, dependencies, or temp files.
+```
+# Compiled and build artifacts
+*.cr
+```
