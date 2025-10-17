@@ -1,27 +1,32 @@
 ```
 # Compiled and build artifacts
-*.class
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-target/
-.libs/
-
-# Editors
-.vscode/
-.idea/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
@@ -32,24 +37,20 @@ coverage/
 htmlcov/
 .coverage
 
-# Scala specific
-*.jar
-*.war
-*.class
-lib_managed/
-src_managed/
+# Build directories
+dist/
+build/
 target/
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# Gradle
 .gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
 
 # Compressed files
 *.zip
