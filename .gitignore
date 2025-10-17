@@ -1,9 +1,1 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration files
-db_config.ini
-```
+Nothing should be ignored in this case. The added files are VBA source files (.vba), which are source code files and should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
