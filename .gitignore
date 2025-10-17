@@ -1,29 +1,32 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.class
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
+target/
+.gradle/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+julia-*/
+zig*/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -38,7 +41,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
