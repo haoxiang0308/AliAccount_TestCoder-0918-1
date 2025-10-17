@@ -1,0 +1,22 @@
+Memory Usage Report - Fri Oct 17 05:28:18 UTC 2025
+=================================
+               total        used        free      shared  buff/cache   available
+Mem:           534Mi       285Mi        43Mi        36Ki       215Mi       248Mi
+Swap:             0B          0B          0B
+
+Detailed Memory Information:
+==============================
+MemTotal:         546884 kB
+MemFree:           44108 kB
+MemAvailable:     254048 kB
+Buffers:            1160 kB
+Cached:           197316 kB
+SwapCached:            0 kB
+
+Top 5 processes using the most memory:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         3 14.8 58.1 749800 317932 pts/0   Sl+  05:27   0:05 python openhands/action_execution_server.py --no-enable-browser --working-dir /workspace 35123
+root       237  0.0  0.7   8532  4236 pts/2    R+   05:28   0:00 ps aux --sort=-%mem
+root        28  0.2  0.7   6172  4076 ?        Ss   05:27   0:00 /usr/bin/tmux new-session -P -F#{session_id} -sopenhands-qwencoder-a76d53f9-2a84-48d2-8b05-23053e2b27f3 -d -c /workspace -x 1000 -y 1000
+root         1  0.0  0.6   6016  3640 ?        Ss+  05:27   0:00 sudo python openhands/action_execution_server.py --no-enable-browser --working-dir /workspace 35123
+root        37  0.0  0.6   4612  3584 pts/2    Ss   05:27   0:00 /bin/bash
