@@ -1,8 +1,42 @@
 ```
-# Temporary files
-*.tmp
-*.temp
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-# Docker
-docker-compose-*.yml
+# Assembly-specific
+*.asm.o
+*.s.o
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
