@@ -1,1 +1,11 @@
-(focus-input-directive.vue is a source file, no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# Shell script backup/swap files
+*.sh.swp
+*.sh.swo
+
+# Temp files
+*.tmp
+
+# Logs
+*.log
+```
