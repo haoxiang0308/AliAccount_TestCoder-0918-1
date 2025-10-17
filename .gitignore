@@ -1,11 +1,34 @@
 ```
 # Compiled and build artifacts
-*.pl~
+*.class
+*.o
+*.obj
 
-# Temp files
+# Dependencies
+lib/
+target/
+build/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
