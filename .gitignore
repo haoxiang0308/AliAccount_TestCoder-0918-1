@@ -1,1 +1,6 @@
-(empty)
+```gitignore
+# PowerShell/Windows specific
+*.ps1~
+*.psd1~
+*.psm1~
+```
