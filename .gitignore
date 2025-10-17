@@ -1,13 +1,1 @@
-```
-# Temporary files
-*.tmp
-*.temp
-
-# Shell script related
-*.sh.swp
-*.sh~
-
-# Memory reports and temporary scripts
-memory_report_*.txt
-memory_script_*.sh
-```
+Nothing to ignore - the added file 'PmnRptO1Rs.php' is a source code file and should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
