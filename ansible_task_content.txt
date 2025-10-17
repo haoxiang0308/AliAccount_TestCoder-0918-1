@@ -1,0 +1,10 @@
+---
+# Задача Ansible для копирования файла
+- name: Копирование файла
+  copy:
+    src: /path/to/source/file.txt
+    dest: /path/to/destination/file.txt
+    mode: '0644'
+    owner: root
+    group: root
+  become: yes
