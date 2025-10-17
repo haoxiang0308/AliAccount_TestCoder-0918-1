@@ -1,18 +1,11 @@
 ```
 # Compiled and build artifacts
-*.fsi
-*.fsx
-*.exe
-*.dll
-*.so
-*.a
+*.o
 *.obj
-*.out
+*.ali
 
 # Dependencies
-.paket/
-packages/
-bin/
+lib/
 obj/
 
 # Logs and temp files
@@ -24,7 +17,7 @@ obj/
 .vscode/
 .idea/
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
