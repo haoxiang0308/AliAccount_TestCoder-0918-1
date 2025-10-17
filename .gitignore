@@ -1,1 +1,4 @@
-Nothing needs to be added to .gitignore since the only change is adding a source file (.r file) without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.hs
+```
