@@ -1,1 +1,33 @@
-Nothing should be ignored - both files are VBA source files (.bas) which are source code and should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.crystal/
+lib/
+ext/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Crystal specific
+.sass-cache/
+coverage/
+.DS_Store
+Thumbs.db
+```
