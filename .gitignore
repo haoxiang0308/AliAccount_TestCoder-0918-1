@@ -1,1 +1,31 @@
-Nothing should be ignored since the added file 'hello_world.adb' is a source code file (.adb is an Ada source file extension). No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled files
+*.class
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+target/
+```
