@@ -1,36 +1,22 @@
 ```
-# Image files
-*.png
+# Docker compose files
+docker-compose-*.yml
 
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# Logs
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-
-# R
-.Rhistory
-.RData
-.Rproj.user/
+# System files
+.DS_Store
+Thumbs.db
 ```
