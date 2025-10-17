@@ -1,4 +1,3 @@
-```
-# Compiled and build artifacts
-*.css
-```
+(postgres_connection_12345.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes, so no .gitignore rules are needed)
+
+(empty - output nothing)
