@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.ex
-```
+Nothing needs to be ignored in this case. The added files are a shell script and text files, which are legitimate source files that should be tracked in version control.
