@@ -1,4 +1,23 @@
 ```
 # Compiled and build artifacts
-*.css
+*.o
+*.obj
+*.mod
+*.exe
+
+# Dependencies
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
