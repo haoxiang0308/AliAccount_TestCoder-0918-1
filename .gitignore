@@ -1,13 +1,23 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
 
-# Tests
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+# Dependencies
+ebin/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
