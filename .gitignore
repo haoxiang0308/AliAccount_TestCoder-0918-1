@@ -1,1 +1,5 @@
-Nothing should be ignored since only a TypeScript source file (.ts) was added.
+```
+# Ansible related
+ansible_copy_task_random.yml
+
+```
