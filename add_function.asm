@@ -1,0 +1,13 @@
+section .text
+    global add_numbers
+
+; Function to add two numbers
+; Parameters: 
+;   rdi - first number
+;   rsi - second number
+; Returns:
+;   rax - sum of the two numbers
+add_numbers:
+    mov rax, rdi    ; Move first number to rax
+    add rax, rsi    ; Add second number to rax
+    ret             ; Return with result in rax
