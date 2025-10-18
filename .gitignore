@@ -1,25 +1,10 @@
 ```
-# Executable files
-run
-
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
 target/
 .gradle/
 
@@ -27,25 +12,34 @@ target/
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Java build systems
+build/
+dist/
+out/
 
 # Compressed files
 *.zip
