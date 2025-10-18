@@ -1,21 +1,13 @@
 ```
-# Generated from file changes
-# Thrift files
-*.thrift~
-
-# Build artifacts and dependencies (common for Thrift projects)
-gen-*/
-build/
-dist/
-target/
-.gradle/
-node_modules/
-venv/
-.venv/
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.class
-*.jar
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -30,10 +22,4 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
