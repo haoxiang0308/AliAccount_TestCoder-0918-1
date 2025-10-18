@@ -1,4 +1,3 @@
-```
-# Compiled and build artifacts
-*.fs
-```
+(check_memory.sh is a shell script file, which is a source code file, so it should not be added to .gitignore)
+
+(empty)
