@@ -1,3 +1,8 @@
-(postgres_connect_12345.py and yc99icfsfz.py are source code files, no build artifacts, dependencies, or temp files in the changes)
+```
+# Temporary files
+*.tmp
+*.temp
 
-(empty — output nothing)
+# Configuration files that might be generated
+*.hcl
+```
