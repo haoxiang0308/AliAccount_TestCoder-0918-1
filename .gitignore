@@ -1,13 +1,28 @@
 ```
-# PowerShell session files
-*.ps1
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+
+# Dependencies
+deps/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
 ```
