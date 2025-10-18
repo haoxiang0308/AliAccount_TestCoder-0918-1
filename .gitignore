@@ -1,4 +1,17 @@
 ```
-# Test files
-*.test.js
+# Temporary files
+*.tmp
+*.temp
+*.xml.tmp
+
+# Editor/IDE files
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 ```
