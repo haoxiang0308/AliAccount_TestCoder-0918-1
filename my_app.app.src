@@ -1,0 +1,9 @@
+{application, my_app,
+ [
+  {description, "My OTP Application"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, {my_app_app, []}},
+  {env, []}
+ ]}.
