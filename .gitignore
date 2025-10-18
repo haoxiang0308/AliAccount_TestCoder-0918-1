@@ -1,1 +1,7 @@
-Nothing to ignore - the added file 'StringExtension.swift' is a source code file that should be tracked in version control.
+```
+# SQL query files (if they contain sensitive data or are auto-generated)
+*.sql
+
+# If this is a database project, you might want to be more specific
+# For now, keeping it minimal since SQL files could be source code
+```
