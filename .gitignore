@@ -1,19 +1,16 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Dependencies
-Pods/
-Carthage/
-build/
-DerivedData/
+# Test files (if they follow common patterns)
+*.test.py
+test_*.py
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
@@ -23,10 +20,23 @@ DerivedData/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.whl
+MANIFEST
 ```
