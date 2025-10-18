@@ -1,32 +1,42 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+```powershell
+# PowerShell and Bash script artifacts
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
 
-# Dependencies
-vendor/
+# Shell script artifacts
+*.sh.swp
+*.bash_history
+*.zsh_history
 
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
-*.swp
+*.temp
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Build and distribution
+dist/
+build/
+target/
+out/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
 ```
