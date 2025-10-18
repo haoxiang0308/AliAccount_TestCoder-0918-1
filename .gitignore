@@ -1,10 +1,32 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
+# Compiled Java/Scala classes
+*.class
 
-# Temp files
+# Dependencies
+target/
+lib/
+project/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
