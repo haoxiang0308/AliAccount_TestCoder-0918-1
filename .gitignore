@@ -1,18 +1,5 @@
 ```
-# PowerShell script files (if generated/temporary)
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
+# GraphQL schema files are source code - don't ignore them
+# The added .graphql files appear to be source/schema files, not build artifacts
+# so they should be tracked in version control
 ```
