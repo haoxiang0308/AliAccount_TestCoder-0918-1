@@ -1,1 +1,4 @@
-Nothing should be ignored in this case. The added files are `.vba` files, which appear to be source code files for VBA (Visual Basic for Applications), and there are no build artifacts, dependencies, or temporary files in the change list.
+```
+# Test files
+*.test.js
+```
