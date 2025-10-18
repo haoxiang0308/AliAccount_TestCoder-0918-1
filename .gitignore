@@ -1,42 +1,54 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Dependencies
+target/
+Cargo.lock
 
-# Virtual environments
-venv/
-.venv/
-env/
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
+
+# Python
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Build/dist directories
-dist/
-build/
-*.egg-info/
-
-# Python cache
 .Python
-*.so
-*.pyc
-__pycache__/
-*.py~
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
 ```
