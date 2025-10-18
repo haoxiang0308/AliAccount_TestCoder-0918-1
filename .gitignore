@@ -1,5 +1,4 @@
 ```
-# GraphQL schema files are source code - don't ignore them
-# The added .graphql files appear to be source/schema files, not build artifacts
-# so they should be tracked in version control
+# Compiled and build artifacts
+*.fs
 ```
