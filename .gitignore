@@ -1,35 +1,49 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.backup
-*.lock.hcl
-*.tmp
+# Julia-specific ignores
+.julia/
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+*.jl.dll
+*.jl.lib
+*.jl.a
+*.jl.dylib
+*.jl.bundle
+*.jl.pyc
+*.jl.pyo
 
-# Variables
-variable_*.tf
+# Dependencies
+.julia/
+deps/build.log
 
-# Environment
+# Compiled artifacts
+lib/
+*.so
+*.dylib
+*.dll
+
+# Environment files
 .env
 .env.local
 .env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 ```
