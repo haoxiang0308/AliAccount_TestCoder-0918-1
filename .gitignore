@@ -1,39 +1,31 @@
 ```
 # Compiled and build artifacts
-*.solc
-*.abi
-*.bin
-*.hex
-*.log
+*.o
+*.obj
+*.mod
+*.exe
 
 # Dependencies
-node_modules/
-venv/
-.venv/
+*.mod/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.log
-*.tmp
+# Build directories
+build/
+dist/
+target/
 ```
