@@ -1,16 +1,13 @@
 ```
-# Dependencies
-target/
-Cargo.lock
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
 
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Shell script related
+*.sh~
 
 # Logs and temp files
 *.log
@@ -20,35 +17,13 @@ Cargo.lock
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
