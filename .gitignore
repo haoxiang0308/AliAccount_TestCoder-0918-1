@@ -1,3 +1,38 @@
-(dot_product_subroutine.f is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-(empty — output nothing)
+# Dependencies
+vendor/
+.bundle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+```
