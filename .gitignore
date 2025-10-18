@@ -1,15 +1,8 @@
 ```
-# Build system
-Makefile
-
 # Compiled and build artifacts
 *.o
 *.obj
 *.out
-*.exe
-*.dll
-*.so
-*.a
 
 # Dependencies
 node_modules/
@@ -18,6 +11,8 @@ venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
+dist/
+build/
 target/
 .gradle/
 
@@ -25,7 +20,6 @@ target/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
