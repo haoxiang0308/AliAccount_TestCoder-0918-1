@@ -1,39 +1,31 @@
 ```
-# Generated from file changes
-# Thrift files
-*.thrift~
-
-# Build artifacts and dependencies (common for Thrift projects)
-gen-*/
-build/
+# TypeScript/JavaScript build artifacts
+*.js.map
+*.tsbuildinfo
 dist/
-target/
-.gradle/
+build/
+lib/
+
+# Dependencies
 node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.class
-*.jar
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Coverage and test results
+coverage/
+.nyc_output/
+.jest/
 ```
