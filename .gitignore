@@ -1,1 +1,4 @@
-(restart_service.yml is a config file, no build artifacts, dependencies, or temp files in the changes - output nothing)
+```
+# Generated from file changes
+*.thrift
+```
