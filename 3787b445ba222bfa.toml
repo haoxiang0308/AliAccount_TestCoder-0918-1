@@ -1,0 +1,24 @@
+# Application Configuration
+title = "My Application Configuration"
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+url = "postgresql://user:password@localhost/myapp"
+max_connections = 20
+
+[logging]
+level = "info"
+output = "stdout"
+
+[features]
+enable_cache = true
+enable_metrics = false
+
+[api]
+version = "1.0"
+base_url = "/api/v1"
+timeout = 30
