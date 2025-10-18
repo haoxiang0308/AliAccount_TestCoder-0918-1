@@ -1,1 +1,34 @@
-(empty)
+```
+# Dependencies
+node_modules/
+
+# Package manager
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Test files
+*test*.js
+test_*.js
+
+# Random files
+random_*.txt
+```
