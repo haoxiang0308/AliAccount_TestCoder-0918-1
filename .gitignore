@@ -1,4 +1,5 @@
-```
-# Compiled and build artifacts
-*.fs
+```yaml
+# Configuration files
+*.yml
+*.yaml
 ```
