@@ -1,33 +1,31 @@
-```julia
-# Julia-specific ignores
-*.jl.c
-*.jl.so
-*.jl.dylib
-*.jl.dll
-*.jl.o
-*.jl.obj
+```
+# Generated from file changes
+# Thrift files
+*.thrift~
 
-# Build artifacts
+# Build artifacts and dependencies (common for Thrift projects)
+gen-*/
 build/
 dist/
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-.julia/
-Pkg.add/
-Pkg.build/
-
-# Environment
-.env
-.env.local
-*.env.*
+target/
+.gradle/
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.class
+*.jar
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -35,14 +33,7 @@ Pkg.build/
 *.swp
 *.swo
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-.jest/
-.nyc_output/
-
-# OS-specific
+# System files
 .DS_Store
 Thumbs.db
 ```
