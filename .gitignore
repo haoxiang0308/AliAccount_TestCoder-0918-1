@@ -1,8 +1,1 @@
-```
-# Temp files
-*.tmp
-*.thrift
-
-# Logs
-*.log
-```
+Nothing should be ignored since the added file '0aqfr9bopl.cpp' is a source code file (.cpp extension) and there are no build artifacts, dependencies, or temporary files in the changes.
