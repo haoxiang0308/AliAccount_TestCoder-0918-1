@@ -1,1 +1,11 @@
-(empty)
+```
+# Compiled and build artifacts
+*.html
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
