@@ -1,4 +1,24 @@
 ```
-# Configuration files
-*.hcl
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
