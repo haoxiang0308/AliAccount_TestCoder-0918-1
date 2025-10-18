@@ -2,9 +2,30 @@
 # Compiled and build artifacts
 *.css.map
 *.min.css
-*.bundle.css
+*.css.gz
+*.css.br
 
-# Temp files
+# Logs and temp files
+*.log
 *.tmp
-*.temp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Distribution artifacts
+dist/
+build/
+*.egg-info/
 ```

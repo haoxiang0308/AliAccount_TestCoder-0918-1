@@ -1,0 +1,39 @@
+/* CSS Animation for Rotation */
+
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+  animation: rotateAnimation 2s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Alternative rotation animation with different timing */
+.spinning-element {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(45deg, #e74c3c, #f39c12);
+  animation: spin 3s ease-in-out infinite;
+  margin: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
