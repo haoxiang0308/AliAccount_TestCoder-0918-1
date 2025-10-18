@@ -1,8 +1,11 @@
 ```
+# SQL query files (if they are auto-generated)
+*.sql
+
 # Temporary files
 *.tmp
 *.temp
 
-# Configuration files that might be generated
-*.hcl
+# Logs
+*.log
 ```
