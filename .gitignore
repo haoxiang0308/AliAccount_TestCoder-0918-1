@@ -1,47 +1,45 @@
 ```
-# Build artifacts and compiled files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
 *.o
 *.obj
-*.exe
 *.dll
 *.so
 *.a
+*.exe
 *.out
 
 # Dependencies
 node_modules/
 venv/
 .venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Build directories
-dist/
-build/
-target/
-*.class
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
 # System files
 .DS_Store
 Thumbs.db
-*.log
 
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.htmlcov/
-.coverage
+# Coverage
 coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -66,17 +64,4 @@ coverage/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Gradle
-.gradle/
-
-# Temporary files
-*.tmp
-*~
-```
-
-Wait, I need to reconsider this. The only added file is '2WAfjC0XGZ.jsx' which appears to be a source code file (JSX). There are no build artifacts, dependency directories, or temporary files in the change list that would warrant adding to .gitignore. The file is a source file that should be tracked.
-
-```
-
 ```
