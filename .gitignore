@@ -1,24 +1,7 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
+# SQL query files (if they are auto-generated)
+*.sql
 
-# Dependencies
-build/
-dist/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# If this is a temporary query file, you might want to ignore it
+insert_users_query_*.sql
 ```
