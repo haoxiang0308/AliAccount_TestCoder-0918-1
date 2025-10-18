@@ -1,1 +1,33 @@
-Nothing should be ignored based on the provided file changes. The added file 'dff_testbench.v' appears to be a source code file (likely Verilog) that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Go specific
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
+*.test
+*.prof
+cover.out
+```
