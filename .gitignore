@@ -1,36 +1,4 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.tsbuildinfo
-dist/
-build/
-out/
-lib/
-
-# Dependencies
-node_modules/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and test results
-coverage/
-.nyc_output/
-.jest/
-test-report.xml
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Temporary swap files
+swap_result_*.txt
 ```
