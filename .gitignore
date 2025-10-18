@@ -1,12 +1,23 @@
 ```
-# Shell script backups
-*.sh.bak
-*~
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Temporary files
-*.tmp
-*.temp
+# Dependencies
+.venv/
+venv/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
