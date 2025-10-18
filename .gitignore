@@ -1,4 +1,18 @@
 ```
-# Test files
-*.test.js
+# PowerShell script files (if generated/temporary)
+*.ps1
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
