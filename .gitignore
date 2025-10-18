@@ -1,35 +1,69 @@
 ```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.exe
-*.dll
-*.so
-*.o
-*.obj
-*.out
-
-# Dependencies
-.paket/
-bin/
-obj/
-
-# Logs and temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-*.tmp
-*.swp
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+.TemporaryItems
+.deps
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.dev
+.env.test
+.env.prod
+.env.*
+!.env.example
 
-# Editors
+# IDE
 .vscode/
 .idea/
-*.userprefs
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+*.zip
+*.tar.gz
+*.whl
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
