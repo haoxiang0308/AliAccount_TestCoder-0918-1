@@ -1,18 +1,45 @@
 ```
-# PowerShell script files (if generated/temporary)
-*.ps1
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Logs and temp files
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.whl
+MANIFEST
 ```
