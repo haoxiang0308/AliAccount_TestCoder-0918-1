@@ -1,40 +1,22 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled files
+*.mex*
 *.o
 *.obj
-*.out
+*.a
+*.so
+*.dll
+*.exe
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+# MATLAB specific
+*.fig
+*.mat
+*.m~
+*~
 ```
+
+Wait, I need to reconsider. The added files are `.m` files which are MATLAB source files, not build artifacts. Since these are source code files, they should not be ignored. Let me check again:
+
+The added files are `29nx503qzz.m` and `calculate_mean.m` - these are MATLAB source files, which are source code and should be version controlled.
+
+Output: (empty)
