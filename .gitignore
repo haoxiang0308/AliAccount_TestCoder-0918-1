@@ -1,59 +1,18 @@
-```crystal
-# Compiled and build artifacts
-*.o
-*.obj
-*.so
-*.dll
-*.exe
-*.out
-
-# Dependencies
-lib/
-deps/
-.crystal/
-.sass-cache/
+```
+# Compiled files
+*.class
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution
-dist/
-build/
-target/
-
-# Python artifacts (if any Python tools used)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Node artifacts (if any JS tools used)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
