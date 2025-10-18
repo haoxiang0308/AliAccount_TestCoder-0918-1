@@ -1,17 +1,30 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-*.xml.tmp
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
 
-# Editor/IDE files
+# Dependencies
+.opam/
+.dune/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
 ```
