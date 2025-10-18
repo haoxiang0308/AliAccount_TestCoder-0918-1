@@ -1,4 +1,28 @@
 ```
+# Compiled files
+*.class
+
+# Dependencies
+lib/
+libs/
+jars/
+
+# Build artifacts
+build/
+target/
+out/
+
+# Logs and temp files
+*.log
 *.tmp
-tmp.*
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
