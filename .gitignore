@@ -1,34 +1,19 @@
 ```
-# R plots and generated images
-Rplots.pdf
-
-# Dependencies and build artifacts
-*.so
-*.o
-*.a
-*.dylib
-*.dll
-*.exe
-*.out
+# Temporary shell scripts
+*.sh~
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
 
 # OS generated files
 .DS_Store
