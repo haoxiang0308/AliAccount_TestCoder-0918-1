@@ -1,35 +1,4 @@
 ```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.exe
-*.dll
-*.so
-*.o
-*.obj
-*.out
-
-# Dependencies
-.paket/
-bin/
-obj/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.userprefs
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Configuration files
+*.hcl
 ```
