@@ -1,25 +1,35 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scala
-target/
+*.fsx
+*.fsi
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
 
 # Dependencies
-lib_managed/
-project/target/
-*.lock
+.paket/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
-.idea/
 .vscode/
+.idea/
+*.userprefs
 
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
 ```
