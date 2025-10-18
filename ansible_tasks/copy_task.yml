@@ -1,0 +1,14 @@
+---
+- name: Copy file with random name
+  set_fact:
+    random_filename: "{{ '/tmp/copied_file_' + (1000000 | random | string) + '.txt' }}"
+
+- name: Copy file with random name
+  copy:
+    src: /workspace/ansible_tasks/source_file.txt
+    dest: "{{ random_filename }}"
+    mode: '0644'
+
+- name: Display the random filename
+  debug:
+    msg: "File copied to {{ random_filename }}"

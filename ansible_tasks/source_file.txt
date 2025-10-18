@@ -1,0 +1,1 @@
+This is a sample source file that will be copied with a random name.
