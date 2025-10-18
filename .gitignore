@@ -1,3 +1,16 @@
 ```
-*.html
+# Build artifacts
+*.zig
+
+# Dependencies
+zig-cache/
+zig-out/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
 ```
