@@ -1,3 +1,1 @@
-```
-# SQL query files are source code - no need to ignore
-```
+Nothing should be ignored based on the provided file changes. The added file 'README_project_setup.md' is a documentation file that should be tracked in version control.
