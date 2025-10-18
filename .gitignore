@@ -1,35 +1,17 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.bc
-*.o
-*.obj
+*.class
+*.groovy.class
 
 # Dependencies
-Packages/
-.build/
-.swift-version
+.gradle/
+build/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
