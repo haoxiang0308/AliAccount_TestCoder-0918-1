@@ -1,4 +1,49 @@
 ```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.Rout
+*.Rout.save
+*.Rapp.history
+*.Rprofile
+.Rprofile
+.Rbuildignore
+*.tar.gz
+*.zip
+
+# Dependencies
+renv/
+packrat/
+libs/
+
 # Compiled files
-*.fs
+*.so
+*.o
+*.dll
+*.dylib
+
+# Temp files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
 ```
