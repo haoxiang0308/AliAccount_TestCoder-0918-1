@@ -1,4 +1,34 @@
 ```
-# Compiled and build artifacts
-*.ex
+# Assembly files related build artifacts (if any generated)
+*.o
+*.obj
+*.out
+
+# Temp files
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies (if any)
+.venv/
+venv/
+node_modules/
+target/
+build/
+dist/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
