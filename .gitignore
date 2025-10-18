@@ -1,5 +1,1 @@
-(car.dart is a source file, so no .gitignore rules needed)
-
-```dart
-
-```
+(service-config-12345.yaml is a config file, so it should not be added to .gitignore)
