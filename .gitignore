@@ -1,8 +1,1 @@
-```
-# Temporary files
-*.txt
-*.tmp
-
-# PowerShell related
-*.ps1
-```
+Nothing should be ignored based on the provided file changes. The added file `rotate_animation_12345.css` is a source code file that should be tracked in version control.
