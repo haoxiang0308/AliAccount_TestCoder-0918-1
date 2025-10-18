@@ -1,4 +1,63 @@
 ```
-# JSON response files
-*.json
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+target/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nosetests*
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+.recommenders
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
