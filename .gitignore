@@ -1,76 +1,33 @@
-```
-# Dependencies
-node_modules/
+```python
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-.env.
+*.env.*
 
-# Package manager
-package-lock.json
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 
-# Python related (if any Python files exist in project)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
+# Dependencies
 .venv/
-.env
+venv/
+node_modules/
 
-# Build outputs
-dist/
-build/
-target/
-*.out
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Testing
-.pytest_cache/
+# Python cache
 .mypy_cache/
-
-# Compression
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+.pytest_cache/
 ```
