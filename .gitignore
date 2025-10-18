@@ -1,1 +1,39 @@
-Nothing should be ignored based on the provided file changes. The added file `rotate_animation_12345.css` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.solc
+*.abi
+*.bin
+*.hex
+*.log
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.log
+*.tmp
+```
