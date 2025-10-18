@@ -1,18 +1,64 @@
 ```
-# Configuration and deployment files
-*.yaml
-*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Kubernetes/Deployment artifacts
-*.yaml
-!*.yaml
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
-# The added deployment file should not be ignored since it's a configuration file
-# nginx-deployment-1760773514.yaml - keeping this as it appears to be a deployment config
-```
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
-Wait, I need to reconsider. The nginx-deployment-1760773514.yaml is a configuration file that was added, and based on rule #6, if the changes contain only source/config files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore. Since this is a deployment configuration file (not a build artifact), and there are no actual build artifacts in the change list, the output should be empty.
+# Editors
+.vscode/
+.idea/
 
-```
+# System files
+.DS_Store
+Thumbs.db
 
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
