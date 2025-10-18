@@ -1,13 +1,25 @@
 ```
-# Shell script backups/swap files
+# Temporary PHP files
+*.php~
+*.php.bak
+*.tmp
+
+# Editor/IDE files
+.vscode/
+.idea/
 *.swp
 *.swo
-*~
-
-# Temporary files
-*.tmp
-*.temp
 
 # Logs
 *.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Backup files
+*~
+*.bak
+*.backup
 ```
