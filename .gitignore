@@ -1,17 +1,48 @@
 ```
-# Go build artifacts
+#PHP specific
+*.php~
+*.php.bak
+*.php.swp
+
+#Compiled and build artifacts
 *.o
-*.a
+*.obj
+*.exe
+*.dll
 *.so
+*.a
 *.out
 
-# Temporary files
-*.tmp
+#Dependencies
+vendor/
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+target/
+.gradle/
+
+#Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-# Randomly generated files
-random_*.go
+#Environment
+.env
+.env.local
+.env.*
 
-# Output files
-output.txt
+#Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#System
+.DS_Store
+Thumbs.db
 ```
