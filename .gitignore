@@ -1,8 +1,4 @@
 ```
-# Temporary files
-*.txt
-*.tmp
-
-# PowerShell related
-*.ps1
+# Compiled and build artifacts
+*.cr
 ```
