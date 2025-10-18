@@ -1,25 +1,3 @@
-```
-# Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scala
-target/
+Nothing should be ignored in this case, as the added file 'S9zh4UrnFxN1.f90' is a source code file (.f90 extension indicates Fortran 90 source code) and there are no build artifacts, dependencies, or temporary files in the changes list.
 
-# Dependencies
-lib_managed/
-project/target/
-*.lock
-
-# Editors
-.idea/
-.vscode/
-
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-```
+(empty output)
