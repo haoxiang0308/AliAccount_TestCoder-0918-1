@@ -1,48 +1,20 @@
 ```
-#PHP specific
-*.php~
-*.php.bak
-*.php.swp
+# Compiled and build artifacts
+*.css.map
+*.css.gz
+*.css.br
 
-#Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-#Dependencies
-vendor/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-build/
-dist/
-target/
-.gradle/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-#Environment
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-#System
-.DS_Store
-Thumbs.db
 ```
