@@ -1,4 +1,9 @@
 ```
-# Generated from file changes
-*.thrift
+# Proto files related
+*.proto
+
+# Temporary files
+*.tmp
+temp_*.txt
+new_random_name.txt
 ```
