@@ -1,1 +1,45 @@
-Nothing should be ignored in this case, as only a Python source file (.py) was added and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Assembly files
+*.asm
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# System files
+.DS_Store
+Thumbs.db
+```
