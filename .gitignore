@@ -1,37 +1,30 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Dart/Flutter
+.dart_tool/
+.packages
+*.dart.js
+*.dart.js.map
+*.part.js
+*.part.js.map
+build/
+*.log
 
 # Dependencies
-target/
-Cargo.lock
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+pubspec.lock
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Coverage
-coverage/
-htmlcov/
-*.coverage
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
-# Rust-specific
-**/*.rs.bk
-```
+# OS generated
+.DS_Store
+Thumbs.db
 ```
