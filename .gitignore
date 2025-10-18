@@ -1,40 +1,37 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
+# Kubernetes/YAML deployment files
+*.yaml
+*.yml
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
+# Environment and config files
+.env
+.env.local
+.env.*
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+dist/
+build/
+target/
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
