@@ -1,42 +1,35 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sib~
+*.bc
+*.o
+*.obj
 
-# Virtual environments
-venv/
-.venv/
-env/
+# Dependencies
+Packages/
+.build/
+.swift-version
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.pyc
-*.pyo
-*.pyd
-
-# Build/dist directories
-dist/
-build/
-*.egg-info/
-
-# Python cache
-.Python
-*.so
-*.pyc
-__pycache__/
-*.py~
+# System files
+.DS_Store
+Thumbs.db
 ```
