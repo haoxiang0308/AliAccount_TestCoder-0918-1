@@ -1,70 +1,31 @@
 ```
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
 # Compiled and build artifacts
-*.pyc
-*.class
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
 *.o
-*.exe
-*.dll
-*.so
-*.a
 *.obj
 *.out
-dist/
-build/
-coverage/
-htmlcov/
-.coverage
 
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+.opam/
+.dune/
+_build/
 
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Logs and temp files
+*.log
 *.tmp
 
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Environment
+.env
+.env.local
+*.env.*
 ```
