@@ -1,33 +1,4 @@
 ```
-# Elixir/Erlang specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-erl_crash.dump
-
-# Dependencies
-deps/
-_build/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Docker
+docker-compose-webapp-db.yml
 ```
