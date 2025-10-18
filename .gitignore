@@ -1,1 +1,10 @@
-(filter_closure_x9p2q7.groovy)
+```
+# Compiled and build artifacts
+*.css.map
+*.min.css
+*.bundle.css
+
+# Temp files
+*.tmp
+*.temp
+```
