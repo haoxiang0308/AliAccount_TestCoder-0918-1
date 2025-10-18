@@ -1,1 +1,50 @@
-Nothing should be ignored based on the provided file changes. The added file 'grandparent_relations.pl' appears to be a source code file (Prolog file) which should not be ignored.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+target/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+*.pytest_cache/
+.mypy_cache/
+```
