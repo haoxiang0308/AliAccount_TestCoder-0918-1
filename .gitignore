@@ -1,0 +1,1 @@
+Nothing should be ignored based on the provided file changes. The added file `generate_user_info_script.ps1` is a PowerShell script file, which is source code and should not be ignored.
