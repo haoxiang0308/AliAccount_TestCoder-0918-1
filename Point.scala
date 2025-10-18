@@ -1,0 +1,20 @@
+// 定义一个表示坐标点的样例类
+case class Point(x: Double, y: Double) {
+  override def toString: String = s"Point($x, $y)"
+}
+
+object PointApp extends App {
+  // 创建一个坐标点实例
+  val point = Point(3.5, 7.2)
+  
+  // 生成随机文件名
+  val randomFileName = s"point_${scala.util.Random.nextInt(10000)}.txt"
+  
+  // 将坐标点信息写入随机命名的文件
+  import java.io._
+  val writer = new PrintWriter(new File(randomFileName))
+  writer.write(point.toString)
+  writer.close()
+  
+  println(s"坐标点 $point 已保存到文件: $randomFileName")
+}
