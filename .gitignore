@@ -1,8 +1,1 @@
-```
-# Temporary files
-*.txt
-*.tmp
-
-# PowerShell related
-*.ps1
-```
+Nothing should be ignored in this case. The added file `adder_4bit.v` appears to be a Verilog source file (based on the `.v` extension), which is a source code file that should be tracked in version control. There are no build artifacts, dependency directories, or temporary files in the changes that would warrant adding ignore rules.
