@@ -1,8 +1,12 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
+# Temporary MATLAB files
+*.m~*
+tmp.*
+
+# Compiled MATLAB files
+*.mex*
+*.mat
+*.fig
 
 # Logs and temp files
 *.log
@@ -12,7 +16,7 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
