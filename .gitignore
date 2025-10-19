@@ -1,45 +1,67 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+*.ex
+*.exs
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage
+# Coverage and testing
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Distribution / packaging
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.conda/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build directories
 dist/
 build/
-*.tar.gz
+target/
+*.egg-info/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.swp
+.swo
+
+# Compression and archives
 *.zip
 *.gz
 *.tar
@@ -58,94 +80,8 @@ build/
 *.Z
 *.lz
 *.lzo
-
-# Testing
-*.pytest_cache/
-.mypy_cache/
-
-# Java
-*.class
-target/
-.gradle/
-
-# Python
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-.eggs/
-.coverage
-.coverage.*
-.cache
-.pytest_cache/
-.mypy_cache/
-.tox/
-noxfile.json
-coverage.xml
-*.coverage
-.hypothesis/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-dist/
-build/
-.nyc_output
-coverage/
-*.lcov
-.nyc_output/
-coverage/
-
-# Go
-*.o
-*.a
-*.so
-*.exe
-*.test
-*.prof
-*.syso
-.coverprofile
-.cover
-
-# C/C++
-*.o
-*.a
-*.so
-*.dll
-*.dylib
-*.exe
-*.out
-*.obj
-*.ilk
-*.pdb
-*.gch
-*.gmo
-*.mo
-*.pot
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-.eggs/
-.coverage
-.coverage.*
-.cache
-.pytest_cache/
-.mypy_cache/
-.tox/
-noxfile.json
-coverage.xml
-*.coverage
-.hypothesis/
-.DS_Store
-Thumbs.db
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
