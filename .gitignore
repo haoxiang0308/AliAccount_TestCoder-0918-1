@@ -1,3 +1,1 @@
-(button-style-7482.css is a source file, so nothing should be ignored)
-
-(empty — output nothing)
+Nothing to ignore - the added file 'hello.adb' is a source code file (.adb is an Ada source file) and no build artifacts, dependencies, or temporary files are present in the changes.
