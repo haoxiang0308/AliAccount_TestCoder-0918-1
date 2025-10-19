@@ -1,34 +1,41 @@
 ```
-# Assembly files related build artifacts (if any generated)
-*.o
-*.obj
-*.out
+# Configuration and task files
+*.yml
+*.yaml
 
-# Temp files
-*.tmp
-*.swp
+# Ansible specific
+ansible_task_*.yml
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Dependencies (if any)
+# Dependencies
 .venv/
 venv/
 node_modules/
-target/
-build/
+
+# Build artifacts
 dist/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+build/
+target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
