@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes. The added file `circle_area.lua` is a source code file that should be tracked in version control.
+```
+# Database files
+*.db
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
