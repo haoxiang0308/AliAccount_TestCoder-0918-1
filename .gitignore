@@ -1,32 +1,13 @@
 ```
-# Compiled Java/Scala classes
-*.class
-
-# Dependencies
-target/
-lib/
-project/
+# Temporary shell scripts
+*.sh~
 
 # Logs and temp files
-*.log
 *.tmp
-
-# Editors
-.vscode/
-.idea/
-*.swp
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
 ```
