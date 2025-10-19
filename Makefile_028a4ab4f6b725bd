@@ -1,0 +1,28 @@
+# Makefile with compile and clean targets
+
+CC = gcc
+CFLAGS = -Wall -g
+SRCDIR = src
+OBJDIR = obj
+SOURCES = $(wildcard $(SRCDIR)/*.c)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
+TARGET = program
+
+# Default target
+all: $(TARGET)
+
+# Compile target
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $(TARGET)
+
+$(OBJDIR)/%.o: $(SRCDIR)/%.c
+	@mkdir -p $(OBJDIR)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Clean target
+clean:
+	rm -f $(OBJECTS) $(TARGET)
+	@echo "Cleaned build files"
+
+# Phony targets
+.PHONY: all clean
