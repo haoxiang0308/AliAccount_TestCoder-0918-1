@@ -1,48 +1,21 @@
 ```
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.mem
-*.so
-*.dylib
-*.dll
+# PHP compiled files
+*.php~
 
-# Dependencies and build artifacts
-.julia/
-build/
-dist/
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
+# Backup files
+*~
 
-# Environment and cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
 .env
 .env.local
 .env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-*~
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
 
 # Editors
 .vscode/
@@ -50,7 +23,7 @@ htmlcov/
 *.swp
 *.swo
 
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
