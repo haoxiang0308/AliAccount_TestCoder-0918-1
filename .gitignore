@@ -1,10 +1,10 @@
 ```
+# Prolog/Logic programming
+*.pl~
+
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
@@ -15,15 +15,22 @@ __pycache__/
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -32,12 +39,6 @@ venv/
 # System files
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
 
 # Coverage
 coverage/
