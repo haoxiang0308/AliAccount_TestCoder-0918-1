@@ -1,1 +1,19 @@
-Nothing should be ignored since only a source code file (.java) was added.
+```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
