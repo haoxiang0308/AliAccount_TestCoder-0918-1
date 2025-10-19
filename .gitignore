@@ -1,56 +1,32 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-.eggs/
-eggs/
-parts/
-sdist/
-develop-eggs/
-.installed.cfg
-.lib/
-lib/
-lib64/
-pip-wheel-metadata/
+# Dependencies
+.dart_tool/
+.packages
+
+# Build outputs
 build/
-dist/
-*.egg-info/
-.installed.cfg
-*.egg
+*.g.dart
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
-!.env.example
+*.env.*
 
-# IDE
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# OS
+# OS generated
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 ```
