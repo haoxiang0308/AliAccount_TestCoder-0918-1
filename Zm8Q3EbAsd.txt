@@ -1,0 +1,8 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.6   6016  3696 ?        Ss+  00:58   0:00 sudo python openhands/action_execution_server.py --no-enable-browser --working-dir /workspace 35123
+root         2  0.0  0.0   6016   380 pts/0    Ss   00:58   0:00 sudo python openhands/action_execution_server.py --no-enable-browser --working-dir /workspace 35123
+root         3 11.5 58.1 823532 318048 pts/0   Sl+  00:58   0:05 python openhands/action_execution_server.py --no-enable-browser --working-dir /workspace 35123
+root        28  0.1  0.7   6172  4220 ?        Ss   00:58   0:00 /usr/bin/tmux new-session -P -F#{session_id} -sopenhands-qwencoder-40951a9d-0fd3-471a-8f8b-f025a073819d -d -c /workspace -x 1000 -y 1000
+root        37  0.0  0.6   4612  3664 pts/2    Ss   00:58   0:00 /bin/bash
+root       240 12.5  2.1  15440 11768 pts/2    S+   00:59   0:00 python3 /workspace/get_processes.py
+root       242  0.0  0.7   8532  4252 pts/2    R+   00:59   0:00 ps aux
