@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "email": "alice@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "email": "bob@example.com"
+      },
+      {
+        "id": 3,
+        "name": "Charlie",
+        "email": "charlie@example.com"
+      }
+    ],
+    "total": 3,
+    "page": 1
+  },
+  "message": "Users retrieved successfully"
+}
