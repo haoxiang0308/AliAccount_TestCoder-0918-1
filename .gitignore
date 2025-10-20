@@ -1,1 +1,28 @@
-Nothing should be ignored based on the provided file changes. The added file 'README_project_setup.md' is a documentation file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.scala~
+*.sc~
+
+# Dependencies
+lib_managed/
+project/
+target/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
