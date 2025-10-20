@@ -1,9 +1,43 @@
 ```
-# Proto files related
-*.proto
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Temporary files
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
 *.tmp
-temp_*.txt
-new_random_name.txt
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution
+dist/
+build/
+target/
+
+# Virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
 ```
