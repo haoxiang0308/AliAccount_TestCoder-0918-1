@@ -1,27 +1,37 @@
 ```
-# Compiled files
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
-# Logs
-*.log
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*.tmp
+
+# Editors
 .vscode/
 .idea/
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Coverage
 coverage/
