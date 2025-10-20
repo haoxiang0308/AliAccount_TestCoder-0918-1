@@ -1,24 +1,38 @@
-```
+```cpp
 # Compiled files
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
+
+# Build directories
+build/
+dist/
+target/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
 # Logs
 *.log
 
-# Editor/IDE files
-*.swp
-*.swo
-*.tmp
-.vscode/
-.idea/
-
 # System files
 .DS_Store
 Thumbs.db
-
-# Environment
 .env
 .env.local
 *.env.*
