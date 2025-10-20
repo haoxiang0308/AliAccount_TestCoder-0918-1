@@ -1,17 +1,30 @@
 ```
-# Go build artifacts
-*.o
-*.a
-*.so
-*.out
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pm
 
-# Temporary files
-*.tmp
+# Dependencies
+cpan/
+local/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Randomly generated files
-random_*.go
+# Environment
+.env
+.env.local
+.env.*
 
-# Output files
-output.txt
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
