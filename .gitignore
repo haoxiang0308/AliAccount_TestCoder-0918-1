@@ -1,9 +1,4 @@
 ```
-# Proto files related
-*.proto
-
-# Temporary files
-*.tmp
-temp_*.txt
-new_random_name.txt
+# Build artifacts
+*.make
 ```
