@@ -1,77 +1,29 @@
 ```
-# Database files
-*.sql
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temp files
+# Temporary files
 *.tmp
-*.swp
-*.swo
+*.temp
+temp_*
 
-# Editors
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
 *.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Text files
+*.txt
+!*.txt  # Don't ignore all text files, only temp ones
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Backup files
+*~
+*.bak
+*.backup
 ```
