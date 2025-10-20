@@ -1,28 +1,30 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.beam
+*.ez
+*.plt
+*.dump
 
 # Dependencies
-lib/
-libs/
-jars/
-
-# Build artifacts
-build/
-target/
-out/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+deps/
+_build/
+cover/
 
 # Environment
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+erl_crash.dump
+
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Testing
+test/fixtures/
 ```
