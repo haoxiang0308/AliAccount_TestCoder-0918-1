@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes. The added file 'user_interface_a2vvly2c.ts' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+target/
+
+# Dependencies
+lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
