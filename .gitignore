@@ -1,4 +1,31 @@
 ```
 # Compiled and build artifacts
-*.cr
+*.beam
+*.app
+*.appup
+*.rel
+
+# Dependencies
+_rebuild/
+.deps/
+ebin/
+include/
+priv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OTP releases
+rel/
+releases/
+
+# Common Erlang build directories
+deps/
+_build/
 ```
