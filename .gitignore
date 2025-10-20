@@ -1,12 +1,36 @@
 ```
-# Elixir compiled files
-*.beam
-*.ex~
-
-# Build artifacts
-ebin/
-_build/
+# TypeScript/JavaScript build artifacts
+*.js.map
+*.tsbuildinfo
+dist/
+build/
+*.min.js
+*.bundle.js
 
 # Dependencies
-deps/
+node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
