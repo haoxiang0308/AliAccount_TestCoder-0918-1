@@ -1,1 +1,18 @@
-(circle_area_4317.lua)
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+```
