@@ -1,1 +1,25 @@
-Nothing should be ignored based on the provided file changes. The added file 'todo_Ivtuqe.md' is a markdown source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.out
+
+# Dependencies
+matlab/
+octave/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
