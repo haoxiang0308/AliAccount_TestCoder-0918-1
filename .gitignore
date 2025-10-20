@@ -1,1 +1,20 @@
-Nothing to output - the change list contains only a source/config file (.pp Puppet manifest) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Compiled and build artifacts
+*.css.map
+*.min.css
+*.bundle.css
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
