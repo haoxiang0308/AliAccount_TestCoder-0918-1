@@ -2,43 +2,85 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Build directories
+dist/
+build/
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.gz
+*.tgz
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
+.coverage
 
 # Python specific
+*.pyc
+__pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
+env/
+venv/
+ENV/
+.venv/
+.env/
 
-# Backup files
-*~
+# Dart/Flutter specific
+.dart_tool/
+.packages
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# Temporary files
+*.tmp
+*.temp
 *.bak
-*.swp
+*.cache
+*.log
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
