@@ -1,31 +1,84 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
+# Configuration and deployment files
+*.yaml
+*.yml
+
+# Kubernetes/OpenShift manifests
+*.yaml
+*.yml
+
+# Environment and secrets
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Dependencies (if any detected)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.cargo/
+zig-cache/
+julia-*/
+
+# Compiled files
+*.pyc
+*.class
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
+*.jar
+*.war
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
 
-# Dependencies
-.opam/
-.dune/
-_build/
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs and temp files
 *.log
 *.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Testing
+*.pytest_cache/
+.mypy_cache/
 ```
