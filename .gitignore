@@ -1,42 +1,11 @@
 ```
-# Compiled files
-*.class
+#Compiled and build artifacts
+*.pl~
 
-# Dependencies
-venv/
-.venv/
-__pycache__/
-node_modules/
-
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts
-dist/
-build/
-target/
-.gradle/
-
-# Temp files
+#Temp files
 *.tmp
 *.swp
-*.swo
+
+#Logs
+*.log
 ```
