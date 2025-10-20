@@ -1,32 +1,12 @@
 ```
-# SQL query files (if generated)
-*.sql
+# Erlang/OTP specific
+*.beam
+*.app
+*.app.src
+ebin/
+log/
+erl_crash.dump
 
-# Database related
-*.db
-*.sqlite
-*.sqlite3
-
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*~
-*.bak
-*.backup
+# Generated files
+*_1760975737_*.erl
 ```
