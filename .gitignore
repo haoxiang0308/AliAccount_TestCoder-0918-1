@@ -1,42 +1,32 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# SQL query files (if generated)
+*.sql
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Database related
+*.db
+*.sqlite
+*.sqlite3
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+*.temp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-.eggs/
-.tox/
-.pytest_cache/
-.mypy_cache/
+# Backup files
+*~
+*.bak
+*.backup
 ```
