@@ -1,22 +1,10 @@
 ```
-# Compiled files
-*.mex*
-*.o
-*.obj
+# Backup files
+backup_*
 
-# Dependencies
-.m/
-matlab/
+# Script files
+*.sh
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Test files
+test_file.txt
 ```
