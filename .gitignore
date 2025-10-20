@@ -1,25 +1,32 @@
 ```
 # Compiled and build artifacts
-*.mex*
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-matlab/
-octave/
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Rust-specific
+**/target/
+Cargo.lock
 ```
