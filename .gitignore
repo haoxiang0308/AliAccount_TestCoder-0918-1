@@ -1,42 +1,31 @@
-```powershell
-# PowerShell and Bash script artifacts
-*.ps1xml
-*.psc1
-*.psd1
-*.psm1
+```
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.scala~
+*.sc~
+target/
+lib_managed/
+project/target/
 
-# Shell script artifacts
-*.sh.swp
-*.bash_history
-*.zsh_history
+# Dependencies
+lib/
+project/project/
+.DS_Store
 
-# Logs and temporary files
+# Logs and temp files
 *.log
 *.tmp
-*.temp
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor files
-.vscode/
+# Editors
 .idea/
 *.swp
 *.swo
 
-# Build and distribution
-dist/
-build/
-target/
-out/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-.Python
+# Scala-specific
+*.tasty
+*.jks
+.DS_Store
 ```
