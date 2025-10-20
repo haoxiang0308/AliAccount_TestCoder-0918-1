@@ -1,22 +1,7 @@
 ```
-# PowerShell session files
-*.ps1
+# JSON files (if they are build artifacts)
+*.json
 
-# Logs and temp files
+# Backup the original rule
 *.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
