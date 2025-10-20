@@ -1,28 +1,11 @@
 ```
-# Compiled files
-*.class
+# Compiled Ada files
+*.o
+*.ali
 
-# Dependencies
-lib/
-libs/
-jars/
-
-# Build artifacts
-build/
-target/
-out/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Executable files
+create_random_file
+final_parallel
+parallel_tasks_fixed
+parallel_tasks_simple
 ```
