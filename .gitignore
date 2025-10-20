@@ -1,24 +1,37 @@
 ```
-# Compiled and build artifacts
+# OCaml compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
 *.o
 *.obj
-*.mod
+
+# Executables
 *.exe
+*.out
 
-# Dependencies
-build/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+_build/
+dist/
 ```
