@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.java) was added.
+Nothing should be ignored based on the provided file changes. The added file `filterStrings.kt` is a source code file that should be tracked in version control.
