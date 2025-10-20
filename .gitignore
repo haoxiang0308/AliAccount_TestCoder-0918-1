@@ -1,52 +1,48 @@
 ```
-# Puppet related
-*.pp.bak
-*.pp~
-
 # Compiled and build artifacts
 *.pyc
 __pycache__/
-*.class
 *.o
 *.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-*.env.*
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+__pycache__/
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.mypy_cache/
+.pytest_cache/
+.tox/
+
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
 ```
