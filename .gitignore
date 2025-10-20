@@ -1,21 +1,27 @@
-```matlab
-# Compiled MATLAB files
-*.mex*
-*.mat
-*.fig
-*.p
-
-# MATLAB cache and temporary files
-*.tmp
-*.log
-@*/
-
-# Build artifacts
-build/
-dist/
+```
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+*.rel
 
 # Dependencies
-+*/private/
-toolbox/
-install/
+ebin/
+deps/
+_build/
+
+# Logs and temp files
+*.log
+erl_crash.dump
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
