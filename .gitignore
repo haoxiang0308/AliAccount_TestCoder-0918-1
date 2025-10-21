@@ -1,16 +1,13 @@
-node_modules/
-package-lock.json
-*.log
-*.tmp
-*.swp
-*.swo
-.env
-.env.local
-.env.
-.DS_Store
-Thumbs.db
-coverage/
-htmlcov/
+# Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.zip
 *.gz
 *.tar
@@ -33,3 +30,37 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and test reports
+coverage/
+htmlcov/
+.coverage
