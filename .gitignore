@@ -1,11 +1,6 @@
-```
-# Prolog related
-*.pl.bak
-*.pl~
-
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
+*.class
 *.o
 *.obj
 *.exe
@@ -13,43 +8,6 @@ __pycache__/
 *.so
 *.a
 *.out
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
-
-# Compressed files
 *.zip
 *.gz
 *.tar
@@ -72,4 +30,30 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#Environment files
+.env
+.env.local
+.env.*
