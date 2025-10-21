@@ -1,51 +1,62 @@
-```
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
+*.class
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
 *.a
 *.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 *.log
 *.tmp
 *.swp
 *.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
+*.env
+*.env.local
+*.env.*
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
 dist/
 build/
+.mypy_cache/
+.pytest_cache/
 target/
 .gradle/
 
-# Ruby specific
-*.gem
-.bundle/
-.ruby-version
-```
+#Editors and IDEs
+.vscode/
+.idea/
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
