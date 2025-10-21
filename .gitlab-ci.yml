@@ -1,0 +1,42 @@
+# GitLab CI configuration for running tests
+stages:
+  - test
+
+before_script:
+  - echo "Setting up environment for tests..."
+  - # Add any dependencies or setup commands here
+
+test_job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - # Replace with your actual test command, e.g.:
+    # - npm test
+    # - python -m pytest
+    # - make test
+    - echo "Tests completed successfully"
+  artifacts:
+    when: always
+    paths:
+      - reports/
+    expire_in: 1 week
+  coverage: '/Coverage: \d+\.\d+%/'
+
+# Optional: Add multiple test jobs for different test types
+unit_tests:
+  stage: test
+  script:
+    - echo "Running unit tests..."
+    - # Add your unit test command here
+    - echo "Unit tests completed"
+  only:
+    - branches
+
+# Example for integration tests (uncomment and modify as needed)
+# integration_tests:
+#   stage: test
+#   script:
+#     - echo "Running integration tests..."
+#     - # Add your integration test command here
+#   except:
+#     - master
