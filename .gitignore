@@ -1,6 +1,5 @@
 #Compiled and build artifacts
 *.pyc
-*.class
 *.o
 *.obj
 *.exe
@@ -8,6 +7,7 @@
 *.so
 *.a
 *.out
+*.class
 *.zip
 *.gz
 *.tar
@@ -30,12 +30,6 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-*.log
-*.tmp
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
 
 #Dependencies
 node_modules/
@@ -49,11 +43,22 @@ build/
 target/
 .gradle/
 
-#Editors and IDEs
-.vscode/
-.idea/
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.log
 
 #Environment files
 .env
 .env.local
 .env.*
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#System files
+.DS_Store
+Thumbs.db
