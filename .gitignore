@@ -1,60 +1,66 @@
-```
-# Compiled and build artifacts
+#Compiled and build artifacts
+*.pyc
 *.class
-*.jar
-*.war
-*.ear
-*.aar
-*.so
-*.dll
+*.o
+*.obj
 *.exe
+*.dll
+*.so
+*.a
 *.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Dependencies
-.gradle/
+#Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-*.egg-info/
-build/
 dist/
+build/
+.mypy_cache/
+.pytest_cache/
 target/
+.gradle/
 
-# Logs and temp files
-*.log
-*.tmp
+#Editors and IDEs
+.vscode/
+.idea/
 *.swp
 *.swo
+*.log
+*.tmp
 
-# Environment
+#Environment files
 .env
 .env.local
 .env.*
 
-# Editors
-.vscode/
-.idea/
-*.iml
-*.iws
-*.ipr
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
 
-# Gradle
-.gradle/
-build/
-!build.gradle.kts
-!settings.gradle.kts
-
-# Kotlin
-*.kotlin_metadata
-*.kotlin_built
-```
+#System files
+.DS_Store
+Thumbs.db
