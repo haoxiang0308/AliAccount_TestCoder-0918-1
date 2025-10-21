@@ -1,4 +1,4 @@
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
 *.class
 *.o
@@ -8,6 +8,10 @@
 *.so
 *.a
 *.out
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -30,35 +34,66 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-*.log
-*.tmp
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# Dependencies
+*.env
+*.env.*
+.env.local
+#Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
 target/
 .gradle/
-
-# Editors and IDEs
+.julia/
+.julia-*/
+.julia/registries/
+.julia/packages/
+.julia/artifacts/
+.julia/scratchspaces/
+.julia/environments/
+.julia/bin/
+.julia/lib/
+.julia/share/
+.julia/cache/
+.julia/logs/
+.julia/scratch/
+.julia/tmp/
+.julia/test/
+.julia/dev/
+.julia/registries/
+.julia/registries/
+.julia/packages/
+.julia/artifacts/
+.julia/scratchspaces/
+.julia/environments/
+.julia/bin/
+.julia/lib/
+.julia/share/
+.julia/cache/
+.julia/logs/
+.julia/scratch/
+.julia/tmp/
+.julia/test/
+.julia/dev/
+#Editors and IDEs
 .vscode/
 .idea/
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# Coverage and test artifacts
+#System files
+.DS_Store
+Thumbs.db
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
+.pytest_cache/
+.mypy_cache/
+#Generated files
+*.generated
+*.patch
+*.diff
+*.bak
+*.backup
+*~
+*.orig
