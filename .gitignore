@@ -51,16 +51,14 @@ target/
 *.log
 *.tmp
 
-#Environment files
+#System and environment files
+.DS_Store
+Thumbs.db
 .env
 .env.local
-.env.*
+*.env.*
 
-#Coverage and test artifacts
+#Coverage and test output
 coverage/
 htmlcov/
 .coverage
-
-#System files
-.DS_Store
-Thumbs.db
