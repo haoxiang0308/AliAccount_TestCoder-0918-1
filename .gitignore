@@ -1,50 +1,62 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.log
 *.tmp
 *.swp
+*.swo
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Editors
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+#Environment files
+.env
+.env.local
+.env.*
 
-# Coverage
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Build directories
-dist/
-build/
-*.egg-info/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV
-
-# Cache directories
-.mypy_cache/
-.pytest_cache/
-.coverage
-```
