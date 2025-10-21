@@ -1,0 +1,19 @@
+---
+- name: Copy file with random name
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Generate random filename
+      set_fact:
+        random_filename: "{{ '/tmp/copied_file_' + 999999 | random | string + '.txt' }}"
+
+    - name: Copy file with random name
+      copy:
+        src: /workspace/source_file.txt
+        dest: "{{ random_filename }}"
+        mode: '0644'
+      register: copy_result
+
+    - name: Display the new filename
+      debug:
+        msg: "File copied to {{ random_filename }}"
