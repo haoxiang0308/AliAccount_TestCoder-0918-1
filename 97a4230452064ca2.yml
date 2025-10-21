@@ -1,0 +1,34 @@
+service: nodejs-lambda-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - logs:CreateLogGroup
+            - logs:CreateLogStream
+            - logs:PutLogEvents
+          Resource: "*"
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+
+plugins:
+  - '@serverless/aws-lambda'
+
+package:
+  exclude:
+    - node_modules/**
+    - .git/**
+    - .serverless/**
