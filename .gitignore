@@ -1,30 +1,12 @@
-```
-# Dart/Flutter
-.dart_tool/
-.packages
-*.dart.js
-*.dart.js.map
-*.part.js
-*.part.js.map
-build/
+# Temporary and config files
+temp_filename.txt
+*.hcl
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Dependencies
-pubspec.lock
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
-
-# OS generated
-.DS_Store
-Thumbs.db
-```
