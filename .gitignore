@@ -1,15 +1,14 @@
-```
-# Docker-related
-*.dockerignore
-.dockerenv
-
-# Temporary files
-*.tmp
-*.temp
+# Fortran compiled files
+*.o
+*.mod
+*.exe
+*.out
+# Build directories
+build/
+# Logs and temp files
 *.log
-
-# Environment files
-.env
-.env.local
-.env.*
-```
+*.tmp
+*.swp
+# Editors
+.vscode/
+.idea/
