@@ -1,38 +1,24 @@
-```
-# Compiled and build artifacts
+```plaintext
+#Compiled and build artifacts
+*.pyc
+pycache/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-vendor/
-.bundle/
-
-# Logs and temp files
+dist/
+build/
+#Dependencies
+.venv/
+venv/
+node_modules/
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Editors
+#Environment
+.env
+.env.local
+.env.*
+#Editors
 .vscode/
 .idea/
-
-# Ruby specific
-*.gem
-*.rbc
-coverage/
-InstalledFiles
-pkg/
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
