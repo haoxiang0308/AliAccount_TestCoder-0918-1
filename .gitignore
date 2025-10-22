@@ -1,29 +1,2 @@
 ```
-# PHP compiled files
-*.php~
-
-# Backup files
-*~
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
