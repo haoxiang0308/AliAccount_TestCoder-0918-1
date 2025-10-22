@@ -1,11 +1,40 @@
-# Temporary/Generated PHP files
-mysql_connect_*.php
-
-# Logs and temp files
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*
+.nyc_output/
+coverage/
+.nyc_output/
+htmlcov/
 *.log
 *.tmp
 *.swp
-
-# Editors
+*.swo
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
