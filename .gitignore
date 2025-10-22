@@ -1,1 +1,11 @@
-Nothing should be ignored in this case, as the added file `mysql_conn_094e7103.php` is a PHP source code file that should be tracked in version control. The change list contains only a source file and no build artifacts, dependencies, or temporary files.
+# Configuration files
+network_config_93cc6c4315a5bff4.pp
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
