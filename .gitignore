@@ -1,12 +1,1 @@
-```
-# Erlang/OTP specific
-*.beam
-*.app
-*.app.src
-ebin/
-log/
-erl_crash.dump
-
-# Generated files
-*_1760975737_*.erl
-```
+hello_world_12345.html
