@@ -1,27 +1,2 @@
 ```
-# Build artifacts
-zig-cache/
-zig-out/
-
-# Dependencies
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 ```
