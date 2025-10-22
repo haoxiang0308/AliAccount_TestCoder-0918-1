@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Функция для создания резервной копии файла с случайным именем
+create_backup() {
+    if [ $# -ne 1 ]; then
+        echo "Использование: create_backup <путь_к_файлу_для_резервного_копирования>"
+        exit 1
+    fi
+
+    local source_file="$1"
+
+    # Проверяем, существует ли файл
+    if [ ! -f "$source_file" ]; then
+        echo "Ошибка: файл $source_file не существует"
+        exit 1
+    fi
+
+    # Генерируем случайное имя файла
+    local random_name=$(date +%s%N)_$RANDOM
+    local backup_file="/workspace/${random_name}"
+
+    # Создаем копию файла
+    cp "$source_file" "$backup_file"
+    
+    echo "Резервная копия файла $source_file создана как $backup_file"
+}
+
+# Вызываем функцию с аргументом
+create_backup "$1"
