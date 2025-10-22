@@ -1,0 +1,30 @@
+/* 旋转动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 50px auto;
+  animation: rotate 2s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 可选：添加一个更复杂的旋转动画示例 */
+.rotate-complex {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  margin: 50px auto;
+  animation: rotate 3s ease-in-out infinite;
+  border-radius: 10px;
+}
