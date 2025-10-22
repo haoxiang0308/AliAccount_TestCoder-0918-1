@@ -2,11 +2,11 @@
 *.pyc
 *.class
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
 *.log
 *.tmp
@@ -47,11 +47,9 @@ build/
 target/
 .gradle/
 
-#Editors and IDE
+#Editors and IDEs
 .vscode/
 .idea/
-*.log
-*.tmp
 
 #Environment files
 .env
@@ -62,3 +60,7 @@ target/
 coverage/
 htmlcov/
 .coverage
+
+#System files
+.DS_Store
+Thumbs.db
