@@ -1,68 +1,21 @@
-# Compiled and build artifacts
-*.pyc
-*.class
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
 *.o
-*.obj
-*.exe
-*.dll
-*.so
 *.a
+*.so
 *.out
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-julia-*/
-zig*/
-
-# Editors and IDEs
+# Build directories
+_build/
+# Editor files
 .vscode/
-.idea/
 *.swp
 *.swo
+# Logs and temp files
 *.log
 *.tmp
-
 # Environment files
 .env
 .env.local
 .env.*
-
-# Coverage and test reports
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
