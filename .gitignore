@@ -1,10 +1,1 @@
-```
-# VBA/Office files
-*.vba
-*.bas
-*.cls
-*.frm
-*.vbp
-*.ds_store
-Thumbs.db
-```
+.github/workflows/test.yml
