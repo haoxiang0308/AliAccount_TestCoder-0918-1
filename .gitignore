@@ -1,21 +1,4 @@
-# OCaml build artifacts
-*.cmi
-*.cmo
-*.cmx
-*.o
-*.a
-*.so
-*.out
-# Build directories
-_build/
-# Editor files
-.vscode/
-*.swp
-*.swo
-# Logs and temp files
-*.log
-*.tmp
-# Environment files
-.env
-.env.local
-.env.*
+# Shell scripts
+check_memory.sh
+create_random_memory_script.sh
+memory_check_1761144406.sh
