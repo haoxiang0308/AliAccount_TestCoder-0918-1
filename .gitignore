@@ -8,6 +8,10 @@
 *.so
 *.a
 *.out
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -43,26 +47,18 @@ build/
 target/
 .gradle/
 
-#Logs and temp files
+#Editors and IDE
+.vscode/
+.idea/
 *.log
 *.tmp
-*.swp
-*.swo
 
 #Environment files
 .env
 .env.local
 .env.*
 
-#Editors and IDEs
-.vscode/
-.idea/
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Coverage and test reports
+#Coverage and test artifacts
 coverage/
 htmlcov/
 .coverage
