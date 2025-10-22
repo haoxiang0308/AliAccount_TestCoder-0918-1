@@ -1,48 +1,37 @@
-```
-# Compiled files
-*.pyc
+# Haskell-related files
+*.hi
 *.o
-*.obj
-*.exe
-*.dll
 *.so
 *.a
-*.out
-
-# Dependencies
-.venv/
-venv/
-__pycache__/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-# Editor/IDE files
+*.dyn_o
+*.dyn_hi
+# Temporary files
+tmp.*
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+*.log
 *.tmp
-
-# System files
-.DS_Store
-Thumbs.db
+# Logs and cache
+*.log
+*.cache
+# Build artifacts
+dist/
+build/
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.target/
+.gradle/
+# Environment
 .env
 .env.local
-*.env.*
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
+.env.*
 # Compressed files
 *.zip
 *.gz
@@ -66,4 +55,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
