@@ -1,0 +1,12 @@
+2023-10-01 10:00:01 INFO Application started
+2023-10-01 10:00:02 ERROR Database connection failed
+2023-10-01 10:00:03 WARNING Low memory warning
+2023-10-01 10:00:04 INFO User login successful
+2023-10-01 10:00:05 ERROR Invalid credentials
+2023-10-01 10:00:06 CRITICAL Server timeout
+2023-10-01 10:00:07 INFO Processing request
+2023-10-01 10:00:08 ERROR Failed to process request
+2023-10-01 10:00:09 DEBUG Debug information
+2023-10-01 10:00:10 WARNING Disk space low
+2023-10-01 10:00:11 ERROR Exception occurred in module
+2023-10-01 10:00:12 INFO Application shutdown
