@@ -1,25 +1,3 @@
-```
-# Temporary PHP files
-*.php~
-*.php.bak
-*.tmp
+# Generated from file changes
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Backup files
-*~
-*.bak
-*.backup
-```
+26a5a31268de7cc6.thrift
