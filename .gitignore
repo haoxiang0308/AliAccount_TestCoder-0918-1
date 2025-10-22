@@ -1,15 +1,49 @@
-```
-# LaTeX build artifacts
-*.aux
+```gitignore
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
+# Dependencies
+.venv/
+venv/
+node_modules/
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+*.tmp
+*.swp
+*.swo
+*.log.*
+# Environment
+.env
+.env.local
+.env.*
+# Editors
+.vscode/
+.idea/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
