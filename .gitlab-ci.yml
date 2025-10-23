@@ -1,0 +1,20 @@
+# GitLab CI configuration file
+stages:
+  - test
+
+# Job to run tests
+run_tests:
+  stage: test
+  image: node:16
+  before_script:
+    - npm install
+  script:
+    - npm test
+  artifacts:
+    when: always
+    reports:
+      junit: 
+        - test-results.xml
+    paths:
+      - coverage/
+  coverage: '/Coverage: \d+\.\d+%/'
