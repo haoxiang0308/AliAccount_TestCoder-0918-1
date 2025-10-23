@@ -1,16 +1,23 @@
-#Compiled and build artifacts
+# Environment and build artifacts
+.env
+.env.local
+.env.*
+*.env.*
+
+# Compiled and binary files
 *.pyc
 *.class
 *.o
 *.obj
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
+*.jar
 *.zip
-*.gz
 *.tar
+*.gz
 *.tgz
 *.bz2
 *.xz
@@ -31,19 +38,24 @@
 *.tar.xz
 *.tar.zst
 
-#Dependencies
+# Dependencies and build directories
 node_modules/
 venv/
 .venv/
 __pycache__/
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
 target/
 .gradle/
+.julia/
+.julia-*/
+.julia-v*/
+.jl/
+.jl-*/
+julia-*/
+zig*/
 
-#Editors and IDEs
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
@@ -51,16 +63,9 @@ target/
 *.log
 *.tmp
 
-#Environment files
-.env
-.env.local
-.env.*
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Coverage and test artifacts
+# Coverage and test artifacts
+.coverage
 coverage/
 htmlcov/
-.coverage
+.pytest_cache/
+.mypy_cache/
