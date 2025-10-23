@@ -1,0 +1,50 @@
+# Makefile for C++ project
+
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17
+SRCDIR = src
+OBJDIR = obj
+BINDIR = bin
+TESTDIR = test
+
+# Find all source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
+TARGET = $(BINDIR)/main
+TEST_TARGET = $(BINDIR)/test
+
+# Default target
+all: build
+
+# Build target
+build: $(TARGET)
+
+# Create directories if they don't exist
+$(OBJDIR):
+	mkdir -p $(OBJDIR)
+
+$(BINDIR):
+	mkdir -p $(BINDIR)
+
+# Compile source files to object files
+$(OBJDIR)/%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Link object files to create executable
+$(TARGET): $(OBJECTS) | $(BINDIR)
+	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# Test target
+test: $(TEST_TARGET)
+	./$(TEST_TARGET)
+
+# If you have test files, they would be compiled here
+# $(TEST_TARGET): $(TEST_OBJECTS) | $(BINDIR)
+# 	$(CXX) $(CXXFLAGS) $^ -o $@
+
+# Clean target
+clean:
+	rm -rf $(OBJDIR) $(BINDIR)
+
+# Phony targets
+.PHONY: all build test clean
