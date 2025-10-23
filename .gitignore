@@ -1,33 +1,4 @@
-```
-# Jenkins artifacts
-Jenkinsfile
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
+#Compiled and build artifacts
 *.pyc
 *.class
 *.o
@@ -37,8 +8,52 @@ target/
 *.so
 *.a
 *.out
-
-# System files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.log
+*.tmp
+*.swp
+*.swo
+*.env
+*.env.*
+.env.local
 .DS_Store
 Thumbs.db
-```
+.coverage
+coverage/
+htmlcov/
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.julia/
+.julia-*/
+.zig/
+#Editors
+.vscode/
+.idea/
