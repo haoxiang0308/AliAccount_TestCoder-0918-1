@@ -1,5 +1,50 @@
-```
-# Generated from file changes
-*.thrift~
-*.thrift.bak
-```
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.a
+*.exe
+*.class
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+target/
+.gradle/
+.julia/
+.julia-*/
+.zig/
+julia-*/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.backup
+*.rej
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.log
+*.tmp
+
+#Build and distribution directories
+dist/
+build/
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
