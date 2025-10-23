@@ -1,35 +1,62 @@
-```
-# Compiled and build artifacts
-*.fsx
-*.fsi
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
 *.exe
 *.dll
 *.so
-*.o
-*.obj
+*.a
 *.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Dependencies
-.paket/
-bin/
-obj/
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
+#Editors and IDEs
 .vscode/
 .idea/
-*.userprefs
+*.swp
+*.swo
+*.log
+*.tmp
 
-# OS generated files
-.DS_Store
-Thumbs.db
-```
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test reports
+coverage/
+htmlcov/
+.coverage
