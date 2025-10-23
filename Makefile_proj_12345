@@ -1,0 +1,54 @@
+# Makefile for C++ project
+
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+
+# Target executable name
+TARGET = app
+
+# Source files directory
+SRCDIR = src
+BUILDDIR = build
+
+# Find all source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Test executable name
+TEST_TARGET = test_runner
+
+# Default target
+all: build
+
+# Build target - compiles the main executable
+build: $(BUILDDIR) $(TARGET)
+	@echo "Build completed successfully!"
+
+$(BUILDDIR):
+	mkdir -p $(BUILDDIR)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET)
+
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target - runs unit tests
+test: build
+	@echo "Running tests..."
+	@if [ -f "$(TEST_TARGET)" ]; then \
+		./$(TEST_TARGET); \
+	else \
+		@echo "No test runner found. Run 'make build' to build the project."; \
+	fi
+
+# Clean target - removes build directory and executables
+clean:
+	rm -rf $(BUILDDIR) $(TARGET) $(TEST_TARGET)
+	@echo "Clean completed."
+
+# Phony targets
+.PHONY: all build test clean

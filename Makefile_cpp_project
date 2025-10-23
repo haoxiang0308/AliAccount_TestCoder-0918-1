@@ -1,0 +1,46 @@
+# Makefile for C++ project
+
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+
+# Target executable name
+TARGET = main
+
+# Source files (you may need to adjust this list based on your actual source files)
+SOURCES = $(wildcard *.cpp)
+
+# Object files
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Test target name
+TEST_TARGET = test_runner
+
+# Build target - compiles the main executable
+build: $(TARGET)
+	@echo "Build completed successfully!"
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target - runs unit tests
+test: build
+	@echo "Running tests..."
+	@if [ -f "$(TEST_TARGET)" ]; then \
+		./$(TEST_TARGET); \
+	else \
+		@echo "No test runner found. Create a test runner program and name it $(TEST_TARGET)."; \
+	fi
+
+# Clean target - removes compiled objects and executables
+clean:
+	rm -f $(OBJECTS) $(TARGET) $(TEST_TARGET)
+	@echo "Clean completed."
+
+# Phony targets for better performance
+.PHONY: build test clean
