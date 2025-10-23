@@ -34,33 +34,30 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
 #Dependencies
-node_modules/
-venv/
 .venv/
+venv/
+node_modules/
 __pycache__/
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
 target/
 .gradle/
-
+.julia/
+.julia-*/
+.julia-*
+.julia-*/.*
+.julia-*/**/*
 #Editors and IDEs
 .vscode/
 .idea/
-
 #Environment files
 .env
 .env.local
 .env.*
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Coverage and test reports
+#Coverage and test artifacts
+.coverage
 coverage/
 htmlcov/
-.coverage
+.mypy_cache/
+.pytest_cache/
