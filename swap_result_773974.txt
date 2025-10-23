@@ -1,0 +1,5 @@
+Swap Result
+=============
+Description: Integer swap example
+Value A: 20
+Value B: 10

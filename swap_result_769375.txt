@@ -1,0 +1,5 @@
+Swap Result
+=============
+Description: String swap example
+Value A: World
+Value B: Hello
