@@ -8,6 +8,10 @@
 *.so
 *.a
 *.out
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -30,7 +34,14 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
+*.env
+*.env.*
+.env.local
+.DS_Store
+Thumbs.db
+.coverage
+coverage/
+htmlcov/
 #Dependencies
 node_modules/
 venv/
@@ -42,25 +53,6 @@ build/
 .pytest_cache/
 target/
 .gradle/
-
-#Editors and IDEs
+#Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.log
-*.tmp
-
-#Environment files
-.env
-.env.local
-.env.*
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Coverage and test reports
-coverage/
-htmlcov/
-.coverage
