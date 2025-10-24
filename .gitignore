@@ -1,26 +1,5 @@
-```gitignore
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.so
-*.dll
-*.exe
-#Dependencies
-.venv/
-venv/
-node_modules/
-target/
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-#Environment
-.env
-.env.local
-.env.
-#Editors
-.vscode/
-.idea/
+```
+# Temporary memory check scripts
+memory_check_*.sh
+save_random_memory_check*.sh
 ```
