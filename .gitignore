@@ -1,27 +1,31 @@
 ```
-# Script files
-*.sh
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
 
-# Temporary and backup files
+# Dependencies
+.mltbx/
+# Logs and temp files
+*.log
 *.tmp
-*~
-*.bak
 *.swp
 
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
