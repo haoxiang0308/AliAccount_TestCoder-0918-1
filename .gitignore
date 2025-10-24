@@ -1,25 +1,25 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
+# Compiled and build artifacts
+*.plc
+*.plx
+*.o
+*.obj
+*.out
 
-# Temporary files
+# Dependencies
+cpan/
+local/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Dependencies (if any R packages are installed locally)
-renv/
-packrat/
+# System files
+.DS_Store
+Thumbs.db
 ```
