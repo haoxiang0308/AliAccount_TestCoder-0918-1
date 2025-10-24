@@ -1,0 +1,66 @@
+# Puppet class for network configuration
+class network_config {
+  # Parameters for network configuration
+  $interface = $network_config::interface,
+  $ip_address = $network_config::ip_address,
+  $netmask = $network_config::netmask,
+  $gateway = $network_config::gateway,
+  $dns_servers = $network_config::dns_servers,
+  $ensure_interface = 'present'
+) {
+  # Configure network interface
+  file { "/etc/network/interfaces.d/${interface}":
+    ensure  => $ensure_interface,
+    content => template('network_config/interface.erb'),
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+    require => Package['puppet'],
+    notify  => Exec['restart_network'],
+  }
+
+  # Configure DNS settings
+  file { '/etc/resolv.conf':
+    ensure  => file,
+    content => template('network_config/resolv.conf.erb'),
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+  }
+
+  # Restart network service after changes
+  exec { 'restart_network':
+    command     => '/sbin/ifdown ${interface} && /sbin/ifup ${interface}',
+    refreshonly => true,
+  }
+
+  # Manage hostname
+  file { '/etc/hostname':
+    ensure  => file,
+    content => "${hostname}\n",
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+  }
+
+  # Manage hosts file
+  file { '/etc/hosts':
+    ensure  => file,
+    source  => 'puppet:///modules/network_config/hosts',
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+  }
+}
+
+# Alternative implementation using puppetlabs-network module resources
+class network_config_alt {
+  # Using network::interface defined type (requires puppetlabs-network module)
+  network::interface { 'eth0':
+    ipaddress => '192.168.1.10',
+    netmask   => '255.255.255.0',
+    gateway   => '192.168.1.1',
+    dns1      => '8.8.8.8',
+    dns2      => '8.8.4.4',
+  }
+}
