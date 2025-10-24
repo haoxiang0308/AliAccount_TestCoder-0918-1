@@ -1,12 +1,12 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.exe
+# Compiled files
+*.class
 
 # Dependencies
-build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Logs and temp files
 *.log
@@ -20,5 +20,5 @@ build/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 ```
