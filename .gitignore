@@ -1,12 +1,26 @@
 ```
 # Compiled and build artifacts
-*.pyc
+*.o
+*.obj
+*.out
+*.so
+*.dll
+*.exe
+*.class
+
+# Dependencies
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~*
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+*.temp
 
 # Environment
 .env
@@ -16,4 +30,11 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+target/
 ```
