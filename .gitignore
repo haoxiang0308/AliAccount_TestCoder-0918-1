@@ -1,1 +1,31 @@
-Nothing should be ignored based on the provided file changes. The added file 'grandparent_relations.pl' appears to be a source code file (Prolog file) which should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+.stack-work/
+cabal-dev/
+dist/
+dist-newstyle/
+.direnv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
