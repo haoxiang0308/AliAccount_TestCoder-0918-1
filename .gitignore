@@ -1,12 +1,8 @@
 ```
-# Shell script backups
-*.sh.bak
-*~
-
-# Temporary files
+# System files
 *.tmp
-*.temp
-
-# Logs
 *.log
+
+# PowerShell specific
+*.ps1
 ```
