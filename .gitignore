@@ -1,50 +1,29 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
+# Database files
+*.db
 
-# Dependencies
-matlab/
-octave/
+# Python compiled files
+*.pyc
+__pycache__/
 
-# Logs and temp files
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and test
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Build directories
-build/
-dist/
-target/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
+venv/
+.venv/
 ```
