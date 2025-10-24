@@ -1,1 +1,28 @@
-Dockerfile_*
+```
+# Compiled and build artifacts
+*.mex*
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+*.m
+sine_wave_plot_*.m
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
