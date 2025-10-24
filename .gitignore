@@ -1,1 +1,1 @@
-(empty)
+Nothing needs to be added to .gitignore for this change list. The added file `get_user_info.ps1` is a PowerShell script source file, which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
