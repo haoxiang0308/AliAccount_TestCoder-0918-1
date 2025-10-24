@@ -1,13 +1,30 @@
 ```
-# Shell script backups/swap files
-*.swp
-*.swo
-*~
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.st
+*.thrift.csharp
+*.thrift.swift
+*.thrift.go
+*.thrift.d
+*.thrift.js
+*.thrift.py
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.st
+*.thrift.csharp
+*.thrift.swift
+*.thrift.go
+*.thrift.d
+gen-*/
 ```
