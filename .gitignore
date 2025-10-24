@@ -1,27 +1,23 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.rel
+*.pyc
+__pycache__/
 
 # Dependencies
-ebin/
-deps/
-_build/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
-erl_crash.dump
-
-# Editors
-.vscode/
-.idea/
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
