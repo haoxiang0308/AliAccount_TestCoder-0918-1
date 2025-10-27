@@ -1,5 +1,30 @@
 ```
-# Configuration files
-*.yml
-*.yaml
+# Compiled and build artifacts
+*.css.map
+*.css.gz
+*.css.br
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 ```
