@@ -1,4 +1,5 @@
 ```
-# Compiled and build artifacts
-*.cr
+# Configuration files
+*.yml
+*.yaml
 ```
