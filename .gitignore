@@ -1,26 +1,34 @@
 ```
 # Compiled and build artifacts
-*.pl~
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
+*.vcd
+*.fst
 *.log
 *.tmp
-*.swp
+*.out
+*.bin
+*.obj
+*.o
 
-# Editors
+# Simulation and synthesis outputs
+sim/
+syn/
+work/
+library/
+*.sdf
+*.sdc
+*.spef
+*.vdb
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 ```
