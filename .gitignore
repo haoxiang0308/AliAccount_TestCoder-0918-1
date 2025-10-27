@@ -1,30 +1,27 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
+*.cr~
+*.crb
+*.o
+*.obj
+
+# Dependencies
+lib/
+deps/
+.crystal/
+CrystalQueue.cr
+5148f6c85d5ffe34.cr
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# System files
+.DS_Store
+Thumbs.db
 ```
