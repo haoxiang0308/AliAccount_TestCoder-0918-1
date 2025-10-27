@@ -1,3 +1,1 @@
-```go
-
-```
+Nothing should be ignored in this case, as only a source code file (`greeting.go`) was added without any build artifacts, dependencies, or temporary files.
