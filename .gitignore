@@ -1,6 +1,1 @@
-```
-# JSON files that appear to be temporary/api response files
-*.json
-
-# Preserve any existing rules
-```
+Nothing should be ignored based on the provided file changes. The added files (`cck14t6pug.py` and `temp_filename.txt`) are source/config files and temporary files that don't warrant gitignore rules according to the specified criteria.
