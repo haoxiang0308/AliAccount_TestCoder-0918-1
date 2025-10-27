@@ -1,10 +1,4 @@
 ```
-# Temporary SQL files
-*.sql.tmp
-tmp.*.sql
-
-# Logs and temp files
-*.tmp
-*.log
-*.swp
+# Configuration files
+*.hcl
 ```
