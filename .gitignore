@@ -1,4 +1,26 @@
 ```
-# GraphQL schema files should not be ignored as they are source code
-# The added .graphql files appear to be schema definitions which should be version controlled
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+target/
+lib/
+project/target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.idea/
+.vscode/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
