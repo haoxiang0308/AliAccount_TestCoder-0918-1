@@ -1,11 +1,28 @@
 ```
 # Compiled and build artifacts
-*.pp
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -16,35 +33,16 @@
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-.env.*
-target/
-.gradle/
-build/
-dist/
-*.so
-*.dll
-*.exe
-*.out
-*.class
-*.o
-*.obj
-*.a
-*.lib
-*.dylib
-*.jar
-*.war
-*.ear
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -67,31 +65,4 @@ dist/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-.DS_Store?
-ehthumbs.db
-Icon?
-*.nfs
-*~
-.DS_Store
-.Trashes
-.AppleDouble
-.LSOverride
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.com.apple.FinderInfo
-.directory
-.SuperCollider
-.svn
-.git
-.hg
-.cvs
 ```
