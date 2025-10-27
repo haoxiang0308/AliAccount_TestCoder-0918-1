@@ -1,1 +1,53 @@
-Nothing should be ignored since only a source code file (.scala) was added.
+```
+# VBA/Office files
+*.bas
+*.vba
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.accdb
+*.mdb
+*.vsdx
+*.vsd
+
+# Compiled/Generated Office files
+*.tmp
+*.~*
+*.cache
+
+# Backup files
+*~
+._*
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+```
