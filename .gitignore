@@ -1,15 +1,46 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-
 # System files
 .DS_Store
 Thumbs.db
 
-# XML files (if this appears to be a generated/temporary file)
-*.xml
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# The added file '6k1xhUXb' appears to be a temporary/artifact file
+6k1xhUXb
 ```
