@@ -1,20 +1,7 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
+# GraphQL schema files are source code - don't ignore them
+# schema.graphql and f870896a5e999b99.graphql should be versioned
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# No build artifacts, dependencies, or temp files detected in changes
+# Only GraphQL schema files were added, which are source files
 ```
