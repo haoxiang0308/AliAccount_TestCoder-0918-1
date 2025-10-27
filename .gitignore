@@ -1,3 +1,4 @@
 ```
-*.r
+# Compiled and build artifacts
+*.ex
 ```
