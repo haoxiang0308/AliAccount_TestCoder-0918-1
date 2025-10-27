@@ -1,1 +1,24 @@
-Nothing needs to be ignored in this case. The added file '1mecwnfr.py' appears to be a regular Python source file, and there are no build artifacts, dependencies, or temporary files in the changes list that would warrant adding to .gitignore.
+```
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+
+# Dependencies
+.zigmod/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
