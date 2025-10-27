@@ -1,28 +1,3 @@
-```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
+(button-shadow-style.css is a source file, so no ignores needed)
 
-# Dependencies
-.mpm/
-.julia/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-```
+(empty - output nothing)
