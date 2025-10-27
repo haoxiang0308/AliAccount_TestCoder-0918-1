@@ -1,1 +1,29 @@
-Nothing should be ignored in this case, as only a source code file (`greeting.go`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.m
+*.o
+*.obj
+*.out
+
+# Dependencies
+.zig-cache/
+zig-cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
