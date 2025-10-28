@@ -1,5 +1,1 @@
-```
-*.txt
-swap_result_*.txt
-swap_template
-```
+Nothing needs to be added to .gitignore for this change list. The file 'n8ch7byjnt.py' is a Python source file that should be tracked in version control.
