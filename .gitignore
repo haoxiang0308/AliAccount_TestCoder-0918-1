@@ -1,5 +1,1 @@
-```
-# GraphQL files - preserve source code
-# No build artifacts, dependencies, or temp files detected
-# Current .gitignore is empty and no ignores needed
-```
+Nothing should be ignored based on the provided file changes. The added file `numbers.f90` is a source code file that should be tracked in version control.
