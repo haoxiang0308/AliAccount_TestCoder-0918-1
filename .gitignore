@@ -1,10 +1,28 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-tmp*/
-
-# PHP specific
+# Compiled and build artifacts
 *.php~
-*.php.bak
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup files
+*~
+\#*\#
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
