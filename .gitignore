@@ -1,1 +1,21 @@
-(empty)
+```
+# XML files
+*.xml
+
+# Environment and config files
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
