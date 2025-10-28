@@ -1,1 +1,5 @@
-Nothing needs to be added to .gitignore for this change list containing only a Swift source file.
+```
+*.txt
+swap_result_*.txt
+swap_template
+```
