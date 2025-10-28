@@ -1,16 +1,32 @@
-```bash
-# Temporary and backup files
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # System files
 .DS_Store
