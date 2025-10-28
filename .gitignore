@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added files (`cck14t6pug.py` and `temp_filename.txt`) are source/config files and temporary files that don't warrant gitignore rules according to the specified criteria.
+```
+# Compiled and build artifacts
+*.pp
+```
