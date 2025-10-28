@@ -1,67 +1,149 @@
 ```
-# Compiled and build artifacts
-*.js
-*.pyc
-*.o
+# Compiled files
+*.csproj.user
+*.userprefs
+*.suo
+*.user
+*.aps
+*.ncb
 *.obj
-dist/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.plg
+*.tlb
+*.tlh
+*.tmp
+*.rsp
+*.pgc
+*.pgd
+*.metagen
+*.bin
+*.dat
+*.hex
+*.lib
+*.map
+*.exp
+*.tlog
+*.manifest
+*.res
+*.cache
+*.dotsettings
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
 build/
-target/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.opendb-shm
+*.VC.VC.opendb-wal
+
+# Visual Studio Code files
+.vscode/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# IDE - VSCode
+.vscode/
+
+# IDE - Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Generated files
+*.g.cs
+*.g.i.cs
+Generated\ Files/
 
 # Dependencies
-.venv/
-venv/
-__pycache__/
 node_modules/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+packages/
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
 .env.*
+!*.env.example
 
-# Editors
-.vscode/
-.idea/
-
-# System files
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+desktop.ini
+$RECYCLE.BIN/
+*.backup.rdb
+*.rdb
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.backup.rdb
+*.rdb
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.swp
+*.swo
+*~
 ```
