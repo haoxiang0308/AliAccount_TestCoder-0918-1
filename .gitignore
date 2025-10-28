@@ -1,23 +1,33 @@
 ```
 # Compiled and build artifacts
+*.ex
+*.pyc
+*.class
 *.o
 *.obj
-*.class
-*.pyc
-__pycache__/
+*.out
+dist/
+build/
+target/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
