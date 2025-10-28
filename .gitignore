@@ -1,1 +1,9 @@
-(empty)
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files (if they follow common patterns)
+config_*.ini
+```
