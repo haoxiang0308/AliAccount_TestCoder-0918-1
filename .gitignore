@@ -1,1 +1,6 @@
-Nothing to output - the added files (README.md, get_processes.ps1) are source/config files and no build artifacts, dependencies, or temp files are present in the changes.
+```
+*.tmp
+*.swp
+*.log
+tmp.*
+```
