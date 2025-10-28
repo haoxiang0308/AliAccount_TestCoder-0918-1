@@ -1,1 +1,18 @@
-Nothing should be ignored in this case, as only a source code file (`greeting.go`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+ebin/
+_build/
+# Dependencies
+deps/
+_rebar3/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Editors
+.vscode/
+.idea/
+```
