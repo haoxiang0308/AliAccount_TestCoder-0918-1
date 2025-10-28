@@ -1,28 +1,34 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.rs.bk
-target/
+*.swiftmodule
+*.swiftdo
+*.o
+*.obj
+build/
+DerivedData/
 
 # Dependencies
-venv/
-.venv/
-node_modules/
+Pods/
+Carthage/
+.xcworkspace/
+xcuserdata/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
 
-# Editors
-.vscode/
-.idea/
-
-# User data files
-user_data_*.json
+# System files
+.DS_Store
+Thumbs.db
 ```
