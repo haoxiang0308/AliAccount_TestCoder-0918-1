@@ -1,26 +1,3 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-ebin/
-*.o
-*.obj
-
-# Dependencies
-deps/
-_build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+*.pl
 ```

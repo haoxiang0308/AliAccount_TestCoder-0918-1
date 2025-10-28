@@ -1,0 +1,13 @@
+2023-10-28 10:00:01 INFO Application started
+2023-10-28 10:00:05 ERROR Database connection failed
+2023-10-28 10:00:10 WARN Low disk space
+2023-10-28 10:00:15 INFO User login successful
+2023-10-28 10:00:20 ERROR Failed to process request
+2023-10-28 10:00:25 CRITICAL Server overload
+2023-10-28 10:00:30 ERROR Invalid user credentials
+2023-10-28 10:00:35 FATAL System shutdown
+2023-10-28 10:00:40 INFO Backup started
+2023-10-28 10:00:45 EXCEPTION NullPointerException
+2023-10-28 10:00:50 ERROR Connection timeout
+2023-10-28 10:00:55 WARN Memory usage high
+2023-10-28 10:01:00 INFO Application terminated
