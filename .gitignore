@@ -1,4 +1,1 @@
-```
-# GraphQL schema files should not be ignored as they are source code
-# The added .graphql files appear to be schema definitions which should be version controlled
-```
+(empty)
