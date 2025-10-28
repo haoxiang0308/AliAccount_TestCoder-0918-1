@@ -1,4 +1,10 @@
 ```
-# Compiled and build artifacts
-*.cr
+# Temporary files
+*.tmp
+*.temp
+tmp*/
+
+# PHP specific
+*.php~
+*.php.bak
 ```
