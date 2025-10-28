@@ -1,0 +1,13 @@
+C     Subroutine to calculate the dot product of two vectors
+      SUBROUTINE DOT_PRODUCT_VEC(A, B, N, RESULT)
+      INTEGER N
+      REAL A(N), B(N)
+      REAL RESULT
+      
+      RESULT = 0.0
+      DO 10 I = 1, N
+         RESULT = RESULT + A(I) * B(I)
+   10 CONTINUE
+      
+      RETURN
+      END
