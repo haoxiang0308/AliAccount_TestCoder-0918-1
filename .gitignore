@@ -1,1 +1,50 @@
-Nothing needs to be added to .gitignore for this change list. The added file `get_processes.ps1` is a PowerShell script source file, which should be tracked in version control. Since there are no build artifacts, dependency directories, or temporary files in the changes, no additional ignore rules are needed.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.mltbx/
+# MATLAB cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
