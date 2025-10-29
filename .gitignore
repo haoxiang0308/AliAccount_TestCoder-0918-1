@@ -1,18 +1,1 @@
-```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
-ebin/
-_build/
-# Dependencies
-deps/
-_rebar3/
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-# Editors
-.vscode/
-.idea/
-```
+Nothing should be ignored based on the provided file changes, as they only contain source code files (.py files) without any build artifacts, dependencies, or temporary files.
