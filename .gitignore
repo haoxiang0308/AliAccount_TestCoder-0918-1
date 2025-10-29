@@ -1,36 +1,33 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
 
-# Serverless framework
-.serverless/
-.sls/
-.serverless_plugins/
+# Dependencies
+*.mat
+*.fig
 
-# Environment and temporary files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-*.tmp
-*.log
+*.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Dependencies and build artifacts
-node_modules/
-dist/
-build/
-target/
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
 # System files
 .DS_Store
@@ -40,29 +37,9 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-*.coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Build directories
+build/
+dist/
+target/
 ```
