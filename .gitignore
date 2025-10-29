@@ -1,5 +1,5 @@
-```
-# Thrift generated files
-*.thrift.gen
-gen-*/
+(date-formatter.pipe.ts is a source file, so no ignores needed)
+
+```ts
+
 ```
