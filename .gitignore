@@ -1,5 +1,34 @@
 ```
-*.txt
-swap_result_*.txt
-swap_template
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.adb
+
+# Dependencies
+*.so
+*.dll
+*.a
+*.lib
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+target/
 ```
