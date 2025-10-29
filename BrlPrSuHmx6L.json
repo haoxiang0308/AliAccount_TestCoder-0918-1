@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "张三",
+        "email": "zhangsan@example.com",
+        "age": 28,
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "李四",
+        "email": "lisi@example.com",
+        "age": 32,
+        "active": false
+      },
+      {
+        "id": 3,
+        "name": "王五",
+        "email": "wangwu@example.com",
+        "age": 25,
+        "active": true
+      }
+    ],
+    "total": 3,
+    "page": 1,
+    "limit": 10
+  },
+  "message": "获取用户数据成功",
+  "timestamp": "2023-10-29T10:30:00Z"
+}
