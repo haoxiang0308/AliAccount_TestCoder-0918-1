@@ -1,4 +1,7 @@
 ```
-# PowerShell session files
-*.ps1
+# Temporary files
+*.tmp
+
+# Kubernetes related
+*k8s-service*.yaml
 ```
