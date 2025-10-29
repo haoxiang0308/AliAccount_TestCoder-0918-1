@@ -1,15 +1,4 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# XML files (if this appears to be a generated/temporary file)
-*.xml
-
-# Logs
-*.log
+# Compiled and build artifacts
+*.cr
 ```
