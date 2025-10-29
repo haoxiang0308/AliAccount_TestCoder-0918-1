@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file `numbers.f90` is a source code file that should be tracked in version control.
+```yaml
+# Config file for nginx deployment
+nginx-deployment.yaml
+```
