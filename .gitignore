@@ -1,1 +1,1 @@
-Nothing to ignore - the change list contains only a single source code file (.lua) without any build artifacts, dependencies, or temporary files.
+Nothing to output - the change list contains only a Dart source file (.dart) which should not be ignored.
