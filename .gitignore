@@ -1,42 +1,46 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Configuration and deployment files
+*.yml
+*.yaml
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
+
+# Environment and temporary files
 .env
 .env.local
-*.env.*
-
-# Logs and temp files
-*.log
 *.tmp
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Editors
-.vscode/
-.idea/
+# Dependencies and build artifacts
+node_modules/
+dist/
+build/
+target/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage and testing
 coverage/
 htmlcov/
 .coverage
+*.coverage
 
 # Compressed files
 *.zip
