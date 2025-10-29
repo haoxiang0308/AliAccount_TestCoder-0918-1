@@ -1,6 +1,1 @@
-```
-*.tmp
-*.swp
-*.log
-tmp.*
-```
+Nothing should be ignored based on the provided file changes. The added file `mergeLists.hs` is a source code file that should be tracked in version control.
