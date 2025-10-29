@@ -1,13 +1,11 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf.json
+*.lock.hcl
 
 # Logs and temp files
 *.log
@@ -17,9 +15,13 @@ venv/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
