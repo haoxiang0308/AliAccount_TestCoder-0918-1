@@ -1,1 +1,19 @@
-Nothing should be ignored based on the provided file changes. The added file 'Mzpm5fH60i.fs' appears to be a source code file (F# file) which should not be ignored.
+```
+# Compiled and build artifacts
+*.vcd
+*.fst
+*.log
+*.tmp
+
+# Simulation and synthesis outputs
+sim/
+syn/
+work/
+*.out
+*.bin
+*.bit
+*.hex
+
+# Random files
+random_name.txt
+```
