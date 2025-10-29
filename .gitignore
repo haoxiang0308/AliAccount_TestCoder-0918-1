@@ -1,5 +1,12 @@
 ```
-# GraphQL files - preserve source code
-# No build artifacts, dependencies, or temp files detected
-# Current .gitignore is empty and no ignores needed
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+# Executables
+max_finder
+# Logs and temp files
+*.txt
+*.tmp
+*.log
 ```
