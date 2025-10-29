@@ -1,10 +1,1 @@
-```
-# Temporary files
-*.tmp
-*.temp
-tmp*/
-
-# PHP specific
-*.php~
-*.php.bak
-```
+Nothing to output - the change list contains only a source code file (.rb) with no build artifacts, dependencies, or temp files that need to be ignored.
