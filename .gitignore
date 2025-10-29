@@ -1,40 +1,40 @@
 ```
-# Prolog related
-*.pl~
-*.pl.bak
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.out
+*.plc
+*.plx
+*.p6c
+*.p6l
+*.nqp
+*.pir
+*.pirout
+
 # Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+lib/
+blib/
+_inc/
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-# Environment
-.env
-.env.local
-*.env.*
-# Editors
+*.out
+*.bak
+*.old
+
+# Editor/IDE files
 .vscode/
 .idea/
-# Coverage
-coverage/
-htmlcov/
-.coverage
+*.swp
+*.swo
+
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+*.gcda
+*.gcno
 ```
