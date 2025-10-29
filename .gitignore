@@ -1,20 +1,21 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
+# System files
+Thumbs.db
+.DS_Store
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.swp
 
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
+
+# Temporary files
+*.tmp
+*.swp
+
+# PowerShell
+*.ps1
+date_time_output.txt
 ```
