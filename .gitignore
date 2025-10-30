@@ -1,18 +1,9 @@
 ```
-# Compiled and build artifacts
-*.js
+# Generated Nim files
+generated_*.nim
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Nim build artifacts
+nimcache/
+*.nim.cfg
+config.nims
 ```
