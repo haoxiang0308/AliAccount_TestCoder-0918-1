@@ -1,1 +1,39 @@
-Nothing should be ignored in this case, as the changes only include Python source files (.py) which are legitimate source code files that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the provided change list.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+```
