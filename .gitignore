@@ -1,17 +1,8 @@
 ```
-# Compiled and build artifacts
-*.pl~
+# PowerShell script backup/swap files
+*.ps1~
 
-# Logs and temp files
+# Temp files
 *.tmp
-*.log
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+*.swp
 ```
