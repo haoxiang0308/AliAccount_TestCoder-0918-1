@@ -1,41 +1,27 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
+*.ex
+*.beam
+*.o
+*.obj
+*.out
+
+# Dependencies
+deps/
+_build/
+ebin/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
