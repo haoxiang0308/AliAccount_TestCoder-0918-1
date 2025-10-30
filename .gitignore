@@ -1,1 +1,5 @@
-(empty)
+```
+# Configuration files
+*.yml
+*.yaml
+```
