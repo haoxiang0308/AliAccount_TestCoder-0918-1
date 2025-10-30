@@ -1,6 +1,9 @@
 ```
-*.tmp
-*.swp
-*.log
-tmp.*
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration files with sensitive data
+*config*.ini
 ```
