@@ -1,49 +1,5 @@
 ```
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-pyproject.toml
-poetry.lock
-*.egg-info/
-.Pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-coverage/
-dist/
-build/
-target/
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.DS_Store
-Thumbs.db
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -67,11 +23,106 @@ Thumbs.db
 *.tar.xz
 *.tar.zst
 
-# Images (if accidentally added)
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.gif
-*.webm
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.sublime-workspace
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+.nyc_output
+coverage/
+.nyc_output/
+coverage/
+
+# Compiled and binary files
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
+*.class
+*.elc
+*.beam
+*.hi
+*.o
+*.obj
+
+# Build directories
+dist/
+build/
+target/
+out/
+.DS_Store
+*.swp
+*.swo
+*~
 ```
+
+Wait, let me reconsider this. The added files are just JavaScript and text files, which are source code. No build artifacts or dependencies are shown in the changes.
+
+(empty)
