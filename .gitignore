@@ -4,12 +4,11 @@
 __pycache__/
 *.o
 *.obj
-*.class
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
 
 # Dependencies
 node_modules/
@@ -38,7 +37,10 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
 *.zip
 *.gz
 *.tar
@@ -57,8 +59,15 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# Other common ignores
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 ```
