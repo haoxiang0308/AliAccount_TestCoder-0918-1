@@ -1,0 +1,48 @@
+{
+  "pedido": {
+    "id": "PED-2023-001",
+    "data": "2023-10-30",
+    "cliente": {
+      "id": "CLI-001",
+      "nome": "João Silva",
+      "email": "joao.silva@example.com",
+      "endereco": {
+        "rua": "Rua das Flores",
+        "numero": "123",
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01001-000"
+      }
+    },
+    "itens": [
+      {
+        "id": "IT-001",
+        "produto": {
+          "nome": "Notebook Dell Inspiron",
+          "categoria": "Eletrônicos",
+          "preco_unitario": 3499.99
+        },
+        "quantidade": 1,
+        "subtotal": 3499.99
+      },
+      {
+        "id": "IT-002",
+        "produto": {
+          "nome": "Mouse sem fio Logitech",
+          "categoria": "Acessórios",
+          "preco_unitario": 129.90
+        },
+        "quantidade": 2,
+        "subtotal": 259.80
+      }
+    ],
+    "total": 3759.79,
+    "status": "em_processamento",
+    "forma_pagamento": {
+      "tipo": "cartao_credito",
+      "parcelas": 3,
+      "valor_parcela": 1253.26
+    }
+  }
+}
