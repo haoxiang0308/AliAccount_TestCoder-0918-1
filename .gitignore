@@ -1,33 +1,8 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.fst
-*.log
+# Temp files
 *.tmp
-*.out
-*.bin
-*.obj
-*.o
-
-# Simulation and synthesis outputs
-sim/
-syn/
-work/
-library/
-*.sdf
-*.sdc
-*.spef
-*.vdb
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+*.json.tmp
+tmp.*
 
 # Logs
 *.log
