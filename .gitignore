@@ -1,15 +1,1 @@
-```
-# Assembly build artifacts
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing to output - the change list contains only a source code file (.java) and no build artifacts, dependencies, or temp files that need to be ignored.
