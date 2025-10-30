@@ -1,31 +1,29 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+```bash
+# Environment
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Distribution and build directories
-dist/
-build/
-target/
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup and temp scripts
+*.sh.bak
+*~
 ```
+
+Wait, let me reconsider the original files. The added files are `backup_script.sh` and `uNh3J5s11OWy.sh` - these appear to be shell scripts, which are source code files, not build artifacts or temporary files. According to rule #6, if the changes contain only source/config files and no build artifacts, dependencies, or temp files, I should output nothing.
+
+The files `backup_script.sh` and `uNh3J5s11OWy.sh` are shell script source files, so they should not be ignored.
+
+(empty — output nothing)
