@@ -1,8 +1,3 @@
-```
-# Temporary files
-*.tmp
-*.log
+```go
 
-# Generated files
-memory_usage_*.txt
 ```
