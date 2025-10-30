@@ -1,1 +1,9 @@
-Nothing to output - the added file 'lidwu7sdbv.py' is a source code file and should not be ignored.
+```
+# User data directory
+user_data/
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
