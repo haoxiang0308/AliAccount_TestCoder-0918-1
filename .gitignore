@@ -1,1 +1,22 @@
-(empty)
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+ebin/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
