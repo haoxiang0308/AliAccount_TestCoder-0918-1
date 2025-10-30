@@ -4,6 +4,9 @@
 __pycache__/
 *.o
 *.obj
+dist/
+build/
+target/
 *.class
 *.exe
 *.dll
@@ -12,47 +15,38 @@ __pycache__/
 *.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-*.env.*
+venv/
+node_modules/
+.julia/
+.zig/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+coverage/
+htmlcov/
+*.egg-info/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*.bak
+*.cache
+
+# Environment
+.env
+.env.local
+.env.*
+.DS_Store
+Thumbs.db
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
+*.swp
+*.swo
 
 # Compressed files
 *.zip
@@ -77,4 +71,7 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Original rules preserved
+*.log
 ```
