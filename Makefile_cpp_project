@@ -1,0 +1,68 @@
+# Makefile for C++ project
+
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+
+# Directories
+SRCDIR = src
+OBJDIR = obj
+BINDIR = bin
+
+# Source files (adjust these based on your project)
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
+TARGET = $(BINDIR)/program
+
+# Test related variables
+TEST_DIR = tests
+TEST_SOURCES = $(wildcard $(TEST_DIR)/*.cpp)
+TEST_TARGET = $(BINDIR)/test_program
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target
+.PHONY: build
+build: $(TARGET)
+
+# Link the executable
+$(TARGET): $(OBJECTS) | $(BINDIR)
+	$(CXX) $(OBJECTS) -o $@
+
+# Compile source files
+$(OBJDIR)/%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Create necessary directories
+$(OBJDIR):
+	mkdir -p $(OBJDIR)
+
+$(BINDIR):
+	mkdir -p $(BINDIR)
+
+# Test target
+.PHONY: test
+test: $(TEST_TARGET)
+	./$(TEST_TARGET)
+
+# Build test executable
+$(TEST_TARGET): $(OBJECTS) $(TEST_DIR)/*.cpp | $(BINDIR)
+	$(CXX) $(CXXFLAGS) $(OBJECTS) $(TEST_DIR)/*.cpp -o $@
+
+# Clean target
+.PHONY: clean
+clean:
+	rm -rf $(OBJDIR) $(BINDIR)
+
+# Help target
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo "  build - Compile the program"
+	@echo "  test  - Run tests"
+	@echo "  clean - Remove generated files"
+	@echo "  help  - Show this help message"
