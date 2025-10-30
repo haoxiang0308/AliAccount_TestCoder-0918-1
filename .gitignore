@@ -1,1 +1,15 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a Python source file (.py) which should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
