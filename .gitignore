@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added file `mysql_query_qq5ykhjl.py` is a Python source file that should be tracked in version control.
+```
+*.log
+```
