@@ -1,1 +1,18 @@
-Nothing to output - the change list contains only a single source code file (.f90) which should not be ignored.
+```
+# Compiled and build artifacts
+*.pp
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
