@@ -1,10 +1,16 @@
 ```
 # Compiled and build artifacts
+target/
 *.o
 *.obj
+*.a
+*.so
+*.dll
+*.exe
 *.out
 
 # Dependencies
+Cargo.lock
 vendor/
 
 # Logs and temp files
@@ -12,12 +18,54 @@ vendor/
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if Python files present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.sconsign.dblite
+.sconsign.dblite
+*.mono
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Rust specific
+Cargo.lock
+target/
+**/*.rs.bk
+$CARGO_HOME/
+.cargo/
+.rustup/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
