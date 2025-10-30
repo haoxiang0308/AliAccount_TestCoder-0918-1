@@ -1,1 +1,25 @@
-Nothing should be ignored based on the provided file changes, as they are all Python source files (.py) which are legitimate source code files that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Assembly related
+*.lst
+*.map
+*.hex
+*.bin
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
