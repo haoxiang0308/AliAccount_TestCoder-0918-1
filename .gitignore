@@ -1,18 +1,15 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# Configuration files
+*.ini
 
-# Serverless framework
-.serverless/
-.sls/
-.serverless_plugins/
-
-# Environment and temporary files
+# Environment files
 .env
 .env.local
-*.tmp
+*.env.*
+
+# Logs and temp files
 *.log
+*.tmp
 
 # Editor/IDE files
 .vscode/
@@ -20,27 +17,37 @@
 *.swp
 *.swo
 
-# Dependencies and build artifacts
-node_modules/
-dist/
-build/
-target/
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage and testing
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
-*.coverage
 
 # Compressed files
 *.zip
