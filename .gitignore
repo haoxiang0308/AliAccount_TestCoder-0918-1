@@ -1,4 +1,24 @@
 ```
-# Docker-related
-Dockerfile.go-app
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+ebin/
+deps/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
