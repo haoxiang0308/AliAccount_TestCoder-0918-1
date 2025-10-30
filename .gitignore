@@ -1,1 +1,81 @@
-(redis — output nothing)
+```
+# Temporary and generated files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
+*.pyc
+__pycache__/
+*.pyo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.julia/
+zig*/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+coverage/
+htmlcov/
+.coverage
+
+# Script files (if they are temporary/generated)
+*.sh
+script_*.sh
+```
