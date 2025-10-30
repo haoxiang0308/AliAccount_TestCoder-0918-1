@@ -1,18 +1,4 @@
-```
-# Database files
-*.db
-
-# Python compiled files
-*.pyc
-__pycache__/
-
-# Temporary/backup files
-*.tmp
-*~
-*.bak
-
-# Environment files
-.env
-.env.local
-*.env.*
+```toml
+# Configuration files
+*.toml
 ```
