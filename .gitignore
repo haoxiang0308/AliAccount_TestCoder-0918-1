@@ -1,4 +1,1 @@
-```
-# XML files
-*.xml
-```
+Nothing to ignore - the change list contains only a source code file (.kt) without any build artifacts, dependencies, or temporary files.
