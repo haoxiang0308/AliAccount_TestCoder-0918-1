@@ -1,40 +1,33 @@
-```
-# Compiled and build artifacts
+```lua
+-- Compiled and build artifacts
 *.o
 *.obj
 *.out
 
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+-- Dependencies
+julia-*/
+zig*/
 
-# Logs and temp files
+-- Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
+-- Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+-- Editors
+.vscode/
+.idea/
 
-# Build directories
-build/
-dist/
-target/
+-- Backup files
+*~
+*.bak
+*.backup
+
+-- System files
+.DS_Store
+Thumbs.db
 ```
