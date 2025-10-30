@@ -1,0 +1,4 @@
+Exceção capturada: IllegalArgumentException
+Mensagem: Esta é uma exceção lançada propositalmente para demonstração
+StackTrace:
+  at ExceptionToFile.main(ExceptionToFile.java:9)
