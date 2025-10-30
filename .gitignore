@@ -1,46 +1,60 @@
 ```
-# System files
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.vcd
+*.fst
+*.bin
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.exe
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
+# Simulation and synthesis outputs
+sim/
+syn/
+work/
 *.log
-*.tmp
-*.swp
+*.pb
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Compressed files
-*.zip
-*.gz
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and distribution
+dist/
+build/
+target/
 *.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
+*.gz
+*.zip
 *.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.7z
 
-# The added file '6k1xhUXb' appears to be a temporary/artifact file
-6k1xhUXb
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
