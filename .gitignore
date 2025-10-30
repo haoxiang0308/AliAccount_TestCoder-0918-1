@@ -1,10 +1,52 @@
 ```
-# Temporary SQL files
-*.sql.tmp
-tmp.*.sql
+# Domain files
+*.ml
 
-# Logs and temp files
-*.tmp
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
+
+# Temporary files
+*.tmp
 *.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Cache
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
