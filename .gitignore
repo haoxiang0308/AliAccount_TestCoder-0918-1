@@ -1,9 +1,29 @@
 ```
-# Configuration files
-*.ini
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Environment files
+# Dependencies
+vendor/
+*.mod
+*.sum
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Go-specific
+*.test
+*.prof
 ```
