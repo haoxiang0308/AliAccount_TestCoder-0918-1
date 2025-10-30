@@ -1,19 +1,4 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.fst
-*.log
-*.tmp
-
-# Simulation and synthesis outputs
-sim/
-syn/
-work/
-*.out
-*.bin
-*.bit
-*.hex
-
-# Random files
-random_name.txt
+# Docker-related
+Dockerfile.flask_app
 ```
