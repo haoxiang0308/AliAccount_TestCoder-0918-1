@@ -1,4 +1,8 @@
 ```
-# Compiled and build artifacts
-*.cr
+# Temporary files
+*.tmp
+
+# Docker
+.dockerenv
+!docker-compose*.yml
 ```
