@@ -1,4 +1,3 @@
 ```
-# Compiled and build artifacts
-*.ex
+# SQL query files should not be ignored as they are source code
 ```
