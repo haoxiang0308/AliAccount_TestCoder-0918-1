@@ -1,6 +1,6 @@
 ```
-*.tmp
-*.swp
-*.log
-tmp.*
+# GraphQL schema files are source code - don't ignore them
+# Only ignore build artifacts, dependencies, and temp files if present
+# Since only product_schema.graphql was added (a source file), no ignores needed
+
 ```
