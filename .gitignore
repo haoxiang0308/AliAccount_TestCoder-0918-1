@@ -1,19 +1,4 @@
 ```
-# Configuration files
-*.env
-*.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Docker
-docker-compose*.yml
+# GraphQL files
+*.graphql
 ```
