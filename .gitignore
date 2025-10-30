@@ -1,3 +1,4 @@
-(final_opencv_script.py, processed_image.jpg, sample_image.jpg, test_image.py, v18v16vrv8.py are all source code and image files that should not be ignored)
-
-(empty - output nothing)
+```
+# Compiled files
+*.fs
+```
