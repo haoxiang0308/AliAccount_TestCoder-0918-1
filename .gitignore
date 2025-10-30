@@ -1,4 +1,4 @@
 ```
-# Docker-related
-Dockerfile.go-app
+# GraphQL schema files are source code - don't ignore them
+# user_schema.graphql should be tracked in version control
 ```
