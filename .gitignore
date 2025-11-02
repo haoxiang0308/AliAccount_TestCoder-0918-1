@@ -1,18 +1,15 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# TypeScript/JavaScript build artifacts
+*.tsbuildinfo
+*.js.map
+*.ts.map
 
 # Dependencies
 node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+
+# Editors
+.vscode/
+.idea/
 
 # Logs and temp files
 *.log
@@ -24,18 +21,38 @@ target/
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Python artifacts (if any Python in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.a
+*.class
+*.o
+*.obj
+*.out
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 
 # Compressed files
 *.zip
