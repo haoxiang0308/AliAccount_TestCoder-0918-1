@@ -1,8 +1,15 @@
 ```
 # Compiled and build artifacts
-*.pl~
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
 
-# Environment
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
@@ -16,11 +23,12 @@
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+# System files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
 ```
