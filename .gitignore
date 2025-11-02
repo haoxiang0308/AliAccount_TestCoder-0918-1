@@ -1,4 +1,36 @@
 ```
-# Compiled files
-*.m
+# Compiled and build artifacts
+*.dart.js
+*.js
+*.map
+*.part.js
+*.g.dart
+*.freezed.dart
+*.g.dart.js
+*.g.part.js
+
+# Dependencies
+.pub/
+build/
+.dart_tool/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
