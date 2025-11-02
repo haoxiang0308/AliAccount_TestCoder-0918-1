@@ -17,7 +17,7 @@ venv/
 .venv/
 .env
 .env.local
-.env.*
+*.env.*
 
 # Logs and temp files
 *.log
@@ -25,36 +25,24 @@ venv/
 *.swp
 *.swo
 
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
 # Build directories
 dist/
 build/
 target/
 .gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
-.pytest_cache/
-.tox/
-.eggs/
-*.egg-info/
-.DS_Store
-Thumbs.db
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
 
 # Compressed files
 *.zip
@@ -75,8 +63,4 @@ Thumbs.db
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
