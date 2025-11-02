@@ -1,20 +1,53 @@
-```bash
-# Temporary and backup files
+```
+# VBA specific
+*.vba
+*.bas
+*.cls
+
+# Compiled and build artifacts
+*.pyc
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.class
+
+# Dependencies
+.venv/
+venv/
+__pycache__/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 *.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
