@@ -1,7 +1,10 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-*.nims
-*.gb3x7nWc0q
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test files
+*.pytest_cache/
 ```
