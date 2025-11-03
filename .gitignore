@@ -1,1 +1,14 @@
-Nothing should be ignored based on the provided file changes. The added file 'PaEBps7bnx.jl' is a Julia source code file and should not be ignored.
+```
+# SQL query files - assuming this is a generated/temporary file
+*.sql
+
+# If this is a build/dist folder pattern
+dist/
+
+# Common temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+```
