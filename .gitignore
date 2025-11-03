@@ -1,6 +1,1 @@
-```
-# JSON files that appear to be temporary/api response files
-*.json
-
-# Preserve any existing rules
-```
+Nothing to output - the change list contains only a source file (ClickCounterComponent.vue) and no build artifacts, dependencies, or temp files that need to be ignored.
