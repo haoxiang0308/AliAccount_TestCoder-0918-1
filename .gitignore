@@ -1,4 +1,96 @@
-```
+```matlab
 # Compiled and build artifacts
-*.ex
+*.o
+*.obj
+*.mex*
+*.mexw64
+*.mexa64
+*.oct
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+env.bak/
+venv.bak/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Environment
+.env
+.env.local
+.env.
+.envrc
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# MATLAB specific
+*.fig
+*.mat
+*.mex*
+*.p
+*.m~
+*~
+```
+
+Wait, I need to reconsider this. Looking at the changes again:
+
+- `plot_multiple_lines.m` - MATLAB source file
+- `plot_multiple_lines.py` - Python source file  
+- `plot_y1fahxc3.png` - Image file
+
+Only the image file should potentially be ignored, but the rule states not to ignore image files. And none of these are build artifacts or dependencies that should be ignored.
+
+Actually, re-reading the MATLAB file extensions in the generated content, `.m` files are source files that should NOT be ignored.
+
+```matlab
+
 ```
