@@ -1,3 +1,16 @@
-(button-shadow-style.css is a source file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.cr
 
-(empty - output nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Output files
+*.txt
+```
