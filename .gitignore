@@ -1,149 +1,36 @@
 ```
-# Compiled files
-*.csproj.user
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
+# Compiled and build artifacts
+*.class
+*.o
 *.obj
-*.exe
-*.dll
-*.pdb
-*.ilk
-*.plg
-*.tlb
-*.tlh
-*.tmp
-*.rsp
-*.pgc
-*.pgd
-*.metagen
-*.bin
-*.dat
-*.hex
-*.lib
-*.map
-*.exp
-*.tlog
-*.manifest
-*.res
-*.cache
-*.dotsettings
-*.userosscache
-*.sln.docstates
-*.userprefs
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio files
-.vs/
-*.VC.db
-*.VC.VC.opendb
-*.VC.VC.opendb-shm
-*.VC.VC.opendb-wal
-
-# Visual Studio Code files
-.vscode/
-
-# User-specific files
-*.user
-*.userosscache
-*.sln.docstates
-*.userprefs
-
-# IDE - VSCode
-.vscode/
-
-# IDE - Visual Studio
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.userprefs
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-[Bb]uild/
-bld/
-[Bb]in/
-[Oo]bj/
-
-# Generated files
-*.g.cs
-*.g.i.cs
-Generated\ Files/
+*.out
 
 # Dependencies
-node_modules/
-packages/
+lib/
+libs/
+jars/
+target/
+build/
+dist/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
-.env.*
-!*.env.example
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-$RECYCLE.BIN/
-*.backup.rdb
-*.rdb
-*.tmp
-*.temp
-*.log
-*.bak
-*.cache
-*.swp
-*.swo
-*~
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-$RECYCLE.BIN/
-*.backup.rdb
-*.rdb
-*.tmp
-*.temp
-*.log
-*.bak
-*.cache
-*.swp
-*.swo
-*~
+*.env.*
 ```
