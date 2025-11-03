@@ -1,4 +1,9 @@
 ```
-# XML files
-*.xml
+# Configuration files
+*.ini
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
