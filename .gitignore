@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a Python test file being added without any build artifacts, dependencies, or temporary files.
+Nothing needs to be added to .gitignore for this change list, as it only contains a source file (sumFunction.js) without any build artifacts, dependencies, or temporary files.
