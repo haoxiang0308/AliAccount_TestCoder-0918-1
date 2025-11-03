@@ -1,24 +1,4 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-
-# Dependencies
-cpan/
-lib/
-blib/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# No build artifacts, dependencies, or temp files detected in changes
+# Source files and config files only
 ```
