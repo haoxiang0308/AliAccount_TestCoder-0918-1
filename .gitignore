@@ -1,3 +1,8 @@
 ```
-*.pp
+# System and temp files
+*.tmp
+*.log
+
+# PowerShell/Windows specific
+SystemInfo_*.txt
 ```
