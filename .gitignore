@@ -1,4 +1,5 @@
 ```
-# XML files
-*.xml
+# Thrift generated files
+*.thrift.gen/
+gen-*/
 ```
