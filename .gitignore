@@ -1,1 +1,14 @@
-Nothing to output - the added file 'greeting_widget_12345.dart' is a source code file and should not be ignored.
+```bash
+# Temporary PowerShell files
+*.tmp
+*.temp
+
+# PowerShell session files
+*.ps1xml
+
+# Local configuration files
+*.local.ps1
+
+# Randomly generated user info files
+user_info_*.ps1
+```
