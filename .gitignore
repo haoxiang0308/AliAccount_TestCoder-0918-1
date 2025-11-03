@@ -1,1 +1,9 @@
-Nothing to output - the added file 'random_operations.exs' is a source code file (Elixir script) and does not require any additional ignore rules. The change list contains only a source file, so no build artifacts, dependencies, or temp files need to be ignored.
+```
+# Configuration and YAML files
+*.yaml
+*.yml
+
+# Keep the specific YAML files that were added
+!97fa66333412fccf.yaml
+!ingress-resource.yaml
+```
