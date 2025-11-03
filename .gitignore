@@ -1,13 +1,1 @@
-```
-# Compiled and build artifacts
-*.pp~
-
-# Editors
-.vim/
-*.swp
-*.swo
-
-# Temp files
-*.tmp
-*~
-```
+Nothing should be ignored based on the provided file changes. The only added file is `circle_area.f90`, which is a source code file and should not be ignored.
