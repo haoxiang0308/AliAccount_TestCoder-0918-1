@@ -1,0 +1,39 @@
+---
+- name: Define variables and save to file with random name
+  hosts: localhost
+  gather_facts: yes
+  vars:
+    my_string_var: "Hello, Ansible!"
+    my_number_var: 42
+    my_list_var: ["item1", "item2", "item3"]
+    my_dict_var:
+      key1: "value1"
+      key2: "value2"
+    my_boolean_var: true
+
+  tasks:
+    - name: Generate a random filename
+      set_fact:
+        random_filename: "/tmp/ansible_random_file_{{ 100000 | random }}.txt"
+
+    - name: Display the random filename
+      debug:
+        msg: "Random filename generated: {{ random_filename }}"
+
+    - name: Save variables to file with random name
+      copy:
+        content: |
+          String Variable: {{ my_string_var }}
+          Number Variable: {{ my_number_var }}
+          List Variable: {{ my_list_var | join(', ') }}
+          Dictionary Variable Key1: {{ my_dict_var.key1 }}
+          Dictionary Variable Key2: {{ my_dict_var.key2 }}
+          Boolean Variable: {{ my_boolean_var }}
+          Hostname: {{ ansible_hostname }}
+          Date: {{ ansible_date_time.date }}
+        dest: "{{ random_filename }}"
+        mode: '0644'
+
+    - name: Confirm file was created
+      debug:
+        msg: "Variables saved to {{ random_filename }}"
