@@ -1,18 +1,3 @@
-```
-# Compiled and build artifacts
-*.pl~
+```toml
 
-# Logs and temp files
-*.tmp
-*.swp
-*.log
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
