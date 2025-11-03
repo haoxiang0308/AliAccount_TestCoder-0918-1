@@ -1,1 +1,25 @@
-Nothing should be ignored based on the provided file changes. The added files are Python source files (.py) which are source code and should not be ignored.
+```
+# PHP related
+*.php~
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
