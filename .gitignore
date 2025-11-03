@@ -1,1 +1,5 @@
-(empty)
+```
+*.tmp
+temp_*
+"navigation_menu_*"
+```
