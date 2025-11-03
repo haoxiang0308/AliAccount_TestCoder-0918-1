@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 1200.00,
+    "category": "Electronics",
+    "description": "High-performance laptop for work and gaming"
+  },
+  {
+    "id": 2,
+    "name": "Coffee Mug",
+    "price": 12.99,
+    "category": "Home & Kitchen",
+    "description": "Ceramic mug for your daily coffee"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "category": "Sports",
+    "description": "Comfortable shoes for running and exercise"
+  },
+  {
+    "id": 4,
+    "name": "Book",
+    "price": 19.99,
+    "category": "Books",
+    "description": "Bestselling novel by a renowned author"
+  },
+  {
+    "id": 5,
+    "name": "Smartphone",
+    "price": 699.00,
+    "category": "Electronics",
+    "description": "Latest model smartphone with advanced features"
+  }
+]
