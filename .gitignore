@@ -1,15 +1,22 @@
 ```
-# LaTeX auxiliary files
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
+# Compiled and build artifacts
+*.o
+*.obj
 *.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
