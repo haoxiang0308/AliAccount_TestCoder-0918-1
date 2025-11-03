@@ -1,1 +1,374 @@
-Nothing should be ignored based on the provided file changes. The added file `useCounter.jsx` is a source code file that should be tracked in version control.
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+*.npm
+.npm
+.nyc_output
+coverage/
+.nyc_output/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output/
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript v1, mostly managed by tsc
+tsconfig.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out/
+
+# Nuxt.js build output
+.nuxt
+dist/
+
+# Vue.js build output
+dist/
+
+# Svelte build output
+public/build/
+
+# Django build output
+*.mo
+*.pot
+
+# Rails build output
+*.rbc
+capybara-*.html
+.rspec
+public/system/
+vendor/bundle/
+.bundle
+.rbx
+
+# Phoenix build output
+priv/static/
+lib/
+ebin/
+*.eex
+
+# Laravel build output
+vendor/
+
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Java build output
+*.class
+*.jar
+*.war
+*.ear
+*.hprof
+.hprof
+.DS_Store
+nbproject/
+nbbuild/
+nbdist/
+.nbm
+.externalToolBuilders/
+*.launch
+.classpath
+.project
+.settings/
+bin/
+gen/
+out/
+build/
+target/
+.gradle/
+.gradle
+!gradle.properties
+.gradle-wrapper/
+.gradle-wrapper
+
+# C/C++ build output
+*.o
+*.a
+*.obj
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.iobj
+*.ipdb
+*.pdb
+*.exp
+*.ilk
+*.bundle
+*.manifest
+*.res
+*.pch
+*.gch
+*.gcda
+*.gcno
+*.gcov
+*.profdata
+*.profraw
+*.dynlib
+*.so.*
+*.dll.*
+*.exe.*
+*.out.*
+*.bin
+*.bin.*
+*.dat
+*.dat.*
+*.log
+*.tmp
+*.temp
+*.cache
+*.cache.*
+*.bak
+*.bak.*
+*.backup
+*.backup.*
+*.swp
+*.swo
+*~
+._*
+.DS_Store
+.DS_Store?
+._.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Tt]rash-[0-9]*
+*.crdownload
+.idea/
+*.iml
+*.iws
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.pidb
+*.svclog
+*.sdf
+*.opensdf
+*.userprefs
+*.log
+*.dat
+*.dat.*
+*.tmp
+*.temp
+*.cache
+*.cache.*
+*.bak
+*.bak.*
+*.backup
+*.backup.*
+*.swp
+*.swo
+*~
+._*
+.DS_Store
+.DS_Store?
+._.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Tt]rash-[0-9]*
+*.crdownload
+.vscode/
+*.vsix
+*.crx
+*.xpi
+*.deb
+*.rpm
+*.msi
+*.dmg
+*.pkg
+*.iso
+*.img
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.box
+*.vagrant
+.vagrant/
+.vagrant
+Vagrantfile
+*.vagrant-*
+*.box
+*.box.*
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.vmwarevm
+*.vmx
+*.vmsd
+*.vmsn
+*.vmss
+*.vswp
+*.nvram
+*.plist
+*.tmp
+*.temp
+*.cache
+*.cache.*
+*.bak
+*.bak.*
+*.backup
+*.backup.*
+*.swp
+*.swo
+*~
+._*
+.DS_Store
+.DS_Store?
+._.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Tt]rash-[0-9]*
+*.crdownload
+```
