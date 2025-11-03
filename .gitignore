@@ -1,1 +1,15 @@
-Nothing should be ignored based on the provided file changes. The added file `pymongo_insert_3d3dptx7.py` is a source code file that should be tracked in version control.
+```
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+```
