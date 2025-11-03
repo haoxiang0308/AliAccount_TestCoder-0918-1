@@ -1,7 +1,18 @@
 ```
-# Log files
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.swp
 *.log
 
-# System info output files
-SystemInfo_*.txt
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
