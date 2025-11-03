@@ -1,1 +1,21 @@
-Nothing to output - the added file '77gl159mlc.py' is a source code file and should not be ignored.
+```
+# Compiled Erlang files
+*.beam
+
+# Environment and temp files
+.env
+.env.local
+*.env.*
+*.tmp
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
