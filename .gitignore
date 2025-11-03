@@ -1,4 +1,18 @@
 ```
-# User data files
-user_data_*.txt
+# Generated from file changes
+# Protobuf files may generate compiled artifacts
+*.pb.go
+*.pb.py
+*.pb.js
+*.pb.ts
+*.proto.bin
+
+# Common build artifacts for proto compilation
+gen/
+generated/
+out/
+target/
+
+# Keep the original proto file but ignore compiled outputs
+!person.proto
 ```
