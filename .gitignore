@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.adb - Ada source file) was added.
+Nothing should be ignored based on the provided file changes. The added files (`lista_generic.adb` and `lista_generic.ads`) are source code files that should be tracked in version control.
