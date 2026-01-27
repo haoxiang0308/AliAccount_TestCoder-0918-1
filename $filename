@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Disk usage alert script - checks if disk usage exceeds 80%
+
+THRESHOLD=80
+LOG_FILE="/var/log/disk_usage_alert.log"
+
+# Check disk usage for all mounted filesystems
+df -h | tail -n +2 | while read line; do
+    # Extract the percentage value (removing % sign)
+    usage=$(echo "$line" | awk '{print $5}' | sed 's/%//')
+    
+    # Get the mount point or device name
+    mount_point=$(echo "$line" | awk '{print $6}')
+    
+    # Compare with threshold
+    if [ "$usage" -gt "$THRESHOLD" ]; then
+        timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+        message="ALERT: Disk usage at ${usage}% on ${mount_point}"
+        
+        echo "$timestamp - $message" | tee -a "$LOG_FILE"
+        
+        # Optional: Send email alert (uncomment if mail utility is configured)
+        # echo "$message" | mail -s "Disk Usage Alert" admin@example.com
+        
+        # Optional: Display notification
+        # notify-send "Disk Usage Alert" "$message"
+    fi
+done
+
+# Log current status even when below threshold (optional)
+current_time=$(date '+%Y-%m-%d %H:%M:%S')
+echo "$current_time - Script executed successfully" >> "$LOG_FILE"
