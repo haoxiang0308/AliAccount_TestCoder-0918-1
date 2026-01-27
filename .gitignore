@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added file '4e63f1d8f80969df.md' is a markdown source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+.rebar3/
+_*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Erlang-specific
+ebin/
+deps/
+```
