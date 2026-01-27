@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens - CSS Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            grid-auto-rows: 200px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            aspect-ratio: 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Layout responsivo */
+        @media (max-width: 768px) {
+            .image-gallery {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .image-gallery {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Galeria de Imagens</h1>
+        <div class="image-gallery">
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic1/400/400" alt="Imagem 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic2/400/400" alt="Imagem 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic3/400/400" alt="Imagem 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic4/400/400" alt="Imagem 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic5/400/400" alt="Imagem 5">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic6/400/400" alt="Imagem 6">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic7/400/400" alt="Imagem 7">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic8/400/400" alt="Imagem 8">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic9/400/400" alt="Imagem 9">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic10/400/400" alt="Imagem 10">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic11/400/400" alt="Imagem 11">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/seed/pic12/400/400" alt="Imagem 12">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
