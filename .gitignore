@@ -1,23 +1,83 @@
-```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+# Configuration and documentation files
+*.env
+*.env.local
+*.env.*
 
-# Dependencies
-.rebar3/
-_*
-
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
 
-# Editors
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.julia/
+zig-cache/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Editors and IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Erlang-specific
-ebin/
-deps/
-```
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Julia specific
+julia-*/
+*.ji
+
+# Gradle
+.gradle/
+
+# Maven
+target/
