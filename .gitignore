@@ -1,18 +1,1 @@
-```
-# PowerShell session files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-.env.*
-```
+Nothing needs to be added to .gitignore for this change list. The file 'solveLinearSystem_aei75q0s.m' appears to be a MATLAB source file which should be tracked in version control.
