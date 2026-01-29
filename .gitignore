@@ -1,1 +1,1 @@
-(create_multiplication_table.nim is a source code file, so no .gitignore rules needed)
+Nothing needs to be added to .gitignore since only a single Verilog source file (`dff_testbench.v`) was added, which is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files were detected in the changes.
