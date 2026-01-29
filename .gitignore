@@ -1,1 +1,9 @@
-Nothing should be ignored since the added files are Perl scripts (.pl) which are source code files, and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+```
