@@ -1,1 +1,1 @@
-Nothing to output - the change list contains only a single source code file (GGWK4ecyNN5Y.lua) with no build artifacts, dependencies, or temporary files that need to be ignored.
+Nothing needs to be added to .gitignore since the only change is adding a JSX source file (mL0JMORyhL.jsx), which is a source code file that should not be ignored.
