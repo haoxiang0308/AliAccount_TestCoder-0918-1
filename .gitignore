@@ -1,20 +1,23 @@
 ```
-# Docker-related
-Dockerfile.*
+# Build artifacts
+*.html
 
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
+*.temp
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
@@ -26,21 +29,12 @@ target/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System
 .DS_Store
 Thumbs.db
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
 
 # Coverage
 coverage/
