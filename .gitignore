@@ -1,84 +1,43 @@
-```
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Docker-related (if applicable)
-.dockerignore
-!Dockerfile*
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# Python-specific (if Python project detected)
-__pycache__/
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
-.pytest_cache/
-.tox/
-.eggs/
-*.egg-info/
-
-# Node.js-specific (if Node.js project detected)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.npm
-.yarn-integrity
-.yarn/
-.cache/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.env/
-ENV/
-
-# Build outputs
-dist/
-build/
-target/
-out/
-_output/
-*.out
+__pycache__/
+*.class
+*.o
+*.obj
 *.exe
 *.dll
 *.so
-*.dylib
-*.class
-
-# IDE files
-.vscode/
-.idea/
+*.a
+*.out
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
+# Environment
+.env
+.env.local
+.env.*
+# Editors
+.vscode/
+.idea/
+# System files
 .DS_Store
 Thumbs.db
-
+# Coverage
+coverage/
+htmlcov/
+.coverage
 # Compressed files
 *.zip
 *.gz
@@ -88,10 +47,17 @@ Thumbs.db
 *.xz
 *.7z
 *.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
 *.Z
 *.lz
 *.lzo
 *.tar.gz
 *.tar.bz2
 *.tar.xz
-```
+*.tar.zst
